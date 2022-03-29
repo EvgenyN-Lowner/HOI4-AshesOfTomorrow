@@ -16,7 +16,7 @@ guiTypes = {
 		}
 
         instantTextboxType = {
-			name = "test"
+			name = "populationIncome"
 			position = { x = 150 y = 30 }
 			font = "hoi_18b"
 			text = "Pupulation income: $[?root.total_population_income|3] B"
@@ -26,7 +26,7 @@ guiTypes = {
 		}
 
 		instantTextboxType = {
-			name = "test2"
+			name = "facilitiesIncome"
 			position = { x = 150 y = 50 }
 			font = "hoi_18b"
 			text = "Facilities income: $[?root.total_facilities_income|3] B"
@@ -36,17 +36,17 @@ guiTypes = {
 		}
 
 		instantTextboxType = {
-			name = "test3"
+			name = "resourcesIncome"
 			position = { x = 150 y = 70 }
 			font = "hoi_18b"
-			text = "Resource Exports: $[?this.infrastructure_income|3] B"
+			text = "Resources Export: $[?root.total_resources_income|3] B"
 			maxWidth = 450
 			maxHeight = 20
 			format = center
 		}
 
 		instantTextboxType = {
-			name = "test4"
+			name = "additionalIncome"
 			position = { x = 150 y = 90 }
 			font = "hoi_18b"
 			text = "Additional income: $[?root.total_additional_income|3] B"
@@ -56,7 +56,7 @@ guiTypes = {
 		}
 
 		instantTextboxType = {
-			name = "test5"
+			name = "totalIncome"
 			position = { x = 150 y = 200 }
 			font = "hoi_18b"
 			text = "Total income: $[?root.total_income|3] B"
@@ -70,7 +70,7 @@ guiTypes = {
 			name = "test11"
 			position = { x = -120 y = 30 }
 			font = "hoi_18b"
-			text = "Administrative expenses: $[?root.total_population_expenses|3] B"
+			text = "Administrative expenses: $[?root.total_administrative_expenses|3] B"
 			maxWidth = 450
 			maxHeight = 20
 			format = center
@@ -80,7 +80,7 @@ guiTypes = {
 			name = "test12"
 			position = { x = -120 y = 50 }
 			font = "hoi_18b"
-			text = "Military expenses: $[?root.total_facilities_income|3] B"
+			text = "Military expenses: $[?root.total_military_expenses|3] B"
 			maxWidth = 450
 			maxHeight = 20
 			format = center
@@ -90,17 +90,7 @@ guiTypes = {
 			name = "test13"
 			position = { x = -120 y = 70 }
 			font = "hoi_18b"
-			text = "Social expenses: $[?root.total_resource_income|3] B"
-			maxWidth = 450
-			maxHeight = 20
-			format = center
-		}
-
-		instantTextboxType = {
-			name = "test14"
-			position = { x = -120 y = 90 }
-			font = "hoi_18b"
-			text = "Additional income: $[?root.total_additional_income|3] B"
+			text = "Social expenses: $[?root.total_social_expenses|3] B"
 			maxWidth = 450
 			maxHeight = 20
 			format = center
@@ -110,7 +100,7 @@ guiTypes = {
 			name = "test15"
 			position = { x = -120 y = 110 }
 			font = "hoi_18b"
-			text = "Science expenses: $[?root.total_additional_income|3] B"
+			text = "Science expenses: $[?root.total_science_expenses|3] B"
 			maxWidth = 450
 			maxHeight = 20
 			format = center
@@ -120,7 +110,7 @@ guiTypes = {
 			name = "test16"
 			position = { x = -120 y = 130 }
 			font = "hoi_18b"
-			text = "Additional expenses: $[?root.total_additional_income|3] B"
+			text = "Additional expenses: $[?root.additional_expenses|3] B"
 			maxWidth = 450
 			maxHeight = 20
 			format = center
@@ -130,7 +120,7 @@ guiTypes = {
 			name = "test17"
 			position = { x = -120 y = 200 }
 			font = "hoi_18b"
-			text = "Total expenses: $[?root.total_income|3] B"
+			text = "Total expenses: $[?root.total_expenses|3] B"
 			maxWidth = 450
 			maxHeight = 20
 			format = center

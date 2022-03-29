@@ -36,22 +36,21 @@ resources = {
 		convoys = 0.01
 	}
 
-	steel = {
+	copper = {
 		icon_frame = 7
-		cic = 0.065
+		cic = 0.04
 		convoys = 0.01
 	}
-	
-	chromium = {
+
+	steel = {
 		icon_frame = 8
 		cic = 0.065
 		convoys = 0.01
 	}
 	
-	titan = {
+	chromium = {
 		icon_frame = 9
 		cic = 0.065
 		convoys = 0.01
 	}
-	
 }

@@ -4,6 +4,16 @@ on_actions = {
             every_country = {
                 population_income = yes
                 facilities_income = yes
+                resource_income = yes
+                additional_income = yes
+                total_income = yes
+
+                administrative_expenses = yes
+                military_expenses = yes
+                social_expenses = yes
+                science_expenses = yes
+                additional_expenses = yes
+                total_expenses = yes
             }
         }
     }

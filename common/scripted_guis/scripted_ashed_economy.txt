@@ -26,8 +26,6 @@ scripted_gui = {
         ai_check = {
         }
         
-        ai_check_scope = {
-        }
         
         ai_weights = {
         }
