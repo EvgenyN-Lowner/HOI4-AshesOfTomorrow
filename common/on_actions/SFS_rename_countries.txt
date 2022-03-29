@@ -1,0 +1,26 @@
+on_actions = {
+	on_state_control_changed = {
+		effect = {
+			##Czechslovakia becomes Czech##
+			if = {
+				limit = {
+				    CZE_czech_only = yes
+					NOT = { has_global_flag = SFS_CZE_ONLY }
+					NOT = { has_global_flag = SFS_CZE_BOHEMIA }
+				}
+				CZE = { set_cosmetic_tag = CZE_ONLY }
+				set_global_flag = SFS_CZE_ONLY
+			}
+			
+			##Czechslovakia becomes bohemia##
+			if = {
+				limit = {
+				    CZE_bohemia_only = yes
+					NOT = { has_global_flag = SFS_CZE_BOHEMIA }
+				}
+				CZE = { set_cosmetic_tag = SFS_CZE_BOHEMIA }
+				set_global_flag = BOHEMIA
+			}
+		}
+	}
+}

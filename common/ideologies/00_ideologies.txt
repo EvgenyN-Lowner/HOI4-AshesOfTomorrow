@@ -1,0 +1,411 @@
+ideologies = {
+###CONSERVATISM###
+	conservatism = {	
+		types = {
+			neoconservatism = {
+			}
+			paleoconservatism = {
+			}
+			national_conservatism = {
+			}
+			social_conservatism = {
+			}
+			liberal_conservatism = {
+			}
+			libertarian_conservatism = {
+			}
+			paternalistic_conservatism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_CONSERVAT_1"
+			"FACTION_NAME_CONSERVAT_2"
+			"FACTION_NAME_CONSERVAT_3"
+			"FACTION_NAME_CONSERVAT_4"
+			"FACTION_NAME_CONSERVAT_5"
+			"FACTION_NAME_CONSERVAT_6"
+		}
+		
+		color = { 0 85 165 }
+		
+		rules = {
+			can_force_government = yes
+			can_only_justify_war_on_threat_country = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+			can_lower_tension = yes
+			can_declare_war_on_same_ideology = no
+			can_guarantee_other_ideologies = yes
+			can_send_volunteers = no
+		}
+
+		can_host_government_in_exile = yes
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = -0.1
+		
+		modifiers = {
+			join_faction_tension = 0.8
+			lend_lease_tension = 0.5
+			send_volunteers_tension = 0.5
+			guarantee_tension = 1.0
+			civilian_intel_to_others = 5.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 5.0
+			airforce_intel_to_others = 5.0
+			justify_war_goal_time = 0.25
+			enemy_justify_war_goal_time = 0.5
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5
+		}
+
+		ai_conservatism = yes
+	}
+
+###LIBERALISM###
+	liberalism = {	
+		types = {
+			classical_liberalism = {
+			}
+			social_liberalism = {
+			}
+			cultural_liberalism = {
+			}
+			national_liberalism = {
+			}
+			conservative_liberalism = {
+			}
+			neoliberalism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_LIBERAL_1"
+			"FACTION_NAME_LIBERAL_2"
+			"FACTION_NAME_LIBERAL_3"
+			"FACTION_NAME_LIBERAL_4"
+			"FACTION_NAME_LIBERAL_5"
+			"FACTION_NAME_LIBERAL_6"
+		}
+		
+		color = { 255 230 0 }
+		
+		rules = {
+			can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+
+		can_host_government_in_exile = yes
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = -0.1
+		
+		modifiers = {
+			join_faction_tension = 0.8
+			lend_lease_tension = 0.5
+			send_volunteers_tension = 0.5
+			guarantee_tension = 1.0
+			civilian_intel_to_others = 5.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 5.0
+			airforce_intel_to_others = 5.0
+			justify_war_goal_time = 0.25
+			enemy_justify_war_goal_time = 0.5
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5
+		}
+
+		ai_conservatism = yes
+	}
+
+###SOCIALISM###
+	socialism = {
+	
+		types = {
+			social_democracy = {
+			}
+			syndicalism = {
+			}
+			kemalism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_1"
+			"FACTION_NAME_SOCIAL_2"
+			"FACTION_NAME_SOCIAL_3"
+			"FACTION_NAME_SOCIAL_4"
+			"FACTION_NAME_SOCIAL_5"
+			"FACTION_NAME_SOCIAL_6"
+		}
+		
+		color = { 240 65 65 }
+		
+		rules = {
+			can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+
+		can_host_government_in_exile = yes
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = -0.1
+		
+		modifiers = {
+			join_faction_tension = 0.8
+			lend_lease_tension = 0.5
+			send_volunteers_tension = 0.5
+			guarantee_tension = 1.0
+			civilian_intel_to_others = 5.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 5.0
+			airforce_intel_to_others = 5.0
+			justify_war_goal_time = 0.25
+			enemy_justify_war_goal_time = 0.5
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5
+		}
+		ai_conservatism = yes
+	}
+
+###COMMUNISM###
+	communism = {	
+		types = {
+			marxism = {
+			}
+			revisionism = {
+			}
+			leninism = {
+			}
+			trotskyism = {
+			}
+			marxism_leninism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+			"FACTION_NAME_COMMUNIST_6"
+		}
+		
+		color = { 255 0 0 }
+		
+		rules = {
+			can_create_collaboration_government = yes
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+			can_declare_war_on_same_ideology = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+		}
+
+		war_impact_on_world_tension = 0.75
+		faction_impact_on_world_tension = 0.5
+		
+		modifiers = {
+			join_faction_tension = 1.0
+			lend_lease_tension = 0.0
+			send_volunteers_tension = 0.0
+			guarantee_tension = 1.0
+			civilian_intel_to_others = 5.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 5.0
+			airforce_intel_to_others = 5.0
+			justify_war_goal_time = 0.25
+			enemy_justify_war_goal_time = -0.25
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.75
+		}
+
+		ai_communist = yes
+	}
+
+###FASCISM###
+	fascism = {	
+		types = {
+			radical_conservatives = {
+			}
+			fascism = {
+			}
+			national_socialism = {
+			}
+			nazism = {
+				can_be_randomly_selected = no 
+			}
+			traditionalism = {
+			}
+			gen_nazism = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_FASCISM_1"
+			"FACTION_NAME_FASCISM_2"
+			"FACTION_NAME_FASCISM_3"
+			"FACTION_NAME_FASCISM_4"
+			"FACTION_NAME_FASCISM_5"
+			"FACTION_NAME_FASCISM_6"
+		}
+		
+		color = { 40 40 40 }
+		
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+			can_declare_war_on_same_ideology = yes
+			can_guarantee_other_ideologies = no
+		}
+
+		can_host_government_in_exile = yes
+		war_impact_on_world_tension = 1.0
+		faction_impact_on_world_tension = 0.5
+		can_be_boosted = no
+		
+		modifiers = {
+			join_faction_tension = 1.0
+			lend_lease_tension = 0.0
+			send_volunteers_tension = 0.0
+			guarantee_tension = 1.0
+			civilian_intel_to_others = 5.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 5.0
+			airforce_intel_to_others = 5.0
+			justify_war_goal_time = 0.25
+			enemy_justify_war_goal_time = -0.25
+		}
+
+		ai_fascist = yes
+	}
+
+###MONARCHY###
+	monarchy = {	
+		types = {
+			holy_see_vatican = {
+			}
+			grimaldi_monaco = {
+			}
+			prince_of_Liechtenstein = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_MONARCH_1"
+			"FACTION_NAME_MONARCH_2"
+			"FACTION_NAME_MONARCH_3"
+			"FACTION_NAME_MONARCH_4"
+			"FACTION_NAME_MONARCH_5"
+			"FACTION_NAME_MONARCH_6"
+		}
+		
+		color = { 125 0 145 }
+		
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+			can_declare_war_on_same_ideology = yes
+			can_guarantee_other_ideologies = no
+		}
+
+		can_host_government_in_exile = yes
+		war_impact_on_world_tension = 0.75
+		faction_impact_on_world_tension = 0.25
+		can_be_boosted = no
+		
+		modifiers = {
+			join_faction_tension = 1.0
+			lend_lease_tension = 0.0
+			send_volunteers_tension = 0.0
+			guarantee_tension = 1.0
+			civilian_intel_to_others = 5.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 5.0
+			airforce_intel_to_others = 5.0
+			justify_war_goal_time = 0.25
+			enemy_justify_war_goal_time = -0.25
+		}
+
+		ai_fascist = yes
+	}
+
+###ANARCHISM###
+    anarchism = {
+		types = {
+			anarchism = {
+			}
+			anarcho_syndicalism = {
+			}
+			individualist_anarchism = {
+			}
+			religious_anarchism = {
+			}
+			social_anarchism = {
+			}
+			anarcho_communism = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_ANARCHY_1"
+			"FACTION_NAME_ANARCHY_2"
+			"FACTION_NAME_ANARCHY_3"
+			"FACTION_NAME_ANARCHY_4"
+			"FACTION_NAME_ANARCHY_5"
+			"FACTION_NAME_ANARCHY_6"
+		}
+		
+		color = { 94 8 19 }
+
+		rules = {
+			can_force_government = yes
+			can_puppet = yes
+			can_send_volunteers = yes
+			can_declare_war_on_same_ideology = yes
+			can_guarantee_other_ideologies = no
+		}
+
+		can_host_government_in_exile = yes
+		war_impact_on_world_tension = 1.0
+		faction_impact_on_world_tension = 1.0
+		can_be_boosted = no
+
+		modifiers = {
+			join_faction_tension = 1.0
+			lend_lease_tension = 0.0
+			send_volunteers_tension = 0.0
+			guarantee_tension = 1.0
+			civilian_intel_to_others = 5.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 5.0
+			airforce_intel_to_others = 5.0
+			justify_war_goal_time = -0.25
+			enemy_justify_war_goal_time = -0.5
+		}
+
+		ai_communist = yes
+	}
+}

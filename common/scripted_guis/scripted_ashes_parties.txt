@@ -1,0 +1,107 @@
+scripted_gui = {
+    ashes_politic_info = {
+        window_name = "ashes_politic_info"
+        context_type = player_context
+        parent_window_token = politics_tab
+         
+        visible = {
+            always = yes
+        }
+        
+        effects = {
+        }
+        
+        triggers = {
+        }
+        
+        properties = {
+        }
+        
+        ai_enabled = {
+            always = no
+        }
+        
+        ai_test_interval = 290
+        ai_test_variance = 0.5
+        
+        ai_check = {
+        }
+        
+        ai_check_scope = {
+        }
+        
+        ai_weights = {
+        }
+    }
+    ashes_politic_economy_button = {
+        window_name = "ashes_politic_economy_button"
+        context_type = player_context
+        parent_window_token = politics_tab
+         
+        visible = {
+            always = yes
+        }
+        
+        effects = {
+        }
+        
+        triggers = {
+        }
+        
+        properties = {
+        }
+        
+        ai_enabled = {
+            always = no
+        }
+        
+        ai_test_interval = 290
+        ai_test_variance = 0.5
+        
+        ai_check = {
+        }
+        
+        ai_check_scope = {
+        }
+        
+        ai_weights = {
+        }
+    }
+    ashes_politic_allience_button = {
+        window_name = "ashes_politic_allience_button"
+        context_type = player_context
+        parent_window_token = politics_tab
+         
+        visible = {
+            always = yes
+        }
+        
+        effects = {
+            ashes_politic_allience_button_click = {
+                population_income = yes
+            }
+        }
+        
+        triggers = {
+        }
+        
+        properties = {
+        }
+        
+        ai_enabled = {
+            always = no
+        }
+        
+        ai_test_interval = 290
+        ai_test_variance = 0.5
+        
+        ai_check = {
+        }
+        
+        ai_check_scope = {
+        }
+        
+        ai_weights = {
+        }
+    }
+}

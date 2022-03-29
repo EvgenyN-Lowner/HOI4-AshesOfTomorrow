@@ -1,0 +1,173 @@
+﻿l_english:
+
+ ##Vanilla Countries
+ BRM_monarchy_party:0 "Poor Man's Party"
+
+ BEL_monarchy_party:0 "National Royalist Movement"
+ BEL_monarchy_party_long:0 "National Royalist Movement"
+
+ GER_communism_party_long:0 "Kommunistische Partei Deutschlands"
+ GER_cdu_csu_party:0 "CDU/CSU"
+ GER_cdu_csu_party_long:0 "Christlich Demokratische Union Deutschlands/Christlich-Soziale Union in Bayern"
+ GER_spd_party:0 "SPD"
+ GER_spd_party_long:0 "Sozialdemokratische Partei Deutschlands"
+ 
+ WGR_monarchy_party:0 "WAV"
+ WGR_monarchy_party_long:0 "Economic Reconstruction Union"
+ WGR_communism_party:0 "KPD"
+ WGR_communism_party_long:0 "Kommunistische Partei Deutschlands"
+ WGR_conservatism_party:0 "CDU/CSU"
+ WGR_conservatism_party_long:0 "Christlich Demokratische Union Deutschlands/Christlich-Soziale Union in Bayern"
+ WGR_fascism_party:0 "NPD"
+ WGR_fascism_party_long:0 "Nationaldemokratische Partei Deutschlands"
+ 
+ DDR_communism_party:0 "SED"
+ DDR_communism_party_long:0 "Sozialistische Einheitspartei Deutschlands"
+ DDR_conservatism_party:0 "CDU"
+ DDR_conservatism_party_long:0 "Christlich-Demokratische Union Deutschlands"
+ 
+ CRO_fascism_party:0 "Ustaša"
+ CRO_fascism_party_long:0 "Croatian Revolutionary Movement"
+ CRO_conservatism_party:0 "Hrvatski blok" #Croatian Bloc
+ CRO_conservatismm_party_long:0 "Hrvatski blok"
+ CRO_monarchy_party:0 "HSS"    #Croatian Peasant Party
+ CRO_monarchy_party_long:0 "Hrvatska seljačka stranka"
+ 
+ MEN_fascism_party:0 "MMG"
+ MEN_fascism_party_long:0 "Mongol Military Government"
+ 
+ SLV_conservatism_party:0 "SLS"
+ SLV_conservatism_party_long:0 "Slovenska ljudska stranka" #Slovene People's Party
+ SLV_monarchy_party:0 "SKS"
+ SLV_monarchy_party_long:0 "Slovenska kmetska stranka" #Slovene Peasant Party
+ 
+ PAR_conservatism_party:0 "Partido Liberal"
+ PAR_conservatism_party_long:0 "Partido Liberal"
+ PAR_monarchy_party:0 "Military Government"
+ PAR_monarchy_party_long:0 "Fuerzas Armadas de Paraguay" #Armed Forces of Paraguay
+
+
+ ##German Countries
+ BAY_monarchy_party:0 "BBB"
+ BAY_monarchy_party_long:0 "Bavarian Peasants' League"
+ BAY_communism_party:0 "USPD"
+ BAY_communism_party_long:0 "Independent Social conservatism Party"
+ BAY_conservatism_party:0 "BVP"
+ BAY_conservatism_party_long:0 "Bavarian People's Party"
+ BAY_fascism_party:0 "NBP"
+ BAY_fascism_party_long:0 "Bavarian Nationalist Party"
+
+ PRE_fascism_party:0 "NSDAP"
+ PRE_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
+ PRE_conservatism_party:0 "SPD"
+ PRE_conservatism_party_long:0 "Sozialdemokratische Partei Deutschlands"
+ PRE_communism_party:0 "KPD"
+ PRE_communism_party_long:0 "Kommunistische Partei Deutschlands"
+ PRE_monarchy_party:0 "DNVP"
+ PRE_monarchy_party_long:0 "Deutschnationale Volkspartei"
+ 
+ BDN_fascism_party:0 "NSDAP"
+ BDN_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
+ BDN_conservatism_party:0 "SPD"
+ BDN_conservatism_party_long:0 "Sozialdemokratische Partei Deutschlands"
+ BDN_communism_party:0 "KPD"
+ BDN_communism_party_long:0 "Kommunistische Partei Deutschlands"
+ 
+ MEK_fascism_party:0 "NSDAP"
+ MEK_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
+ MEK_conservatism_party:0 "SPD"
+ MEK_conservatism_party_long:0 "Sozialdemokratische Partei Deutschlands"
+ MEK_communism_party:0 "KPD"
+ MEK_communism_party_long:0 "Kommunistische Partei Deutschlands"
+ 
+ SAX_fascism_party:0 "NSDAP"
+ SAX_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
+ SAX_conservatism_party:0 "SPD"
+ SAX_conservatism_party_long:0 "Sozialdemokratische Partei Deutschlands"
+ SAX_communism_party:0 "KPD"
+ SAX_communism_party_long:0 "Kommunistische Partei Deutschlands"
+ 
+ ##German puppet
+ RKO_fascism_party:0 "Reichskommissar"
+ RKU_fascism_party:0 "Reichskommissar"
+ RKK_fascism_party:0 "Reichskommissar"
+ RKM_fascism_party:0 "Reichskommissar"
+ NID_fascism_party:0 "Reichskommissar"
+ NWG_fascism_party:0 "Reichskommissar"
+ BNF_fascism_party:0 "Reichskommissar"
+ GGO_fascism_party:0 "Generalgouvernement"
+ PBM_fascism_party:0 "Nationale Gemeinschaft"
+ BGN_fascism_party:0 "Schutzstaffel"
+ MTA_fascism_party:0 "Reichskommissar"
+ MTA_monarchy_party:0 "Gouverneur der Kolonie"
+
+ ##Belgian Countries
+ FLA_fascism_party:0 "VNV"
+ FLA_fascism_party_long:0 "Vlaams Nationaal Verbond"
+ FLA_communism_party:0 "KPB"
+ FLA_communism_party_long:0 "Kommunistische Partij van België"
+ FLA_conservatism_party:0 "Catholic Bloc"
+ FLA_conservatism_party_long:0 "Catholic Bloc"
+ FLA_monarchy_party:0 "National Royalist Movement"
+ FLA_monarchy_party_long:0 "National Royalist Movement"
+
+ WLL_fascism_party:0 "REX"
+ WLL_fascism_party_long:0 "Parti Rexiste"
+ WLL_communism_party:0 "PCB"
+ WLL_communism_party_long:0 "Parti Communiste de Belgique"
+ WLL_conservatism_party:0 "Walloon Movement"
+ WLL_conservatism_party_long:0 "Walloon Movement"
+ WLL_monarchy_party:0 "National Royalist Movement"
+ WLL_monarchy_party_long:0 "National Royalist Movement"
+ 
+
+ ##etc
+ LIE_monarchy_party:0 "FBP"
+ LIE_monarchy_party_long:0 "Fortschrittliche Bürgerpartei"
+ LIE_conservatism_party:0 "Vaterländische Union"
+ LIE_fascism_party:0 "NPL"
+ LIE_fascism_party_long:0 "Nationalist Party of Liechtenstein"
+ 
+ KTS_monarchy_party:0 "House of Bourbon-Two Sicilies"
+ KTS_communism_party:0 "SPCP"
+ KTS_communism_party_long:0 "Sicilian People's Communist Party"
+ KTS_conservatism_party:0 "SLP"
+ KTS_conservatism_party_long:0 "Sicilian Liberal Party"
+ KTS_fascism_party:0 "SNP"
+ KTS_fascism_party_long:0 "Sicilian Nationalist Party"
+ 
+ VCT_monarchy_party:0 "Curia Romana"
+
+ SMR_conservatism_party:0 "Grand and General Council"
+ SMR_fascism_party:0 "PFS"
+ SMR_fascism_party_long:0 "Sammarinese Fascist Party"
+ SMR_communism_party:0 "PCS"
+ SMR_communism_party_long:0 "Sammarinese Communist Party"
+
+ ADR_conservatism_party:0 "Andorra General Council"
+ MCO_monarchy_party:0 "House of Grimaldi"
+ 
+ DAN_fascism_party:0 "NSDAP"
+ DAN_fascism_party_long:0 "Nationalsozialistische Deutsche Arbeiterpartei"
+ DAN_communism_party:0 "CPD"
+ DAN_communism_party_long:0 "Communist Party of Danzig"
+ DAN_conservatism_party:0 "SPFSD"
+ DAN_conservatism_party_long:0 "Sozialdemokratische Partei der Freien Stadt Danzig"
+ DAN_monarchy_party:0 "Polnische Partei"
+ DAN_monarchy_party_long:0 "Polnische Partei"
+ 
+ BRT_fascism_party:0 "Parti National Breton"
+
+ ROK_monarchy_party:0 "Left-Right Unification Movement"
+ ROK_fascism_party:0 "KIP"
+ ROK_fascism_party_long:0 "Korea Independence Party"
+ ROK_communism_party:0 "Workers' Party of South Korea"
+ ROK_conservatism_party:0 "Liberal Party"
+ 
+ DPK_communism_party:0 "Workers' Party of Korea"
+ 
+ OCC_fascism_party:0 "PNO"
+ OCC_fascism_party_long:0 "Partit de la Nacion Occitana"
+ 
+ HUN_Arrow_Cross_party:0 "NYKP"
+ HUN_Arrow_Cross_party_long:0 "Nyilaskeresztes Párt"

@@ -1,0 +1,10 @@
+on_actions = {
+    on_daily = {
+        effect = {
+            every_country = {
+                population_income = yes
+                facilities_income = yes
+            }
+        }
+    }
+}

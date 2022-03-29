@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ashes_politic_buttons"
+		texturefile = "gfx/interface/ashes_politic_buttons.dds"
+        noOfFrames = 5
+	}
+}

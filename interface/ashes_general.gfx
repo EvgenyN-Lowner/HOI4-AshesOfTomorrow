@@ -1,0 +1,38 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_ashes_country_trade_entry_bg"
+		texturefile = "gfx/interface/ashes_general/ashes_country_trade_entry_bg.dds"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_ashes_header_bg"
+		texturefile = "gfx/interface/ashes_general/ashes_header_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ashes_trade_filter_bg"
+		texturefile = "gfx/interface/ashes_general/ashes_trade_filter_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ashes_trade_filter_btn_country"
+		texturefile = "gfx/interface/ashes_general/ashes_trade_filter_btn_country.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ashes_trade_header"
+		texturefile = "gfx/interface/ashes_general/ashes_trade_header.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ashes_trade_resource_bg"
+		texturefile = "gfx/interface/ashes_general/ashes_trade_resource_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ashes_divider"
+		texturefile = "gfx/interface/ashes_general/ashes_divider.dds"
+	}
+}

@@ -1,0 +1,201 @@
+
+GER_new_order_in_france_category = {
+
+	GER_unabhangiger_staat_bretagne = {
+	
+		icon = generic_independence
+
+		available = {
+			has_war = no
+			NOT = { country_exists = FRA }
+			has_government = fascism
+			controls_state = 14
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 3
+		}
+
+		visible = {
+
+		}
+
+		complete_effect = {
+			release_on_controlled = BRI
+			BRI = {
+				transfer_state = 14
+				
+				hidden_effect = {
+					set_cosmetic_tag = BRI_GER
+				}
+				create_country_leader = {
+	                name = "Heinrich Himmler"
+	                desc = "POLITICS_HEINRICH_HIMMLER_DESC"
+	                picture = "gfx/leaders/GER/Portrait_Germany_Heinrich_Himmler.dds"
+ 	                expire = "1965.1.1"
+	                ideology = nazism
+	                traits = {
+	                }
+                }
+			}
+			set_autonomy = { target = BRI autonomy_state = autonomy_reichsprotectorate }
+		}
+	}
+	
+	GER_ss_staat_burgund = {
+	
+		icon = ger_reichskommissariats
+
+		available = {
+			has_war = no
+		    NOT = { country_exists = FRA }
+			has_government = fascism
+			controls_state = 735
+			controls_state = 785
+			controls_state = 859
+			controls_state = 891
+			controls_state = 887
+			controls_state = 902
+			controls_state = 18
+			controls_state = 27
+			controls_state = 20
+			controls_state = 32
+			controls_state = 21
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 3
+		}
+
+		visible = {
+
+		}
+
+		complete_effect = {
+			release_on_controlled = BGN
+			BGN = {
+				transfer_state = 859
+				transfer_state = 735
+				transfer_state = 785
+				transfer_state = 891
+				transfer_state = 887
+				transfer_state = 902
+				transfer_state = 18
+				transfer_state = 27
+				transfer_state = 20
+				transfer_state = 32
+				transfer_state = 21
+				
+				hidden_effect = {
+					27 = { add_core_of = PREV }
+				}
+				create_country_leader = {
+	                name = "Heinrich Himmler"
+	                desc = "POLITICS_HEINRICH_HIMMLER_DESC"
+	                picture = "gfx/leaders/GER/Portrait_Germany_Heinrich_Himmler.dds"
+ 	                expire = "1965.1.1"
+	                ideology = nazism
+	                traits = {
+	                }
+                }
+			}
+			set_autonomy = { target = BGN autonomy_state = autonomy_reichsprotectorate }
+		}
+	}
+}
+
+GER_reichsprotektorat = {
+	GER_reichsprotektorat_bohmen_und_mahren = {
+	
+		icon = ger_reichskommissariats
+
+		available = {
+			controls_state = 9
+			controls_state = 75
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			controls_state = 9
+			controls_state = 75
+		}
+		
+		complete_effect = {
+			release_on_controlled = PBM
+			PBM = {
+				transfer_state = 9
+				transfer_state = 75
+				GER = {
+					puppet = PREV
+					set_autonomy = { target = PBM autonomy_state = autonomy_reichsprotectorate }
+				}
+			}
+		}
+	}
+
+	GER_generalgouvernement = {
+	
+		icon = ger_reichskommissariats
+
+		available = {
+			controls_state = 854
+			controls_state = 10
+			controls_state = 92
+			controls_state = 90
+			controls_state = 88
+		}
+
+		cost = 0
+
+		ai_will_do = {
+			factor = 0
+		}
+
+		visible = {
+			controls_state = 854
+			controls_state = 10
+			controls_state = 92
+			controls_state = 90
+			controls_state = 88
+		}
+
+		complete_effect = {
+		    88 = { add_core_of = GGV }
+			release_on_controlled = GGV
+			GGV = {
+				transfer_state = 854
+				transfer_state = 10
+				transfer_state = 92
+				transfer_state = 90
+				transfer_state = 88
+				GER = {
+					puppet = PREV
+					set_autonomy = { target = PBM autonomy_state = autonomy_reichsprotectorate }
+				}
+			}
+			if = {
+				limit = {
+					controls_state = 91
+					controls_state = 89
+					controls_state = 885
+				}
+				GGV = {
+					transfer_state = 91
+					transfer_state = 89
+					transfer_state = 885
+				}
+				set_global_flag = GGV_completed
+			}
+			
+		}
+	}
+}

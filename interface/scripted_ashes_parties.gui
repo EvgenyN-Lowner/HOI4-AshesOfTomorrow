@@ -1,0 +1,47 @@
+guiTypes = {
+    containerWindowType = {
+		name = "ashes_politic_info"
+		position = { x=290 y=386}
+
+		instantTextboxType = {
+			name = "ashes_politic_info_text"
+			position = { x = 0 y = 1 }
+			font = "hoi_18mbs"
+			text = "[ROOT.GetPartySupport]%"
+            format = center	
+			fixedsize = yes
+			maxWidth = 38
+			maxHeight = 20
+		}
+
+		iconType ={
+			name ="ashes_party_icon"
+			spriteType = "GFX_icon_exiled_governments"
+			position = { x= -26 y = -4 }
+		}
+    }
+
+    containerWindowType = {
+		name = "ashes_politic_economy_button"
+		position = { x=163 y=375}	
+
+		buttonType ={
+			name ="ashes_party_icon"
+			spriteType = "GFX_ashes_politic_buttons"
+			position = { x= 0 y = 0 }
+            frame = 4
+		}
+    }
+
+    containerWindowType = {
+		name = "ashes_politic_allience_button"
+		position = { x=211 y=375}	
+
+		buttonType ={
+			name ="ashes_party_icon"
+			spriteType = "GFX_ashes_politic_buttons"
+			position = { x= 0 y = 0 }
+            frame = 5
+		}
+    }
+}

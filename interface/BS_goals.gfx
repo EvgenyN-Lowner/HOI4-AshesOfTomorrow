@@ -1,0 +1,83 @@
+spriteTypes = {
+
+	
+	SpriteType = {
+		name = "GFX_focus_friend_czech"
+		texturefile = "gfx/interface/goals/focus_friend_czech.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_friend_denmark"
+		texturefile = "gfx/interface/goals/focus_friend_denmark.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_friend_sweden"
+		texturefile = "gfx/interface/goals/focus_friend_sweden.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_finnish_deal"
+		texturefile = "gfx/interface/goals/focus_finnish_deal.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_hun_protect_czechoslovakia"
+		texturefile = "gfx/interface/goals/focus_hun_protect_czechoslovakia.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_hun_protect_austria"
+		texturefile = "gfx/interface/goals/focus_hun_protect_austria.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_hun_proclaim_greater_hungary"
+		texturefile = "gfx/interface/goals/focus_hun_proclaim_greater_hungary.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_friend_tibet"
+		texturefile = "gfx/interface/goals/focus_friend_tibet.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_american_first"
+		texturefile = "gfx/interface/goals/goal_american_first.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_ger_around_maginot"
+		texturefile = "gfx/interface/goals/focus_ger_around_maginot.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_yug_greater_yugoslavia"
+		texturefile = "gfx/interface/goals/focus_yug_greater_yugoslavia.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_soviet_deal"
+		texturefile = "gfx/interface/goals/focus_soviet_deal.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_shade_alliance"
+		texturefile = "gfx/interface/goals/focus_shade_alliance.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_fate_of_yugoslavia"
+		texturefile = "gfx/interface/goals/goal_fate_of_yugoslavia.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_fate_of_czechoslovakia"
+		texturefile = "gfx/interface/goals/goal_fate_of_czechoslovakia.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_fate_of_greece"
+		texturefile = "gfx/interface/goals/goal_fate_of_greece.dds"
+	}
+}

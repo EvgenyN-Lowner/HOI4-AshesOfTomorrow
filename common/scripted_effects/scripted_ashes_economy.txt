@@ -1,0 +1,159 @@
+
+#TAX RATE
+tax_rate_caltulcation = {
+    if = {
+        limit = {
+            has_idea = tax_superlow
+        }
+        set_variable = { tax_rate = 0.1 }
+    }
+    else_if = {
+        limit = {
+            has_idea = tax_low
+        }
+        set_variable = { tax_rate = 0.2 }
+    }
+    else_if = {
+        limit = {
+            has_idea = tax_med
+        }
+        set_variable = { tax_rate = 0.4 }
+    }
+    else_if = {
+        limit = {
+            has_idea = tax_high
+        }
+        set_variable = { tax_rate = 0.6 }
+    }
+    else_if = {
+        limit = {
+            has_idea = tax_superhigh
+        }
+        set_variable = { tax_rate = 1 }
+    }
+}
+
+##INCOME
+#Population Income
+population_income = {
+    tax_rate_caltulcation = yes
+
+    set_variable = { core_population_income = 0 }
+    set_variable = { noncore_population_income = 0 }
+
+    set_variable = { total_population_income = 0 }
+
+    every_owned_state = {
+        if = {
+            limit = {
+                is_core_of = PREV
+            }
+            add_to_variable = { var = PREV.core_population_income value = state_population_k }
+        }
+        else = {
+            add_to_variable = { var = PREV.noncore_population_income value = state_population_k }
+        }
+    }
+
+    divide_variable = { core_population_income = 100000 }
+    divide_variable = { noncore_population_income = 100000 }
+
+    multiply_variable = { core_population_income = tax_rate }
+    multiply_variable = { noncore_population_income = tax_rate }
+    divide_variable = { noncore_population_income = 2 }
+    add_to_variable = { total_population_income = core_population_income }
+    add_to_variable = { total_population_income = noncore_population_income }
+}
+
+#Facilities Income
+facilities_income = {
+    tax_rate_caltulcation = yes
+    set_province_building_levels = yes
+
+    set_variable = { civ_facilities_income = num_of_civilian_factories }
+    set_variable = { naval_bases_income = naval_base_ammount }
+    set_variable = { infrastructure_income = 0 }
+
+    set_variable = { total_facilities_income = 0 }
+
+    every_owned_state = {
+        add_to_variable = { var = PREV.infrastructure_income value = infrastructure_level }
+    }
+
+    multiply_variable = { civ_facilities_income = tax_rate }
+    multiply_variable = { naval_bases_income = tax_rate }
+    multiply_variable = { infrastructure_income = tax_rate }
+
+    divide_variable = { civ_facilities_income = 10 }
+    divide_variable = { infrastructure_income = 10 }
+    divide_variable = { naval_bases_income = 10 }
+
+    add_to_variable = { total_facilities_income = civ_facilities_income }
+    add_to_variable = { total_facilities_income = naval_bases_income }
+    add_to_variable = { total_facilities_income = infrastructure_income }
+}
+
+#Resource Income
+resource_income = {
+    
+}
+
+#Lib
+set_province_building_levels = {
+    set_temp_variable = { naval_base_ammount = 0 }
+    every_owned_state = {
+        if = {
+            limit = { naval_base > 9
+            }
+            add_to_temp_variable = { naval_base_ammount = 10 }
+        }
+        else_if = {
+            limit = { naval_base > 8
+            }
+            add_to_temp_variable = { naval_base_ammount = 9 }
+        }
+        else_if = {
+            limit = { naval_base > 7
+            }
+            add_to_temp_variable = { naval_base_ammount = 8 }
+        }
+        else_if = {
+            limit = { naval_base > 6
+            }
+            add_to_temp_variable = { naval_base_ammount = 7 }
+        }
+        else_if = {
+            limit = { naval_base > 5
+            }
+            add_to_temp_variable = { naval_base_ammount = 6 }
+        }
+        else_if = {
+            limit = { naval_base > 4
+            }
+            add_to_temp_variable = { naval_base_ammount = 5 }
+        }
+        else_if = {
+            limit = { naval_base > 3
+            }
+            add_to_temp_variable = { naval_base_ammount = 4 }
+        }
+        else_if = {
+            limit = { naval_base > 2
+            }
+            add_to_temp_variable = { naval_base_ammount = 3 }
+        }
+        else_if = {
+            limit = { naval_base > 1
+            }
+            add_to_temp_variable = { naval_base_ammount = 2 }
+        }
+        else_if = {
+            limit = { naval_base > 0
+            }
+            add_to_temp_variable = { naval_base_ammount = 1 }
+        }
+        else = {
+            add_to_temp_variable = { naval_base_ammount = 0 }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+scripted_gui = {
+    ashes_economy_main = {
+        window_name = "ashes_economy_main"
+        context_type = player_context
+         
+        visible = {
+            always = yes
+        }
+        
+        effects = {
+        }
+        
+        triggers = {
+        }
+        
+        properties = {
+        }
+        
+        ai_enabled = {
+            always = no
+        }
+        
+        ai_test_interval = 290
+        ai_test_variance = 0.5
+        
+        ai_check = {
+        }
+        
+        ai_check_scope = {
+        }
+        
+        ai_weights = {
+        }
+    }
+}

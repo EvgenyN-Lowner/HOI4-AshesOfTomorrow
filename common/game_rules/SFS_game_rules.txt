@@ -1,0 +1,17 @@
+
+
+allow_sfs_extra = {
+	name = "RULE_ALLOW_SFS_EXTRA"
+	group = "RULE_SFS_GAMEPLAY"
+	icon = "GFX_release_nations"
+	default = {
+		name = SFS_EXTRA_ALLOWED
+		text = "RULE_OPTION_ALLOWED"
+		desc = "RULE_ALLOW_SFS_EXTRA_ALLOWED_DESC"
+	}
+	option = {
+		name = SFS_EXTRA_BLOCKED
+		text = "RULE_OPTION_BLOCKED"
+		desc = "RULE_ALLOW_SFS_EXTRA_BLOCKED_DESC"
+	}
+}

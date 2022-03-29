@@ -1,0 +1,1238 @@
+on_actions = {
+	on_state_control_changed = {
+		effect = {
+			##Poznan##
+			if = {
+				limit = {
+				    FROM.FROM = { state = 86 }
+					86 = { NOT = { has_state_flag = GER_Poznan }}
+					ROOT = {
+						is_German_speak = yes
+					}
+				}
+				86 = { set_state_name = STATE_86_GER }
+				set_province_name = { id = 6558 name = "STATE_86_GER" }
+			    86 = { set_state_flag = GER_Poznan }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 86 }
+					86 = { has_state_flag = GER_Poznan }
+					ROOT = { is_German_speak = no }
+				}
+				86 = { reset_state_name = yes }
+				reset_province_name = 6558
+			    86 = { clr_state_flag = GER_Poznan }
+			}
+			
+			##Krakow##
+			if = {
+				limit = {
+				    FROM.FROM = { state = 88 }
+					88 = { NOT = { has_state_flag = GER_Krakow }}
+					ROOT = {
+						is_German_speak = yes
+					}
+				}
+				88 = { set_state_name = STATE_88_GER }
+				set_province_name = { id = 9427 name = STATE_88_GER }
+				set_province_name = { id = 442 name = VP_442_GER }
+			    88 = { set_state_flag = GER_Krakow }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 88 }
+					88 = { has_state_flag = GER_Krakow }
+					ROOT = { is_German_speak = no }
+				}
+				88 = { reset_state_name = yes }
+				reset_province_name = 9427
+				reset_province_name = 442
+			    88 = { clr_state_flag = GER_Krakow }
+			}
+			
+			##Pomerelia##
+			if = {
+				limit = {
+					FROM.FROM = { state = 807 }
+					807 = { NOT = { has_state_flag = GER_Pomerelia }}
+					ROOT = {
+					    is_German_speak = yes
+					}
+				}
+				807 = { set_state_name = STATE_807_GER }
+				set_province_name = { id = 9263 name = "VP_9263_GER" }
+				set_province_name = { id = 3324 name = "VP_3324_GER" }
+				set_province_name = { id = 3295 name = "VP_3295_GER" }
+			    807 = { set_state_flag = GER_Pomerelia }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 807 }
+					807 = { has_state_flag = GER_Pomerelia }
+					ROOT = { is_German_speak = no }
+				}
+				807 = { reset_state_name = yes }
+				reset_province_name = 9263
+				reset_province_name = 3324
+				reset_province_name = 3295
+			    807 = { clr_state_flag = GER_Pomerelia }
+			}
+			
+			
+			##Katowice##
+			if = {
+				limit = {
+					FROM.FROM = { state = 762 }
+					762 = { NOT = { has_state_flag = GER_Katowice }}
+					ROOT = {
+					    is_German_speak = yes
+					}
+				}
+				762 = { set_state_name = STATE_762_GER }
+				set_province_name = { id = 6464 name = "STATE_762_GER" }
+			    762 = { set_state_flag = GER_Katowice }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 762 }
+					762 = { has_state_flag = GER_Katowice }
+					ROOT = { is_German_speak = no }
+				}
+				762 = { reset_state_name = yes }
+				reset_province_name = 6464
+			    762 = { clr_state_flag = GER_Katowice }
+			}
+			
+			
+			##Lodz##
+			if = {
+				limit = {
+					FROM.FROM = { state = 87 }
+					87 = { NOT = { has_state_flag = GER_Lodz }}
+					ROOT = {
+					    is_German_speak = yes
+					}
+				}
+				87 = { set_state_name = STATE_87_GER }
+				set_province_name = { id = 9508 name = "STATE_87_GER" }
+			    87 = { set_state_flag = GER_Lodz }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 87 }
+					87 = { has_state_flag = GER_Lodz }
+					ROOT = { is_German_speak = no }
+				}
+				87 = { reset_state_name = yes }
+				reset_province_name = 9508
+			    87 = { clr_state_flag = GER_Lodz }
+			}
+			
+			
+			##Plock##
+			if = {
+				limit = {
+					FROM.FROM = { state = 98 }
+					98 = { NOT = { has_state_flag = GER_Plock }}
+					ROOT = {
+					    is_German_speak = yes
+					}
+				}
+				98 = { set_state_name = STATE_98_GER }
+				set_province_name = { id = 3230 name = "STATE_98_GER" }
+			    98 = { set_state_flag = GER_Plock }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 98 }
+					98 = { has_state_flag = GER_Plock }
+					ROOT = { is_German_speak = no }
+				}
+				98 = { reset_state_name = yes }
+				reset_province_name = 3230
+			    98 = { clr_state_flag = GER_Plock }
+			}
+			
+			##South Jutland#
+			if = {
+				limit = {
+					FROM.FROM = { state = 835 }
+					835 = { NOT = { has_state_flag = GER_Sydjylland }}
+					ROOT = {
+					    is_German_speak = yes
+					}
+				}
+				835 = { set_state_name = STATE_835_GER }
+			    835 = { set_state_flag = GER_Sydjylland }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 835 }
+					835 = { has_state_flag = GER_Sydjylland }
+					ROOT = {
+						is_German_speak = no
+					}
+				}
+				835 = { reset_state_name = yes }
+			    835 = { clr_state_flag = GER_Sydjylland }
+			}
+			
+			
+			##Jutland##
+			if = {
+				limit = {
+					FROM.FROM = { state = 99 }
+					99 = { NOT = { has_state_flag = GER_Jylland }}
+					ROOT = {
+					    is_German_speak = yes
+					}
+				}
+				99 = { set_state_name = STATE_99_GER }
+			    99 = { set_state_flag = GER_Jylland }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 99 }
+					99 = { has_state_flag = GER_Jylland }
+					ROOT = { is_German_speak = no }
+				}
+				99 = { reset_state_name = yes }
+			    99 = { clr_state_flag = GER_Jylland }
+			}
+			
+			
+			##Alsace##
+			if = {
+				limit = {
+					FROM.FROM = { state = 28 }
+					28 = { NOT = { has_state_flag = GER_Alsace }}
+					ROOT = {
+						is_German_speak = yes
+					}
+				}
+				28 = { set_state_name = STATE_28_GER }
+				set_province_name = { id = 9503 name = "VP_9503_GER" }
+				set_province_name = { id = 678 name = "VP_678_GER" }
+			    28 = { set_state_flag = GER_Alsace }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 28 }
+					28 = { has_state_flag = GER_Alsace }
+					ROOT = {
+						is_German_speak = no
+					}
+				}
+				28 = { reset_state_name = yes }
+				reset_province_name = 9503
+				reset_province_name = 678
+			    28 = { clr_state_flag = GER_Alsace }
+			}
+			
+			
+			##Nancy##
+			if = {
+				limit = {
+					FROM.FROM = { state = 855 }
+					855 = { NOT = { has_state_flag = GER_Nancy }}
+					ROOT = {
+					    is_German_speak = yes
+					}
+				}
+				855 = { set_state_name = STATE_855_GER }
+				set_province_name = { id = 11516 name = "STATE_855_GER" }
+			    855 = { set_state_flag = GER_Nancy }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 855 }
+					855 = { has_state_flag = GER_Nancy }
+					ROOT = {
+						is_German_speak = no
+					}
+				}
+				855 = { reset_state_name = yes }
+				reset_province_name = 11516
+			    855 = { clr_state_flag = GER_Nancy }
+			}
+			
+			
+			##Sudetenland##
+			if = {
+				limit = {
+					FROM.FROM = { state = 69 }
+					69 = { NOT = { has_state_flag = GER_Sudetenland }}
+					ROOT = {
+					    is_German_speak = yes
+					}
+				}
+				set_province_name = { id = 3585 name = "VP_3585_GER" }
+			    69 = { set_state_flag = GER_Sudetenland }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 69 }
+					69 = { has_state_flag = GER_Sudetenland }
+					ROOT = {
+					    is_German_speak = no
+					}
+				}
+				reset_province_name = 3585
+			    69 = { clr_state_flag = GER_Sudetenland }
+			}
+			
+			##Eastern Sudetenland##
+			if = {
+				limit = {
+					FROM.FROM = { state = 74 }
+					74 = { NOT = { has_state_flag = GER_Eastern_Sudetenland }}
+					ROOT = {
+					    is_German_speak = yes
+					}
+				}
+				74 = { set_state_name = Ostsudetenland }
+				set_province_name = { id = 3583 name = "Ostrau" }
+			    74 = { set_state_flag = GER_Eastern_Sudetenland }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 74 }
+					74 = { has_state_flag = GER_Eastern_Sudetenland }
+					ROOT = {
+					    is_German_speak = no
+					}
+				}
+				74 = { reset_state_name = yes }
+				reset_province_name = 3583
+			    74 = { clr_state_flag = GER_Eastern_Sudetenland }
+			}
+			
+			##Southern Sudetenland##
+			if = {
+				limit = {
+					FROM.FROM = { state = 946 }
+					946 = { NOT = { has_state_flag = GER_S_Sudetenland }}
+					ROOT = {
+					    is_German_speak = yes
+					}
+				}
+				set_province_name = { id = 557 name = "VP_557_GER" }
+			    946 = { set_state_flag = GER_S_Sudetenland }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 946 }
+					946 = { has_state_flag = GER_S_Sudetenland }
+					ROOT = {
+					    is_German_speak = no
+					}
+				}
+				reset_province_name = 557
+			    946 = { clr_state_flag = GER_S_Sudetenland }
+			}
+			
+			
+			##South Tyrol##
+			if = {
+				limit = {
+					FROM.FROM = { state = 39 }
+					39 = { NOT = { has_state_flag = GER_South_tyrol }}
+					ROOT = {
+					    is_German_speak = yes
+					}
+				}
+				39 = { set_state_name = STATE_39_GER }
+				set_province_name = { id = 9630 name = "VP_9630_GER" }
+			    39 = { set_state_flag = GER_South_tyrol }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 39 }
+					39 = { has_state_flag = GER_South_tyrol }
+					ROOT = {
+						is_German_speak = no
+					}
+				}
+				39 = { reset_state_name = yes }
+				reset_province_name = 9630
+			    39 = { clr_state_flag = GER_South_tyrol }
+			}
+			
+			
+			##Upper Slovenia##
+			if = {
+				limit = {
+					FROM.FROM = { state = 880 }
+					880 = { NOT = { has_state_flag = GER_North_slovenia }}
+					ROOT = {
+					    is_German_speak = yes
+					}
+				}
+				880 = { set_state_name = STATE_80_GER }
+				set_province_name = { id = 3631 name = "VP_3631_GER" }
+				set_province_name = { id = 596 name = "VP_596_GER" }
+			    880 = { set_state_flag = GER_North_slovenia }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 880 }
+					880 = { has_state_flag = GER_North_slovenia }
+					ROOT = {
+						is_German_speak = no
+					}
+				}
+				880 = { reset_state_name = yes }
+				reset_province_name = 3631
+				reset_province_name = 596
+			    880 = { clr_state_flag = GER_North_slovenia }
+			}
+			
+			
+			##Slovenia##
+			if = {
+				limit = {
+					FROM.FROM = { state = 102 }
+					102 = { NOT = { has_state_flag = GER_slovenia }}
+					ROOT = {
+					    is_German_speak = yes
+					}
+				}
+				102 = { set_state_name = STATE_102_GER }
+				set_province_name = { id = 9627 name = "VP_9627_GER" }
+			    102 = { set_state_flag = GER_slovenia }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 102 }
+					102 = { has_state_flag = GER_slovenia }
+					ROOT = {
+						is_German_speak = no
+					}
+				}
+				102 = { reset_state_name = yes }
+				reset_province_name = 9627
+			    102 = { clr_state_flag = GER_slovenia }
+			}
+			
+			##Bratislava##
+			if = {
+				limit = {
+				    FROM.FROM = { state = 70 }
+					70 = { NOT = { has_state_flag = GER_Bratislava }}
+					ROOT = {
+						is_German_speak = yes
+					}
+				}
+				set_province_name = { id = 9692 name = "VP_9692_GER" }
+			    70 = { set_state_flag = GER_Bratislava }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 70 }
+					70 = { has_state_flag = GER_Bratislava }
+					ROOT = { is_German_speak = no }
+				}
+				reset_province_name = 9692
+			    70 = { clr_state_flag = GER_Bratislava }
+			}
+			
+			##Memel##
+			if = {
+				limit = {
+					FROM.FROM = { state = 188 }
+					188 = { NOT = { has_state_flag = GER_memel }}
+					ROOT = {
+					    is_German_speak = yes
+					}
+				}
+				188 = { set_state_name = STATE_188_GER }
+				set_province_name = { id = 3288 name = "VP_3288_GER" }
+			    188 = { set_state_flag = GER_memel }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 188 }
+					188 = { has_state_flag = GER_memel }
+					ROOT = {
+						is_German_speak = no
+					}
+				}
+				188 = { reset_state_name = yes }
+				reset_province_name = 3288
+			    188 = { clr_state_flag = GER_memel }
+			}
+			
+			##German Stanislawow####
+			if = {
+				limit = {
+					FROM.FROM = { state = 89 }
+					89 = {
+						NOT = {
+							has_state_flag = GER_STANISLAWOW
+						}
+					}
+					ROOT = {
+					    is_German_speak = yes
+					}
+				}
+				set_province_name = { id = 11411 name = STATE_89_GER }
+				89 = { set_state_name = STATE_89_GER }
+			    89 = { set_state_flag = GER_STANISLAWOW }
+				89 = {
+					clr_state_flag = UKR_STANISLAWOW
+					clr_state_flag = RUS_STANISLAWOW
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 89 }
+					89 = { has_state_flag = GER_STANISLAWOW }
+					ROOT = {
+						is_German_speak = no
+					}
+				}
+				reset_province_name = 11411
+				89 = { reset_state_name = yes }
+			    89 = { clr_state_flag = GER_STANISLAWOW }
+			}
+			
+			##German Lwow####
+			if = {
+				limit = {
+					FROM.FROM = { state = 91 }
+					91 = { 
+						NOT = {
+							has_state_flag = GER_LWOW
+						}
+					}
+					ROOT = {
+					    is_German_speak = yes
+					}
+				}
+				set_province_name = { id = 11479 name = STATE_91_GER }
+				91 = { set_state_name = STATE_91_GER }
+			    91 = { set_state_flag = GER_LWOW }
+				91 = {
+					clr_state_flag = UKR_LWOW
+					clr_state_flag = RUS_LWOW
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 91 }
+					91 = { has_state_flag = GER_LWOW }
+					ROOT = {
+						is_German_speak = no
+					}
+				}
+				reset_province_name = 11479
+				91 = { reset_state_name = yes }
+			    91 = { clr_state_flag = GER_LWOW }
+			}
+			
+			##German Polesia####
+			if = {
+				limit = {
+					FROM.FROM = { state = 93 }
+					94 = {
+						NOT = {
+							OR = {
+								has_state_flag = SOV_POLESIA
+								has_state_flag = GER_POLESIA
+							}
+						}
+					}
+					ROOT = {
+					    is_German_speak = yes
+					}
+				}
+				set_province_name = { id = 3392 name = VP_3392_GER }
+			    94 = { set_state_flag = GER_POLESIA }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 94 }
+					94 = { has_state_flag = GER_POLESIA }
+					ROOT = {
+						is_German_speak = no
+					}
+				}
+				reset_province_name = 3392
+			    94 = { clr_state_flag = GER_POLESIA }
+			}
+			
+			##German Wilna####
+			if = {
+				limit = {
+					FROM.FROM = { state = 784 }
+					784 = { 
+						NOT = {
+							OR = {
+								has_state_flag = SOV_WILNA
+								has_state_flag = GER_WILNA
+							}
+						}
+					}
+					ROOT = {
+					    is_German_speak = yes
+					}
+				}
+				set_province_name = { id = 3320 name = STATE_784_GER }
+				784 = { set_state_name = STATE_784_GER }
+			    784 = { set_state_flag = GER_WILNA }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 784 }
+					784 = { has_state_flag = GER_WILNA }
+					ROOT = {
+						is_German_speak = no
+					}
+				}
+				reset_province_name = 3320
+				784 = { reset_state_name = yes }
+			    784 = { clr_state_flag = GER_WILNA }
+			}
+			
+			##Polish Allenstein##
+			if = {
+				limit = {
+					FROM.FROM = { state = 5 }
+					5 = { NOT = { has_state_flag = POL_ALLENSTEIN }}
+					ROOT = { is_Polish_speak = yes }
+				}
+				5 = { set_state_name = STATE_5_POL }
+				set_province_name = { id = 6375 name = VP_6375_POL }
+				set_province_name = { id = 3380 name = VP_3380_POL }
+			    5 = { set_state_flag = POL_ALLENSTEIN }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 5 }
+					5 = { has_state_flag = POL_ALLENSTEIN }
+					ROOT = {
+						is_German_speak = yes
+					}
+				}
+				5 = { reset_state_name = yes }
+				reset_province_name = 6375
+				reset_province_name = 3380
+			    5 = { clr_state_flag = POL_ALLENSTEIN }
+			}
+			
+			##Soviet Konigsberg##
+			if = {
+				limit = {
+					FROM.FROM = { state = 763 }
+					763 = { NOT = { has_state_flag = SOV_KONIGSBERG }}
+					ROOT = { is_Soviet_speak = yes }
+				}
+				763 = { set_state_name = STATE_763_RUS }
+				set_province_name = { id = 6332 name = STATE_763_RUS }
+				set_province_name = { id = 3384 name = VP_3384_RUS }
+			    763 = { set_state_flag = SOV_KONIGSBERG }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 763 }
+					763 = { has_state_flag = SOV_KONIGSBERG }
+					ROOT = {
+						is_Soviet_speak = no
+					}
+				}
+				763 = { reset_state_name = yes }
+				reset_province_name = 6332
+				reset_province_name = 3384
+			    763 = { clr_state_flag = SOV_KONIGSBERG }
+			}
+			
+			##Polish Stettin##
+			if = {
+				limit = {
+					FROM.FROM = { state = 837 }
+					837 = { NOT = { has_state_flag = POL_STETTIN }}
+					ROOT = { is_Polish_speak = yes }
+				}
+				837 = { set_state_name = STATE_837_POL }
+				set_province_name = { id = 6282 name = STATE_837_POL }
+			    837 = { set_state_flag = POL_STETTIN }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 837 }
+					837 = { has_state_flag = POL_STETTIN }
+					ROOT = {
+						is_Polish_speak = no
+					}
+				}
+				837 = { reset_state_name = yes }
+				reset_province_name = 6282
+			    837 = { clr_state_flag = POL_STETTIN }
+			}
+			
+			##Polish Hinterpommern##
+			if = {
+				limit = {
+					FROM.FROM = { state = 63 }
+					63 = { NOT = { has_state_flag = POL_HINTER }}
+					ROOT = { is_Polish_speak = yes }
+				}
+				63 = { set_state_name = STATE_63_POL }
+				set_province_name = { id = 11372 name = STATE_63_POL }
+			    63 = { set_state_flag = POL_HINTER }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 63 }
+					63 = { has_state_flag = POL_HINTER }
+					ROOT = {
+						is_Polish_speak = no
+					}
+				}
+				63 = { reset_state_name = yes }
+				reset_province_name = 11372
+			    63 = { clr_state_flag = POL_HINTER }
+			}
+			
+			##Polish Ostmark##
+			if = {
+				limit = {
+					FROM.FROM = { state = 68 }
+					68 = { NOT = { has_state_flag = POL_OSTMARK }}
+					ROOT = { is_Polish_speak = yes }
+				}
+				68 = { set_state_name = STATE_68_POL }
+				set_province_name = { id = 3473 name = VP_3473_POL }
+			    68 = { set_state_flag = POL_OSTMARK }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 68 }
+					68 = { has_state_flag = POL_OSTMARK }
+					ROOT = {
+						is_Polish_speak = no
+					}
+				}
+				68 = { reset_state_name = yes }
+				reset_province_name = 3473
+			    68 = { clr_state_flag = POL_OSTMARK }
+			}
+			
+			##Polish Breslau##
+			if = {
+				limit = {
+					FROM.FROM = { state = 66 }
+					66 = { NOT = { has_state_flag = POL_BRESLAU }}
+					ROOT = { is_Polish_speak = yes }
+				}
+				66 = { set_state_name = VP_9570_POL }
+				set_province_name = { id = 9570 name = VP_9570_POL }
+				set_province_name = { id = 6595 name = VP_6595_POL }
+			    66 = { set_state_flag = POL_BRESLAU }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 66 }
+					66 = { has_state_flag = POL_BRESLAU }
+					ROOT = {
+						is_Polish_speak = no
+					}
+				}
+				66 = { reset_state_name = yes }
+				reset_province_name = 9570
+				reset_province_name = 6595
+			    66 = { clr_state_flag = POL_BRESLAU }
+			}
+			
+			##Polish Oppeln##
+			if = {
+				limit = {
+					FROM.FROM = { state = 67 }
+					67 = { NOT = { has_state_flag = POL_OPPELN }}
+					ROOT = { is_Polish_speak = yes }
+				}
+				67 = { set_state_name = STATE_67_POL }
+				set_province_name = { id = 9511 name = STATE_67_POL }
+				set_province_name = { id = 11467 name = VP_11467_POL }
+			    67 = { set_state_flag = POL_OPPELN }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 67 }
+					67 = { has_state_flag = POL_OPPELN }
+					ROOT = {
+						is_Polish_speak = no
+					}
+				}
+				67 = { reset_state_name = yes }
+				reset_province_name = 9570
+				reset_province_name = 11467
+			    67 = { clr_state_flag = POL_OPPELN }
+			}
+			
+			##Polish Trebnitz##
+			if = {
+				limit = {
+					FROM.FROM = { state = 847 }
+					847 = { NOT = { has_state_flag = POL_TREBNITZ }}
+					ROOT = { is_Polish_speak = yes }
+				}
+				847 = { set_state_name = STATE_847_POL }
+				set_province_name = { id = 9470 name = STATE_847_POL }
+			    847 = { set_state_flag = POL_TREBNITZ }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 847 }
+					847 = { has_state_flag = POL_TREBNITZ }
+					ROOT = {
+						is_Polish_speak = no
+					}
+				}
+				847 = { reset_state_name = yes }
+				reset_province_name = 9470
+			    847 = { clr_state_flag = POL_TREBNITZ }
+			}
+			
+			##Polish Neisse##
+			if = {
+				limit = {
+					FROM.FROM = { state = 848 }
+					848 = { NOT = { has_state_flag = POL_NEISSE }}
+					ROOT = { is_Polish_speak = yes }
+				}
+				848 = { set_state_name = STATE_848_POL }
+				set_province_name = { id = 6512 name = STATE_848_POL }
+			    848 = { set_state_flag = POL_NEISSE }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 848 }
+					848 = { has_state_flag = POL_NEISSE }
+					ROOT = {
+						is_Polish_speak = no
+					}
+				}
+				848 = { reset_state_name = yes }
+				reset_province_name = 6512
+			    848 = { clr_state_flag = POL_NEISSE }
+			}
+			
+			##Polish Deutsche Krone##
+			if = {
+				limit = {
+					FROM.FROM = { state = 853 }
+					853 = { NOT = { has_state_flag = POL_NEISSE }}
+					ROOT = { is_Polish_speak = yes }
+				}
+				853 = { set_state_name = STATE_853_POL }
+				set_province_name = { id = 11260 name = VP_11260_POL }
+			    853 = { set_state_flag = POL_NEISSE }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 853 }
+					853 = { has_state_flag = POL_NEISSE }
+					ROOT = {
+						is_Polish_speak = no
+					}
+				}
+				853 = { reset_state_name = yes }
+				reset_province_name = 11260
+			    853 = { clr_state_flag = POL_NEISSE }
+			}
+			
+			##Soviet Karelia##
+			if = {
+				limit = {
+					FROM.FROM = { state = 146 }
+					146 = { NOT = { has_state_flag = SOV_KARLEIA }}
+					ROOT = { is_Soviet_speak = yes }
+				}
+				146 = { set_state_name = STATE_146_RUS }
+				set_province_name = { id = 9206 name = VP_9206_RUS }
+			    146 = { set_state_flag = SOV_KARLEIA }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 146 }
+					146 = { has_state_flag = SOV_KARLEIA }
+					ROOT = {
+						is_Soviet_speak = no
+					}
+				}
+				146 = { reset_state_name = yes }
+				reset_province_name = 9206
+			    146 = { clr_state_flag = SOV_KARLEIA }
+			}
+			
+			##Soviet Petsamo##
+			if = {
+				limit = {
+					FROM.FROM = { state = 722 }
+					722 = { NOT = { has_state_flag = SOV_PETSAMO }}
+					ROOT = { is_Soviet_speak = yes }
+				}
+				722 = { set_state_name = STATE_722_RUS }
+			    722 = { set_state_flag = SOV_PETSAMO }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 722 }
+					722 = { has_state_flag = SOV_PETSAMO }
+					ROOT = {
+						is_Soviet_speak = no
+					}
+				}
+				722 = { reset_state_name = yes }
+			    722 = { clr_state_flag = SOV_PETSAMO }
+			}
+			
+			##Soviet Salla##
+			if = {
+				limit = {
+					FROM.FROM = { state = 147 }
+					147 = { NOT = { has_state_flag = SOV_SALLA }}
+					ROOT = { is_Soviet_speak = yes }
+				}
+				147 = { set_state_name = STATE_147_RUS }
+				set_province_name = { id = 197 name = STATE_147_RUS }
+			    147 = { set_state_flag = SOV_SALLA }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 147 }
+					147 = { has_state_flag = SOV_SALLA }
+					ROOT = {
+						is_Soviet_speak = no
+					}
+				}
+				147 = { reset_state_name = yes }
+				reset_province_name = 197
+			    147 = { clr_state_flag = SOV_SALLA }
+			}
+			
+			##Senkaku Islands##
+			if = {
+				limit = {
+					FROM.FROM = { state = 927 }
+					927 = { NOT = { has_state_flag = CHI_Senkaku }}
+					ROOT = {
+					    is_Chinese_speak = yes
+					}
+				}
+				927 = { set_state_name = STATE_927_CHI }
+			    927 = { set_state_flag = CHI_Senkaku }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 927 }
+					927 = { has_state_flag = CHI_Senkaku }
+					ROOT = {
+						is_Chinese_speak = no
+					}
+				}
+				927 = { reset_state_name = yes }
+			    927 = { clr_state_flag = CHI_Senkaku }
+			}
+			
+			##English Dalian##
+			if = {
+				limit = {
+					FROM.FROM = { state = 745 }
+					745 = { NOT = { has_state_flag = ENG_DALIAN }}
+					ROOT = { is_English_speak = yes }
+				}
+				745 = { set_state_name = STATE_745_ENG }
+				set_province_name = { id = 1150 name = STATE_745_ENG }
+			    745 = { set_state_flag = ENG_DALIAN }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 745 }
+					745 = { has_state_flag = ENG_DALIAN }
+					ROOT = {
+						is_English_speak = no
+					}
+				}
+				745 = { reset_state_name = yes }
+				reset_province_name = 1150
+			    745 = { clr_state_flag = ENG_DALIAN }
+			}
+			
+			##Korean Dalian##
+			if = {
+				limit = {
+					FROM.FROM = { state = 745 }
+					745 = { NOT = { has_state_flag = KOR_DALIAN }}
+					ROOT = { is_Korean_speak = yes }
+				}
+				745 = { set_state_name = STATE_745_KOR }
+				set_province_name = { id = 1150 name = STATE_745_KOR }
+			    745 = { set_state_flag = KOR_DALIAN }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 745 }
+					745 = { has_state_flag = KOR_DALIAN }
+					ROOT = {
+						is_Korean_speak = no
+					}
+				}
+				745 = { reset_state_name = yes }
+				reset_province_name = 1150
+			    745 = { clr_state_flag = KOR_DALIAN }
+			}
+			
+			##German Bukovina##
+			if = {
+				limit = {
+					FROM.FROM = { state = 80 }
+					80 = { NOT = { has_state_flag = GER_Bukovina }}
+					ROOT = { is_German_speak_speak = yes }
+				}
+				80 = { set_state_name = STATE_80_GER }
+				set_province_name = { id = 577 name = VP_577_GER }
+			    80 = { set_state_flag = GER_Bukovina }
+				80 = {
+					clr_state_flag = POL_Bukovina
+					clr_state_flag = RUS_Bukovina
+					clr_state_flag = UKR_Bukovina 
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 80 }
+					80 = { has_state_flag = GER_Bukovina }
+					ROOT = {
+						is_German_speak_speak = no
+					}
+				}
+				80 = { reset_state_name = yes }
+				reset_province_name = 577
+			    80 = { clr_state_flag = GER_Bukovina }
+			}
+			
+			##Polish Bukovina##
+			if = {
+				limit = {
+					FROM.FROM = { state = 80 }
+					80 = { NOT = { has_state_flag = POL_Bukovina }}
+					ROOT = { is_Polish_speak_speak = yes }
+				}
+				80 = { set_state_name = STATE_80_POL }
+				set_province_name = { id = 577 name = VP_577_POL }
+			    80 = { set_state_flag = POL_Bukovina }
+				80 = {
+					clr_state_flag = GER_Bukovina
+					clr_state_flag = RUS_Bukovina
+					clr_state_flag = UKR_Bukovina 
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 80 }
+					80 = { has_state_flag = POL_Bukovina }
+					ROOT = {
+						is_Polish_speak_speak = no
+					}
+				}
+				80 = { reset_state_name = yes }
+				reset_province_name = 577
+			    80 = { clr_state_flag = POL_Bukovina }
+			}
+			
+			##Russian Bukovina##
+			if = {
+				limit = {
+					FROM.FROM = { state = 80 }
+					80 = { NOT = { has_state_flag = RUS_Bukovina }}
+					ROOT = { is_Russian_speak = yes }
+				}
+				80 = { set_state_name = STATE_80_RUS }
+				set_province_name = { id = 577 name = VP_577_RUS }
+			    80 = { set_state_flag = RUS_Bukovina }
+				80 = {
+					clr_state_flag = GER_Bukovina
+					clr_state_flag = POL_Bukovina
+					clr_state_flag = UKR_Bukovina 
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 80 }
+					80 = { has_state_flag = RUS_Bukovina }
+					ROOT = {
+						is_Russian_speak = no
+					}
+				}
+				80 = { reset_state_name = yes }
+				reset_province_name = 577
+			    80 = { clr_state_flag = RUS_Bukovina }
+			}
+			
+			##Ukranian Bukovina##
+			if = {
+				limit = {
+					FROM.FROM = { state = 80 }
+					80 = { NOT = { has_state_flag = UKR_Bukovina }}
+					ROOT = { is_Ukranian_speak = yes }
+				}
+				80 = { set_state_name = STATE_80_UKR }
+				set_province_name = { id = 577 name = VP_577_UKR }
+			    80 = { set_state_flag = UKR_Bukovina  }
+				80 = {
+					clr_state_flag = GER_Bukovina
+					clr_state_flag = POL_Bukovina
+					clr_state_flag = RUS_Bukovina 
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 80 }
+					80 = { has_state_flag = UKR_Bukovina  }
+					ROOT = {
+						is_Ukranian_speak = no
+					}
+				}
+				80 = { reset_state_name = yes }
+				reset_province_name = 577
+			    80 = { clr_state_flag = UKR_Bukovina }
+			}
+			
+			##Ukranian Kiev##
+			if = {
+				limit = {
+					FROM.FROM = { state = 202 }
+					202 = { NOT = { has_state_flag = UKR_Kiev }}
+					ROOT = { is_Ukranian_speak = yes }
+				}
+				202 = { set_state_name = STATE_202_UKR }
+				set_province_name = { id = 525 name = VP_525_UKR }
+			    202 = { set_state_flag = UKR_Kiev }
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 202 }
+					202 = { has_state_flag = UKR_Kiev  }
+					ROOT = {
+						is_Ukranian_speak = no
+					}
+				}
+				202 = { reset_state_name = yes }
+				reset_province_name = 525
+			    202 = { clr_state_flag = UKR_Kiev }
+			}
+			
+			##Ukranian Stanislawow####
+			if = {
+				limit = {
+					FROM.FROM = { state = 89 }
+					89 = {
+						NOT = {
+							has_state_flag = UKR_STANISLAWOW
+						}
+					}
+					ROOT = {
+					    is_Ukranian_speak = yes
+					}
+				}
+				set_province_name = { id = 11411 name = STATE_89_UKR }
+				89 = { set_state_name = STATE_89_UKR }
+			    89 = { set_state_flag = UKR_STANISLAWOW }
+				89 = {
+					clr_state_flag = GER_STANISLAWOW
+					clr_state_flag = RUS_STANISLAWOW
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 89 }
+					89 = { has_state_flag = UKR_STANISLAWOW }
+					ROOT = {
+						is_Ukranian_speak = no
+					}
+				}
+				reset_province_name = 11411
+				89 = { reset_state_name = yes }
+			    89 = { clr_state_flag = UKR_STANISLAWOW }
+			}
+			
+			##Ukranian Lwow####
+			if = {
+				limit = {
+					FROM.FROM = { state = 91 }
+					91 = { NOT = { has_state_flag = UKR_LWOW }}
+					ROOT = {
+					    is_Ukranian_speak = yes
+					}
+				}
+				set_province_name = { id = 11479 name = STATE_91_UKR }
+				91 = { set_state_name = STATE_91_UKR }
+			    91 = { set_state_flag = UKR_LWOW }
+				91 = {
+					clr_state_flag = GER_LWOW
+					clr_state_flag = RUS_LWOW
+				}
+			}
+			
+			if = {
+				limit = {
+					FROM.FROM = { state = 91 }
+					91 = { has_state_flag = UKR_LWOW }
+					ROOT = {
+						is_Ukranian_speak = no
+					}
+				}
+				reset_province_name = 11479
+				91 = { reset_state_name = yes }
+			    91 = { clr_state_flag = UKR_LWOW }
+			}
+		}
+	}
+}

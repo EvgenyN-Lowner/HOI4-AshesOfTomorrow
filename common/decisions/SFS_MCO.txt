@@ -1,0 +1,28 @@
+SFS_invade_monaco_category = {
+	SFS_invade_monaco = {
+
+		allowed = {
+
+		}
+		
+		highlight_states = {
+		 	highlight_state_targets = {
+					state = 891
+				} 
+		}
+		
+		cost = 40
+		days_remove = 10
+		
+		ai_will_do = {
+			factor = 1
+		}
+		remove_effect = {
+			declare_war_on = {
+				target = MCO
+				type = annex_everything
+			}
+		}
+
+	}
+}
