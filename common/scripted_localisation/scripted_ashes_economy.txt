@@ -1,0 +1,12 @@
+defined_text = {
+	name = TOTAL_ECONOMY_TYPE
+	text = {
+		trigger = {
+			has_country_flag = economy_minus
+		}
+		localization_key = ECONOMY_TOTAL_MINUS
+	}
+	text = {
+		localization_key = ECONOMY_TOTAL_PLUS
+	}
+}

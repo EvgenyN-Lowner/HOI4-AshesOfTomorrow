@@ -1,5 +1,30 @@
 on_actions = {
-    on_daily = {
+    on_startup = {
+        effect = {
+            every_country = {
+              starting_money = yes
+
+              population_income = yes
+              facilities_income = yes
+              resource_income = yes
+              additional_income = yes
+              total_income = yes
+
+              administrative_expenses = yes
+              military_expenses = yes
+              social_expenses = yes
+              science_expenses = yes
+              additional_expenses = yes
+              total_expenses = yes
+
+              total_economy = yes
+
+              gdpcapita_caltulation = yes
+            }
+        }
+    }
+
+    on_weekly = {
         effect = {
             every_country = {
                 population_income = yes
@@ -14,6 +39,13 @@ on_actions = {
                 science_expenses = yes
                 additional_expenses = yes
                 total_expenses = yes
+
+                total_economy = yes
+
+                gdp_calculation = yes
+                gdpcapita_caltulation = yes
+
+                calculate_money = yes
             }
         }
     }

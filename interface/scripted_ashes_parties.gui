@@ -22,11 +22,11 @@ guiTypes = {
     }
 
     containerWindowType = {
-		name = "ashes_politic_economy_button"
+		name = "ashes_politic_economy"
 		position = { x=163 y=375}	
 
 		buttonType ={
-			name ="ashes_party_icon"
+			name ="ashes_politic_economy_button"
 			spriteType = "GFX_ashes_politic_buttons"
 			position = { x= 0 y = 0 }
             frame = 4
@@ -34,11 +34,11 @@ guiTypes = {
     }
 
     containerWindowType = {
-		name = "ashes_politic_allience_button"
+		name = "ashes_politic_allience"
 		position = { x=211 y=375}	
 
 		buttonType ={
-			name ="ashes_party_icon"
+			name ="ashes_politic_allience_button"
 			spriteType = "GFX_ashes_politic_buttons"
 			position = { x= 0 y = 0 }
             frame = 5

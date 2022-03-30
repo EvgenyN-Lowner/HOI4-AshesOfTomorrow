@@ -32,7 +32,7 @@ scripted_gui = {
         }
     }
     ashes_politic_economy_button = {
-        window_name = "ashes_politic_economy_button"
+        window_name = "ashes_politic_economy"
         context_type = player_context
         parent_window_token = politics_tab
          
@@ -41,6 +41,9 @@ scripted_gui = {
         }
         
         effects = {
+            ashes_politic_economy_button_click = {
+                set_country_flag = economyOpen
+            }
         }
         
         triggers = {
@@ -64,18 +67,16 @@ scripted_gui = {
         }
     }
     ashes_politic_allience_button = {
-        window_name = "ashes_politic_allience_button"
+        window_name = "ashes_politic_allience"
         context_type = player_context
         parent_window_token = politics_tab
          
         visible = {
-            always = yes
+            has_country_flag = leage_of_nation
         }
         
         effects = {
-            ashes_politic_allience_button_click = {
-                population_income = yes
-            }
+
         }
         
         triggers = {

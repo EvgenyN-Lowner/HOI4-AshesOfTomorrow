@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ashes_economy_bg"
+		texturefile = "gfx/interface/ashes_general/ashes_economy_bg.dds"
+	}
+}

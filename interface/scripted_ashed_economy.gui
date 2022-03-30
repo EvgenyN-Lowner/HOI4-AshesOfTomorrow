@@ -1,128 +1,272 @@
 guiTypes = {
     containerWindowType = {
 		name = "ashes_economy_main"
-		position = { x = 1000 y = 500} 	
-		size = { width=500 height=500 }
-		
-		#hide_sound = menu_close_window
-		show_sound = menu_open_window
-        moveable = yes
+		position = { x = 542 y = 83 } 	
+		size = { width=593 height=415 }
+		fade_type = linear
+		fade_time = 250
+		show_sound = open_sub_window
+        moveable = no
 
-        click_to_front = yes
-		
-		background = {
-			name = "Background"		
-			quadTextureSprite ="GFX_tiled_bg"
+		iconType = { 
+			name = "Background"
+			position = {x=0 y=0 }
+			spriteType = "GFX_ashes_economy_bg"
 		}
 
-        instantTextboxType = {
-			name = "populationIncome"
-			position = { x = 150 y = 30 }
+		buttonType = {
+			name = "close_button"
+			position = { x = -41 y = 4 }
+			quadTextureSprite ="GFX_closebutton"
+			buttonFont = "hoi_16mbs"
+			shortcut = "ESCAPE"
+			Orientation = "UPPER_RIGHT"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+
+		instantTextboxType = {
+			name = "headerText"
+			position = { x = 25 y = 1 }
+			font = "hoi_36header"
+			text = "ECONOMY_NAME"
+			maxWidth = 500
+			maxHeight = 20
+			format = left
+		}
+
+		instantTextboxType = {
+			name = "gdpText"
+			position = { x = 316 y = 61 }
 			font = "hoi_18b"
-			text = "Pupulation income: $[?root.total_population_income|3] B"
-			maxWidth = 450
+			text = "GDP_TEXT"
+			maxWidth = 120
 			maxHeight = 20
 			format = center
 		}
 
 		instantTextboxType = {
-			name = "facilitiesIncome"
-			position = { x = 150 y = 50 }
+			name = "gdpcText"
+			position = { x = 452 y = 61 }
 			font = "hoi_18b"
-			text = "Facilities income: $[?root.total_facilities_income|3] B"
-			maxWidth = 450
+			text = "GDPC_TEXT"
+			maxWidth = 120
 			maxHeight = 20
 			format = center
 		}
 
 		instantTextboxType = {
-			name = "resourcesIncome"
-			position = { x = 150 y = 70 }
-			font = "hoi_18b"
-			text = "Resources Export: $[?root.total_resources_income|3] B"
-			maxWidth = 450
+			name = "expensesWindow"
+			position = { x = 70 y = 101 }
+			font = "hoi_16b"
+			text = "ECONOMY_EXPENSES"
+			maxWidth = 170
 			maxHeight = 20
 			format = center
 		}
 
 		instantTextboxType = {
-			name = "additionalIncome"
-			position = { x = 150 y = 90 }
-			font = "hoi_18b"
-			text = "Additional income: $[?root.total_additional_income|3] B"
-			maxWidth = 450
+			name = "incomeWindow"
+			position = { x = 352 y = 101 }
+			font = "hoi_16b"
+			text = "ECONOMY_INCOME"
+			maxWidth = 170
 			maxHeight = 20
 			format = center
 		}
 
 		instantTextboxType = {
-			name = "totalIncome"
-			position = { x = 150 y = 200 }
+			name = "expensesAdministrative"
+			position = { x = 40 y = 150 }
 			font = "hoi_18b"
-			text = "Total income: $[?root.total_income|3] B"
-			maxWidth = 450
+			text = "ECONOMY_EXPENSES_ADMINISTRATIVE"
+			maxWidth = 170
 			maxHeight = 20
-			format = center
+			format = left
 		}
-
-
-        instantTextboxType = {
-			name = "test11"
-			position = { x = -120 y = 30 }
+		instantTextboxType = {
+			name = "expensesAdministrativeValue"
+			position = { x = 200 y = 150 }
 			font = "hoi_18b"
-			text = "Administrative expenses: $[?root.total_administrative_expenses|3] B"
-			maxWidth = 450
+			text = "ECONOMY_EXPENSES_ADMINISTRATIVE_VALUE"
+			maxWidth = 70
 			maxHeight = 20
-			format = center
+			format = right
+		}
+		instantTextboxType = {
+			name = "expensesMilitary"
+			position = { x = 40 y = 180 }
+			font = "hoi_18b"
+			text = "ECONOMY_EXPENSES_MILITARY"
+			maxWidth = 170
+			maxHeight = 20
+			format = left
+		}
+		instantTextboxType = {
+			name = "expensesMilitaryValue"
+			position = { x = 200 y = 180 }
+			font = "hoi_18b"
+			text = "ECONOMY_EXPENSES_MILITARY_VALUE"
+			maxWidth = 70
+			maxHeight = 20
+			format = right
+		}
+		instantTextboxType = {
+			name = "expensesSocial"
+			position = { x = 40 y = 210 }
+			font = "hoi_18b"
+			text = "ECONOMY_EXPENSES_SOCIAL"
+			maxWidth = 170
+			maxHeight = 20
+			format = left
+		}
+		instantTextboxType = {
+			name = "expensesSocialValue"
+			position = { x = 200 y = 210 }
+			font = "hoi_18b"
+			text = "ECONOMY_EXPENSES_SOCIAL_VALUE"
+			maxWidth = 70
+			maxHeight = 20
+			format = right
+		}
+		instantTextboxType = {
+			name = "expensesScience"
+			position = { x = 40 y = 240 }
+			font = "hoi_18b"
+			text = "ECONOMY_EXPENSES_SCIENCE"
+			maxWidth = 170
+			maxHeight = 20
+			format = left
+		}
+		instantTextboxType = {
+			name = "expensesScienceValue"
+			position = { x = 200 y = 240 }
+			font = "hoi_18b"
+			text = "ECONOMY_EXPENSES_SCIENCE_VALUE"
+			maxWidth = 70
+			maxHeight = 20
+			format = right
+		}
+		instantTextboxType = {
+			name = "expensesAdditional"
+			position = { x = 40 y = 270 }
+			font = "hoi_18b"
+			text = "ECONOMY_EXPENSES_ADDITIONAL"
+			maxWidth = 170
+			maxHeight = 20
+			format = left
+		}
+		instantTextboxType = {
+			name = "expensesAdditionalValue"
+			position = { x = 200 y = 270 }
+			font = "hoi_18b"
+			text = "ECONOMY_EXPENSES_ADDITIONAL_VALUE"
+			maxWidth = 70
+			maxHeight = 20
+			format = right
 		}
 
 		instantTextboxType = {
-			name = "test12"
-			position = { x = -120 y = 50 }
+			name = "expensesTotal"
+			position = { x = 90 y = 325 }
 			font = "hoi_18b"
-			text = "Military expenses: $[?root.total_military_expenses|3] B"
-			maxWidth = 450
+			text = "ECONOMY_EXPENSES_TOTAL"
+			maxWidth = 180
 			maxHeight = 20
-			format = center
+			format = right
+		}
+		#
+		instantTextboxType = {
+			name = "incomePopulation"
+			position = { x = 322 y = 150 }
+			font = "hoi_18b"
+			text = "ECONOMY_INCOME_POPULATION"
+			maxWidth = 170
+			maxHeight = 20
+			format = left
+		}
+		instantTextboxType = {
+			name = "incomePopulationValue"
+			position = { x = 481 y = 150 }
+			font = "hoi_18b"
+			text = "ECONOMY_INCOME_POPULATION_VALUE"
+			maxWidth = 70
+			maxHeight = 20
+			format = right
+		}
+		instantTextboxType = {
+			name = "incomeFacilities"
+			position = { x = 322 y = 180 }
+			font = "hoi_18b"
+			text = "ECONOMY_INCOME_FACILITIES"
+			maxWidth = 170
+			maxHeight = 20
+			format = left
+		}
+		instantTextboxType = {
+			name = "incomeFacilitiesValue"
+			position = { x = 481 y = 180 }
+			font = "hoi_18b"
+			text = "ECONOMY_INCOME_FACILITIES_VALUE"
+			maxWidth = 70
+			maxHeight = 20
+			format = right
+		}
+		instantTextboxType = {
+			name = "incomeResources"
+			position = { x = 322 y = 210 }
+			font = "hoi_18b"
+			text = "ECONOMY_INCOME_RESOURCE"
+			maxWidth = 170
+			maxHeight = 20
+			format = left
+		}
+		instantTextboxType = {
+			name = "incomeResourcesValue"
+			position = { x = 481 y = 210 }
+			font = "hoi_18b"
+			text = "ECONOMY_INCOME_RESOURCE_VALUE"
+			maxWidth = 70
+			maxHeight = 20
+			format = right
+		}
+		instantTextboxType = {
+			name = "incomeAdditional"
+			position = { x = 322 y = 240 }
+			font = "hoi_18b"
+			text = "ECONOMY_INCOME_ADDITIONAL"
+			maxWidth = 170
+			maxHeight = 20
+			format = left
+		}
+		instantTextboxType = {
+			name = "incomeAdditionalValue"
+			position = { x = 481 y = 240 }
+			font = "hoi_18b"
+			text = "ECONOMY_INCOME_ADDITIONAL_VALUE"
+			maxWidth = 70
+			maxHeight = 20
+			format = right
 		}
 
 		instantTextboxType = {
-			name = "test13"
-			position = { x = -120 y = 70 }
+			name = "incomeTotal"
+			position = { x = 371 y = 325 }
 			font = "hoi_18b"
-			text = "Social expenses: $[?root.total_social_expenses|3] B"
-			maxWidth = 450
+			text = "ECONOMY_INCOME_TOTAL"
+			maxWidth = 180
 			maxHeight = 20
-			format = center
+			format = right
 		}
 
 		instantTextboxType = {
-			name = "test15"
-			position = { x = -120 y = 110 }
+			name = "totalEconomy"
+			position = { x = 452 y = 375 }
 			font = "hoi_18b"
-			text = "Science expenses: $[?root.total_science_expenses|3] B"
-			maxWidth = 450
+			text = "ECONOMY_TOTAL"
+			maxWidth = 120
 			maxHeight = 20
 			format = center
 		}
-
-		instantTextboxType = {
-			name = "test16"
-			position = { x = -120 y = 130 }
-			font = "hoi_18b"
-			text = "Additional expenses: $[?root.additional_expenses|3] B"
-			maxWidth = 450
-			maxHeight = 20
-			format = center
-		}
-
-		instantTextboxType = {
-			name = "test17"
-			position = { x = -120 y = 200 }
-			font = "hoi_18b"
-			text = "Total expenses: $[?root.total_expenses|3] B"
-			maxWidth = 450
-			maxHeight = 20
-			format = center
-		}
+	}
 }

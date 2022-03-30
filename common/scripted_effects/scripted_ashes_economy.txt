@@ -1,9 +1,134 @@
+##GDP
+#GDP Calculation
+gdp_calculation = {
+    set_variable = { total_gdp = 0 }
+
+    set_variable = {
+        civ_facilities_num = 0
+    }
+    set_variable = {
+        mil_facilities_num = 0
+    }
+    set_variable = {
+        doc_facilities_num = 0
+    }
+    set_variable = {
+        fuel_silo_num = 0
+    }
+    set_variable = {
+        synthetic_refinery_num = 0
+    }
+    set_variable = {
+        nuclear_reactor_num = 0
+    }
+    set_variable = {
+        infrastructure_num = 0
+    }
+
+    every_owned_state = {
+        add_to_variable = {
+            var = PREV.civ_facilities_num value = building_level@industrial_complex
+        }
+        add_to_variable = {
+            var = PREV.mil_facilities_num value = building_level@arms_factory
+        }
+        add_to_variable = {
+            var = PREV.doc_facilities_num value = building_level@dockyard
+        }
+        add_to_variable = {
+            var = PREV.fuel_silo_num value = building_level@fuel_silo
+        }
+        add_to_variable = {
+            var = PREV.synthetic_refinery_num value = building_level@synthetic_refinery
+        }
+        add_to_variable = {
+            var = PREV.nuclear_reactor_num value = building_level@nuclear_reactor
+        }
+        add_to_variable = { 
+            var = PREV.infrastructure_num value = infrastructure_level 
+        }
+    }
+
+    add_to_variable = {
+        total_gdp = civ_facilities_num
+    }
+    add_to_variable = {
+        total_gdp = mil_facilities_num
+    }
+    add_to_variable = {
+        total_gdp = doc_facilities_num
+    }
+    add_to_variable = {
+        total_gdp = fuel_silo_num
+    }
+    add_to_variable = {
+        total_gdp = synthetic_refinery_num
+    }
+    add_to_variable = {
+        total_gdp = nuclear_reactor_num
+    }
+    add_to_variable = {
+        total_gdp = infrastructure_num
+    }
+    add_to_variable = {
+        total_gdp = total_resources_income
+    }
+    divide_variable = {
+        total_gdp = 1.5
+    }
+}
+
+#GDP per Capita calculation
+gdpcapita_caltulation = {
+    set_variable = {
+        total_gdp_capita = 0
+    }
+    set_variable = {
+        core_population_gdpc = 0
+    }
+    set_variable = {
+        noncore_population_gdpc = 0
+    }
+
+    every_owned_state = {
+        if = {
+            limit = {
+                is_core_of = PREV
+            }
+            add_to_variable = { var = PREV.core_population_gdpc value = state_population_k }
+        }
+        else = {
+            add_to_variable = { var = PREV.noncore_population_gdpc value = state_population_k }
+        }
+    }
+
+    divide_variable = {
+        core_population_gdpc = 10000
+    }
+    
+    divide_variable = {
+        noncore_population_gdpc = 10000
+    }
+
+    add_to_variable = {
+        total_gdp_capita = total_gdp
+    }
+
+    add_to_variable = {
+        core_population_gdpc = noncore_population_gdpc
+    }
+    
+    divide_variable = {
+        total_gdp_capita = core_population_gdpc
+    }
+}
+
 ##INCOME
 #Population Income
 population_income = {
     tax_rate_caltulcation = yes
 
-    set_variable = { population_income_global_rate = 10 }
+    set_variable = { population_income_global_rate = 15 }
 
     set_variable = { core_population_income = 0 }
     set_variable = { noncore_population_income = 0 }
@@ -218,7 +343,7 @@ military_expenses = {
 social_expenses = {
     social_level_caltulcation = yes
 
-    set_variable = { social_global_rate = 8 }
+    set_variable = { social_global_rate = 4 }
 
     set_variable = { core_population_social_expenses = 0 }
     set_variable = { noncore_population_social_expenses = 0 }
@@ -244,11 +369,11 @@ social_expenses = {
     add_to_variable = { total_social_expenses = noncore_population_social_expenses }
 
     multiply_variable = { total_social_expenses = social_rate }
-    multiply_variable = { total_social_expenses = 3.14 }
+    multiply_variable = { total_social_expenses = 3.141 }
     multiply_variable = { total_social_expenses = social_global_rate }
 }
 
-#Schience Expenses
+#Science Expenses
 science_expenses = {
     science_level_caltulcation = yes
 
@@ -257,9 +382,7 @@ science_expenses = {
 
     if = {
         limit = { 
-            NOT = {
-                is_major = PREV 
-            }
+                is_major = yes
         }
         add_to_variable = { total_science_expenses = 2 }
     }
@@ -280,8 +403,74 @@ total_expenses = {
 
     add_to_variable = { total_expenses = total_administrative_expenses }
     add_to_variable = { total_expenses = total_military_expenses }
-    add_to_variable = { total_expenses = social_expenses }
-    add_to_variable = { total_expenses = science_expenses }
+    add_to_variable = { total_expenses = total_social_expenses }
+    add_to_variable = { total_expenses = total_science_expenses }
+}
+
+##Total
+total_economy = {
+    set_variable = { total_economy = 0 }
+
+    add_to_variable = { total_economy = total_income }
+    subtract_from_variable = { total_economy = total_expenses }
+
+    if = {
+        limit = {
+            check_variable = {
+                total_economy < 0
+            }
+        }
+        set_country_flag = economy_minus
+    }
+    else = {
+        if = {
+            limit = {
+                has_country_flag = economy_minus
+            }
+            clr_country_flag = economy_minus
+        }
+    }
+}
+
+##Calc
+starting_money = {
+    gdp_calculation = yes
+
+    set_variable = {
+        total_money = 0
+    }
+    add_to_variable = {
+        total_money = total_gdp
+    }
+    divide_variable = {
+        total_money = 3.141
+    }
+}
+
+calculate_money = {
+    set_temp_variable = {
+        total_temp_economy = total_economy
+    }
+
+    divide_temp_variable = {
+        total_temp_economy = 100
+    }
+
+    if = {
+        limit = {
+            check_variable = {
+                total_temp_economy < 0
+            }
+        }
+        add_to_variable = {
+            total_money = total_temp_economy
+        }
+    }
+    else = {
+        add_to_variable = {
+            total_money = total_temp_economy
+        }
+    }
 }
 
 ###Lib

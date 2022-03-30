@@ -4,10 +4,13 @@ scripted_gui = {
         context_type = player_context
          
         visible = {
-            always = yes
+            has_country_flag = economyOpen
         }
         
         effects = {
+            close_button_click = {
+                clr_country_flag = economyOpen
+            }
         }
         
         triggers = {
