@@ -90,6 +90,10 @@ gdpcapita_caltulation = {
         noncore_population_gdpc = 0
     }
 
+    set_variable = {
+        total_population = 0
+    }
+
     every_owned_state = {
         if = {
             limit = {
@@ -100,6 +104,16 @@ gdpcapita_caltulation = {
         else = {
             add_to_variable = { var = PREV.noncore_population_gdpc value = state_population_k }
         }
+    }
+
+    add_to_variable = {
+        total_population = core_population_gdpc
+    }
+    add_to_variable = {
+        total_population = noncore_population_gdpc
+    }
+    divide_variable = {
+        total_population = 1000
     }
 
     divide_variable = {
@@ -164,10 +178,11 @@ facilities_income = {
     tax_rate_caltulcation = yes
     set_province_building_levels = yes
 
-    set_variable = { facilities_income_global_rate = 0.25 }
+    set_variable = { facilities_income_global_rate = 0.4 }
 
     set_variable = { civ_facilities_income = num_of_civilian_factories }
     set_variable = { naval_bases_income = naval_base_ammount }
+    set_variable = { naval_bases_ammount = naval_base_ammount }
     set_variable = { infrastructure_income = 0 }
 
     set_variable = { total_facilities_income = 0 }
@@ -184,11 +199,17 @@ facilities_income = {
     divide_variable = { infrastructure_income = 10 }
     divide_variable = { naval_bases_income = 10 }
 
+    multiply_variable = { civ_facilities_income = 2 }
+    divide_variable = { naval_bases_income = 2 }
+
     add_to_variable = { total_facilities_income = civ_facilities_income }
     add_to_variable = { total_facilities_income = naval_bases_income }
     add_to_variable = { total_facilities_income = infrastructure_income }
 
     multiply_variable = { total_facilities_income = facilities_income_global_rate }
+    multiply_variable = { civ_facilities_income = facilities_income_global_rate }
+    multiply_variable = { naval_bases_income = facilities_income_global_rate }
+    multiply_variable = { infrastructure_income = facilities_income_global_rate }
 }
 
 #Resource Income
@@ -201,7 +222,7 @@ resource_income = {
     set_variable = { rubber_price = resource_exported@rubber }
     set_variable = { tungsten_price = resource_exported@tungsten }
     set_variable = { iron_price = resource_exported@iron }
-    set_variable = { titan_price = resource_exported@copper }
+    set_variable = { copper_price = resource_exported@copper }
     set_variable = { steel_price = resource_exported@steel }
     set_variable = { chromium_price = resource_exported@chromium }
     
@@ -217,6 +238,16 @@ resource_income = {
     # 1 ton = 4 000
     # 1 ton = 7 000
 
+    set_variable = { coal_ammount = coal_price }
+    set_variable = { oil_ammount = oil_price }
+    set_variable = { aluminium_ammount = aluminium_price }
+    set_variable = { rubber_ammount = rubber_price }
+    set_variable = { tungsten_ammount = tungsten_price }
+    set_variable = { iron_ammount = iron_price }
+    set_variable = { copper_ammount = copper_price }
+    set_variable = { steel_ammount = steel_price }
+    set_variable = { chromium_ammount = chromium_price }
+
     multiply_variable = { coal_price = 0.03 }
     multiply_variable = { oil_price = 0.05 }
     multiply_variable = { aluminium_price = 0.1 }
@@ -226,6 +257,26 @@ resource_income = {
     multiply_variable = { copper_price = 0.25 }
     multiply_variable = { steel_price = 0.2 }
     multiply_variable = { chromium_price = 0.35 }
+
+    set_variable = { coal_exportIncome = coal_price }
+    set_variable = { oil_exportIncome = oil_price }
+    set_variable = { aluminium_exportIncome = aluminium_price }
+    set_variable = { rubber_exportIncome = rubber_price }
+    set_variable = { tungsten_exportIncome = tungsten_price }
+    set_variable = { iron_exportIncome = iron_price }
+    set_variable = { copper_exportIncome = copper_price }
+    set_variable = { steel_exportIncome = steel_price }
+    set_variable = { chromium_exportIncome = chromium_price }
+
+    multiply_variable = { coal_exportIncome = resources_global_rate }
+    multiply_variable = { oil_exportIncome = resources_global_rate }
+    multiply_variable = { aluminium_exportIncome = resources_global_rate }
+    multiply_variable = { rubber_exportIncome = resources_global_rate }
+    multiply_variable = { tungsten_exportIncome = resources_global_rate }
+    multiply_variable = { iron_exportIncome = resources_global_rate }
+    multiply_variable = { copper_exportIncome = resources_global_rate }
+    multiply_variable = { steel_exportIncome = resources_global_rate }
+    multiply_variable = { chromium_exportIncome = resources_global_rate }
 
     add_to_variable = { total_resources_income = coal_price }
     add_to_variable = { total_resources_income = oil_price }
@@ -263,6 +314,9 @@ administrative_expenses = {
     set_variable = { administrative_global_rate = 1 }
 
     set_variable = { core_states_expenses = 0 }
+    set_variable = { noncore_states_expenses = 0 }
+    set_variable = { core_states_am = 0 }
+    set_variable = { noncore_states_am = 0 }
     set_variable = { synthetic_refinery_expenses = 0 }
     set_variable = { fuel_silo_expenses = 0 }
     set_variable = { nuclear_reactor_expenses = 0 }
@@ -273,6 +327,15 @@ administrative_expenses = {
         if = {
             limit = { is_core_of = PREV }
             add_to_variable = { var = PREV.core_states_expenses value = 1 }
+            add_to_variable = { var = PREV.core_states_am value = 1 }
+        }
+        else = {
+            add_to_variable = {
+                var = prev.noncore_states_expenses value = 1
+            }
+            add_to_variable = {
+                var = prev.noncore_states_am value = 1
+            }
         }
 
         add_to_variable = { var = PREV.synthetic_refinery_expenses value = building_level@synthetic_refinery }
@@ -281,11 +344,13 @@ administrative_expenses = {
     }
 
     multiply_variable = { core_states_expenses = 0.1 }
+    multiply_variable = { noncore_states_expenses = 0.025 }
     multiply_variable = { synthetic_refinery_expenses = 0.05 }
     multiply_variable = { fuel_silo_expenses = 0.025 }
     multiply_variable = { nuclear_reactor_expenses = 0.05 }
 
     add_to_variable = { total_administrative_expenses = core_states_expenses }
+    add_to_variable = { total_administrative_expenses = noncore_states_expenses }
     add_to_variable = { total_administrative_expenses = synthetic_refinery_expenses }
     add_to_variable = { total_administrative_expenses = fuel_silo_expenses }
     add_to_variable = { total_administrative_expenses = nuclear_reactor_expenses }
@@ -317,6 +382,18 @@ military_expenses = {
         add_to_variable = { var = PREV.anti_air_building_expenses value = building_level@anti_air_building }
         add_to_variable = { var = PREV.radar_station_expenses value = building_level@radar_station }
         add_to_variable = { var = PREV.rocket_site_expenses value = building_level@rocket_site }
+    }
+
+    set_variable = { air_base_am = air_base_expenses }
+    set_variable = { arms_factory_am = arms_factory_expenses }
+    set_variable = { dockyard_am = dockyard_expenses }
+    set_variable = { anti_air_building_am = anti_air_building_expenses }
+    set_variable = { radar_station_am = radar_station_expenses }
+    set_variable = { rocket_site_am = rocket_site_expenses }
+    set_variable = { military_salaries_am = max_available_manpower_k }
+    
+    divide_variable = {
+        military_salaries_am = 1000
     }
 
     multiply_variable = { air_base_expenses = 0.005 }
@@ -539,25 +616,25 @@ tax_rate_caltulcation = {
         limit = {
             has_idea = tax_superlow
         }
-        set_variable = { tax_rate = 0.25 }
+        set_variable = { tax_rate = 0.5 }
     }
     else_if = {
         limit = {
             has_idea = tax_low
         }
-        set_variable = { tax_rate = 0.5 }
+        set_variable = { tax_rate = 1 }
     }
     else_if = {
         limit = {
             has_idea = tax_med
         }
-        set_variable = { tax_rate = 1 }
+        set_variable = { tax_rate = 1.5 }
     }
     else_if = {
         limit = {
             has_idea = tax_high
         }
-        set_variable = { tax_rate = 1.5 }
+        set_variable = { tax_rate = 1.75 }
     }
     else_if = {
         limit = {

@@ -16,6 +16,8 @@ ideologies = {
 			}
 			paternalistic_conservatism = {
 			}
+			centrism = {
+			}
 		}
 		
 		dynamic_faction_names = {

@@ -43,6 +43,8 @@ guiTypes = {
 			maxWidth = 120
 			maxHeight = 20
 			format = center
+			pdx_tooltip = "ECONOMY_TOOLTIP_TOTALGDP"
+			pdx_tooltip_delayed = "ECONOMY_TOOLTIP_LATE_TOTALGDP"
 		}
 
 		instantTextboxType = {
@@ -53,6 +55,8 @@ guiTypes = {
 			maxWidth = 120
 			maxHeight = 20
 			format = center
+			pdx_tooltip = "ECONOMY_TOOLTIP_TOTALGDPC"
+			pdx_tooltip_delayed = "ECONOMY_TOOLTIP_LATE_TOTALGDPC"
 		}
 
 		instantTextboxType = {
@@ -83,6 +87,8 @@ guiTypes = {
 			maxWidth = 170
 			maxHeight = 20
 			format = left
+			pdx_tooltip = "ECONOMY_TOOLTIP_ADMINISTRATIVE"
+			pdx_tooltip_delayed = "ECONOMY_TOOLTIP_ADMINISTRATIVE_LATE"
 		}
 		instantTextboxType = {
 			name = "expensesAdministrativeValue"
@@ -92,6 +98,8 @@ guiTypes = {
 			maxWidth = 70
 			maxHeight = 20
 			format = right
+			pdx_tooltip = "ECONOMY_TOOLTIP_ADMINISTRATIVE"
+			pdx_tooltip_delayed = "ECONOMY_TOOLTIP_ADMINISTRATIVE_LATE"
 		}
 		instantTextboxType = {
 			name = "expensesMilitary"
@@ -101,6 +109,8 @@ guiTypes = {
 			maxWidth = 170
 			maxHeight = 20
 			format = left
+			pdx_tooltip = "ECONOMY_TOOLTIP_MILITARY"
+			pdx_tooltip_delayed = "ECONOMY_TOOLTIP_MILITARY_LATE"
 		}
 		instantTextboxType = {
 			name = "expensesMilitaryValue"
@@ -110,6 +120,8 @@ guiTypes = {
 			maxWidth = 70
 			maxHeight = 20
 			format = right
+			pdx_tooltip = "ECONOMY_TOOLTIP_MILITARY"
+			pdx_tooltip_delayed = "ECONOMY_TOOLTIP_MILITARY_LATE"
 		}
 		instantTextboxType = {
 			name = "expensesSocial"
@@ -119,6 +131,8 @@ guiTypes = {
 			maxWidth = 170
 			maxHeight = 20
 			format = left
+			pdx_tooltip = "ECONOMY_TOOLTIP_SOCIAL"
+			pdx_tooltip_delayed = "ECONOMY_TOOLTIP_SOCIAL_LATE"
 		}
 		instantTextboxType = {
 			name = "expensesSocialValue"
@@ -128,6 +142,8 @@ guiTypes = {
 			maxWidth = 70
 			maxHeight = 20
 			format = right
+			pdx_tooltip = "ECONOMY_TOOLTIP_SOCIAL"
+			pdx_tooltip_delayed = "ECONOMY_TOOLTIP_SOCIAL_LATE"
 		}
 		instantTextboxType = {
 			name = "expensesScience"
@@ -137,6 +153,8 @@ guiTypes = {
 			maxWidth = 170
 			maxHeight = 20
 			format = left
+			pdx_tooltip = "ECONOMY_TOOLTIP_SCIENCE"
+			pdx_tooltip_delayed = "ECONOMY_TOOLTIP_SCIENCE_LATE"
 		}
 		instantTextboxType = {
 			name = "expensesScienceValue"
@@ -146,6 +164,8 @@ guiTypes = {
 			maxWidth = 70
 			maxHeight = 20
 			format = right
+			pdx_tooltip = "ECONOMY_TOOLTIP_SCIENCE"
+			pdx_tooltip_delayed = "ECONOMY_TOOLTIP_SCIENCE_LATE"
 		}
 		instantTextboxType = {
 			name = "expensesAdditional"
@@ -155,6 +175,8 @@ guiTypes = {
 			maxWidth = 170
 			maxHeight = 20
 			format = left
+			pdx_tooltip = "ECONOMY_TOOLTIP_ADDITIONALEXP"
+			pdx_tooltip_delayed = "ECONOMY_TOOLTIP_ADDITIONALEXP_LATE"
 		}
 		instantTextboxType = {
 			name = "expensesAdditionalValue"
@@ -164,6 +186,8 @@ guiTypes = {
 			maxWidth = 70
 			maxHeight = 20
 			format = right
+			pdx_tooltip = "ECONOMY_TOOLTIP_ADDITIONALEXP"
+			pdx_tooltip_delayed = "ECONOMY_TOOLTIP_ADDITIONALEXP_LATE"
 		}
 
 		instantTextboxType = {
@@ -174,6 +198,7 @@ guiTypes = {
 			maxWidth = 180
 			maxHeight = 20
 			format = right
+			pdx_tooltip = "ECONOMY_TOOLTIP_TOTALEXP"
 		}
 		#
 		instantTextboxType = {
@@ -184,6 +209,8 @@ guiTypes = {
 			maxWidth = 170
 			maxHeight = 20
 			format = left
+			pdx_tooltip = "ECONOMY_TOOLTIP_POPULATION"
+			pdx_tooltip_delayed = "ECONOMY_TOOLTIP_POPULATION_LATE"
 		}
 		instantTextboxType = {
 			name = "incomePopulationValue"
@@ -193,6 +220,8 @@ guiTypes = {
 			maxWidth = 70
 			maxHeight = 20
 			format = right
+			pdx_tooltip = "ECONOMY_TOOLTIP_POPULATION"
+			pdx_tooltip_delayed = "ECONOMY_TOOLTIP_POPULATION_LATE"
 		}
 		instantTextboxType = {
 			name = "incomeFacilities"
@@ -202,6 +231,8 @@ guiTypes = {
 			maxWidth = 170
 			maxHeight = 20
 			format = left
+			pdx_tooltip = "ECONOMY_TOOLTIP_FACILITIES"
+			pdx_tooltip_delayed = "ECONOMY_TOOLTIP_FACILITIES_LATE"
 		}
 		instantTextboxType = {
 			name = "incomeFacilitiesValue"
@@ -211,6 +242,8 @@ guiTypes = {
 			maxWidth = 70
 			maxHeight = 20
 			format = right
+			pdx_tooltip = "ECONOMY_TOOLTIP_FACILITIES"
+			pdx_tooltip_delayed = "ECONOMY_TOOLTIP_FACILITIES_LATE"
 		}
 		instantTextboxType = {
 			name = "incomeResources"
@@ -220,6 +253,8 @@ guiTypes = {
 			maxWidth = 170
 			maxHeight = 20
 			format = left
+			pdx_tooltip = "ECONOMY_TOOLTIP_RESOURCE"
+			pdx_tooltip_delayed = "ECONOMY_TOOLTIP_RESOURCE_LATE"
 		}
 		instantTextboxType = {
 			name = "incomeResourcesValue"
@@ -229,6 +264,8 @@ guiTypes = {
 			maxWidth = 70
 			maxHeight = 20
 			format = right
+			pdx_tooltip = "ECONOMY_TOOLTIP_RESOURCE"
+			pdx_tooltip_delayed = "ECONOMY_TOOLTIP_RESOURCE_LATE"
 		}
 		instantTextboxType = {
 			name = "incomeAdditional"
@@ -238,6 +275,8 @@ guiTypes = {
 			maxWidth = 170
 			maxHeight = 20
 			format = left
+			pdx_tooltip = "ECONOMY_TOOLTIP_ADDITIONALIN"
+			pdx_tooltip_delayed = "ECONOMY_TOOLTIP_ADDITIONALIN_LATE"
 		}
 		instantTextboxType = {
 			name = "incomeAdditionalValue"
@@ -247,6 +286,8 @@ guiTypes = {
 			maxWidth = 70
 			maxHeight = 20
 			format = right
+			pdx_tooltip = "ECONOMY_TOOLTIP_ADDITIONALIN"
+			pdx_tooltip_delayed = "ECONOMY_TOOLTIP_ADDITIONALIN_LATE"
 		}
 
 		instantTextboxType = {
@@ -257,6 +298,7 @@ guiTypes = {
 			maxWidth = 180
 			maxHeight = 20
 			format = right
+			pdx_tooltip = "ECONOMY_TOOLTIP_TOTALIN"
 		}
 
 		instantTextboxType = {
@@ -267,6 +309,7 @@ guiTypes = {
 			maxWidth = 120
 			maxHeight = 20
 			format = center
+			pdx_tooltip = "ECONOMY_TOOLTIP_TOTALMONEY"
 		}
 	}
 }

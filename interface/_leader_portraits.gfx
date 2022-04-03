@@ -1,5 +1,12 @@
 spriteTypes = {
 
+	##ASHES
+
+	spriteType = {
+		name = "GFX_portrait_Heinrich_Bruning"
+		texturefile = "gfx/leaders/GER/Portrait_Heinrich_Bruning.dds"
+	}
+
 	# leaders we need to override in DLC go in this file
 
 	spriteType = {
