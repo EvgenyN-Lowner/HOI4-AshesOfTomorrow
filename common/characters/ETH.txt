@@ -20,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=social_democracy
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -64,7 +64,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=typical_fascism
 			traits={ captain_of_industry }
 			expire="1942.1.1.12"
 			id=-1

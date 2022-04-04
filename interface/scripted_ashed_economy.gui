@@ -1,7 +1,7 @@
 guiTypes = {
     containerWindowType = {
 		name = "ashes_economy_main"
-		position = { x = 542 y = 83 } 	
+		position = { x = 540 y = 83 } 	
 		size = { width=593 height=415 }
 		fade_type = linear
 		fade_time = 250

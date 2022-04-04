@@ -304,7 +304,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology=fascism_ideology
+				ideology=typical_fascism
 				traits = { fascist_militia_leader }
 				expire = "1965.1.1.1"
 				id = -1
@@ -341,7 +341,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology=fascism_ideology
+				ideology=typical_fascism
 				expire = "1965.1.1.1"
 				id = -1
 			}
@@ -465,7 +465,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology=liberalism
+				ideology=temp_classical_liberalism
 				traits = { democratic_reformer }
 				expire = "1965.1.1.1"
 				id = -1
@@ -500,7 +500,7 @@ characters = {
 				}
 			}
 			country_leader = {
-				ideology=liberalism
+				ideology=temp_classical_liberalism
 				expire = "1965.1.1.1"
 				id = -1
 			}

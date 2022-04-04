@@ -16,7 +16,7 @@ ideologies = {
 			}
 			paternalistic_conservatism = {
 			}
-			centrism = {
+			temp_classical_liberalism = {
 			}
 		}
 		
@@ -197,6 +197,8 @@ ideologies = {
 			}
 			trotskyism = {
 			}
+			stalinism = {
+			}
 			marxism_leninism = {
 			}
 		}
@@ -250,7 +252,7 @@ ideologies = {
 		types = {
 			radical_conservatives = {
 			}
-			fascism = {
+			typical_fascism = {
 			}
 			national_socialism = {
 			}
@@ -311,6 +313,14 @@ ideologies = {
 			grimaldi_monaco = {
 			}
 			prince_of_Liechtenstein = {
+			}
+			despotism  = {
+			}	
+			oligarchism  = {
+			}
+			moderatism = {
+			}
+			centrism = {
 			}
 		}
 		

@@ -34,7 +34,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=social_democracy
 			expire="1941.1.1.12"
 			id=-1
 		}
@@ -47,7 +47,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=rexism
+			ideology=radical_conservatives
 			traits={ economist }
 			expire="1952.1.1.12"
 			id=-1

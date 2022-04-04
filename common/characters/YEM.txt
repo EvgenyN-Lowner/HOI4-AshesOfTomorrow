@@ -20,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=temp_classical_liberalism
 			expire="1952.1.1.12"
 			id=-1
 		}
@@ -33,7 +33,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=anti_revisionism
+			ideology=marxism_leninism
 			expire="1941.1.1.12"
 			id=-1
 		}

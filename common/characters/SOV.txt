@@ -3784,7 +3784,7 @@ characters = {
 			}
 
 			country_leader = {
-				ideology = fascism_ideology
+				ideology = typical_fascism
 				traits = { fascist_orchestrator }
 				expire = "1953.3.1.1"
 				id = -1
@@ -3855,7 +3855,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = socialism
+			ideology = social_democracy
 			expire = "1953.3.1.1"
 			id = -1
 		}

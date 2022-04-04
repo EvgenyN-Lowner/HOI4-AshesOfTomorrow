@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=typical_fascism
 			traits={ warrior_code emperor_showa imperial_sanction }
 			expire="1989.1.1.1"
 			id=700
@@ -36,7 +36,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=temp_classical_liberalism
 			expire="1989.1.1.1"
 			id=-1
 		}

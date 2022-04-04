@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=liberal_conservatism
 			traits={ strict_austerity_adherent }
 			expire="1965.1.1.1"
 			id=-1
@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=typical_fascism
 			traits={ leider }
 			expire="1965.1.1.1"
 			id=-1
@@ -45,7 +45,7 @@ characters={
 		name=HOL_dirk_jan_de_geer
 		country_leader={
 			expire = "1965.1.1"
-			ideology = conservatism
+			ideology = liberal_conservatism
 			traits = {
 				defeatist
 			}
@@ -60,7 +60,7 @@ characters={
 		name=HOL_pieter_sjoerds_gerbrandy
 		country_leader={
 			expire = "1965.1.1"
-			ideology = conservatism
+			ideology = liberal_conservatism
 			traits = {
 				little_churchill
 			}

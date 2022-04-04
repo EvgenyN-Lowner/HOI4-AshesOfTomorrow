@@ -134,7 +134,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=conservatism
+				ideology=liberal_conservatism
 				traits={ liberal_democratic_paragon }
 				expire="1965.1.1.1"
 				id=-1
@@ -195,7 +195,7 @@ characters={
 				}
 			}
 			country_leader={
-				ideology=conservatism
+				ideology=liberal_conservatism
 				expire="1965.1.1.1"
 				id=-1
 			}
@@ -808,7 +808,7 @@ characters={
 			}
 			
 			country_leader={
-				ideology=fascism_ideology
+				ideology=typical_fascism
 				expire="1966.1.1.1"
 				id=-1
 			}
@@ -2427,7 +2427,7 @@ characters={
 		}
 
 		country_leader={
-			ideology=fascism_ideology
+			ideology=typical_fascism
 			traits={ the_statist }
 			expire="1965.1.1.1"
 			id=-1

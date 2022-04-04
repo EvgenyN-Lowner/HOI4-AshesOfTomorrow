@@ -20,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=social_democracy
 			traits={ captain_of_industry dealbroker }
 			expire="1955.1.1.12"
 			id=-1
@@ -47,7 +47,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=typical_fascism
 			expire="1949.1.1.12"
 			id=-1
 		}

@@ -106,6 +106,20 @@ gdpcapita_caltulation = {
         }
     }
 
+    set_variable = {
+        total_core_population = core_population_gdpc
+    }
+
+    set_variable = {
+        total_noncore_population = noncore_population_gdpc
+    }
+    divide_variable = {
+        total_core_population = 1000
+    }
+    divide_variable = {
+        total_noncore_population = 1000
+    }
+
     add_to_variable = {
         total_population = core_population_gdpc
     }
@@ -448,6 +462,13 @@ social_expenses = {
     multiply_variable = { total_social_expenses = social_rate }
     multiply_variable = { total_social_expenses = 3.141 }
     multiply_variable = { total_social_expenses = social_global_rate }
+
+    multiply_variable = { core_population_social_expenses = social_rate }
+    multiply_variable = { core_population_social_expenses = 3.141 }
+    multiply_variable = { core_population_social_expenses = social_global_rate }
+    multiply_variable = { noncore_population_social_expenses = social_rate }
+    multiply_variable = { noncore_population_social_expenses = 3.141 }
+    multiply_variable = { noncore_population_social_expenses = social_global_rate }
 }
 
 #Science Expenses

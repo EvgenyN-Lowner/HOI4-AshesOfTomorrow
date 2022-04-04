@@ -280,7 +280,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology=liberalism
+			ideology=temp_classical_liberalism
 			traits = { democratic_restorationist }
 			expire="1965.1.1.1"
 			id=-1
@@ -295,7 +295,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology=socialism
+			ideology=social_democracy
 			traits = { morges_champion }
 			expire="1965.1.1.1"
 			id=-1
@@ -310,7 +310,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology=socialism
+			ideology=social_democracy
 			traits = { polish_peasant_champion }
 			expire="1965.1.1.1"
 			id=-1
@@ -396,7 +396,7 @@ characters = {
 		}
 		
 		country_leader = {
-			ideology=fascism_ideology
+			ideology=typical_fascism
 			expire="1965.1.1.1"
 			id=-1
 			traits = { father_of_polish_nationalism }
@@ -411,7 +411,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology=falangism
+			ideology=traditionalism
 			expire="1965.1.1.1"
 			id=-1
 			traits = { unruly_falangist }

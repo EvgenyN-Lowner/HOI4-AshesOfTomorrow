@@ -20,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=liberal_conservatism
 			traits={ silent_workhorse quartermaster_general }
 			expire="1950.1.1.12"
 			id=-1
@@ -34,7 +34,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=rexism
+			ideology=radical_conservatives
 			traits={ tenacious_negotiator }
 			expire="1942.1.1.12"
 			id=-1

@@ -20,7 +20,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=social_democracy
 			traits={ retired_officer financial_expert }
 			expire="1948.1.1.12"
 			id=-1
@@ -34,7 +34,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=anarchist_communism
+			ideology=anarcho_communism
 			traits={ retired_officer }
 			expire="1942.1.1.12"
 			id=-1
@@ -61,7 +61,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=fascism_ideology
+			ideology=typical_fascism
 			expire="1953.1.1.12"
 			id=-1
 		}

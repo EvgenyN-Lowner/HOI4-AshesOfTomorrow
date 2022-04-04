@@ -58,7 +58,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=conservatism
+			ideology=liberal_conservatism
 			traits={ editor financial_expert }
 			expire="1956.1.1.12"
 			id=-1
@@ -73,7 +73,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=anarchist_communism
+			ideology=anarcho_communism
 			expire="1951.1.1.12"
 			id=-1
 		}
@@ -87,7 +87,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=falangism
+			ideology=traditionalism
 			expire="1946.1.1.12"
 			id=-1
 		}

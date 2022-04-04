@@ -58,7 +58,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=social_democracy
 			traits={ national_integralist }
 			expire="1941.1.1.12"
 			id=-1
@@ -86,7 +86,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=rexism
+			ideology=radical_conservatives
 			traits={ economist silent_workhorse }
 			expire="1955.1.1.12"
 			id=-1

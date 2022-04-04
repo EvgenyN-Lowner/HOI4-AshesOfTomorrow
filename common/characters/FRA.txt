@@ -7,7 +7,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=liberalism
+			ideology=temp_classical_liberalism
 			traits={ stout_defender }
 			expire="1965.1.1.1"
 			id=-1
@@ -22,7 +22,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=social_democracy
 			traits={ stout_defender }
 			expire="1965.1.1.1"
 			id=-1

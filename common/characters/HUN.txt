@@ -21,7 +21,7 @@ characters={
 				id=500
 			}
 			country_leader={
-				ideology=fascism_ideology
+				ideology=typical_fascism
 				traits={ anti_communist }
 				expire="1965.1.1.1"
 				id=503
@@ -43,7 +43,7 @@ characters={
 				id=500
 			}
 			country_leader={
-				ideology=fascism_ideology
+				ideology=typical_fascism
 				expire="1965.1.1.1"
 				id=500
 			}
@@ -87,7 +87,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=social_democracy
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -113,7 +113,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=falangism
+			ideology=traditionalism
 			expire="1948.1.1.12"
 			id=-1
 		}

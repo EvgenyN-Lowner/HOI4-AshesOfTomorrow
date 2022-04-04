@@ -21,7 +21,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=falangism
+			ideology=traditionalism
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -49,7 +49,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=socialism
+			ideology=social_democracy
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -785,7 +785,7 @@ characters={
 				small="GFX_idea_RAJ_subhas_chanda_bose" #small="GFX_idea_generic_political_advisor_india_1"
 			}
 			civilian ={
-				large = "GFX_RAJ_subhas_chandra_bose" #Can become country leader (Communism -> Stalinism) (Fascism -> Nazism)
+				large = "GFX_RAJ_subhas_chandra_bose" #Can become country leader (Communism -> Stalinism) (Fascism -> nazism)
 			}
 		}
 		advisor={
