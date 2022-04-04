@@ -15,7 +15,6 @@ spriteTypes = {
 		name = "GFX_ashes_refinery_texticon"
 		texturefile = "gfx/texticons/ashes_refinery_texticon.dds"
 	}
-
 	spriteType = {
 		name = "GFX_ashes_coal_texticon"
 		texturefile = "gfx/texticons/ashes_coal_texticon.dds"
@@ -52,7 +51,6 @@ spriteTypes = {
 		name = "GFX_ashes_chromium_texticon"
 		texturefile = "gfx/texticons/ashes_chromium_texticon.dds"
 	}
-
 	spriteType = {
 		name = "GFX_ashes_air_base_texticon"
 		texturefile = "gfx/texticons/ashes_air_base_texticon.dds"
