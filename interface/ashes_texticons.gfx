@@ -1,0 +1,87 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_ashes_dockyard_texticon"
+		texturefile = "gfx/texticons/ashes_dockyard_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ashes_fuelsilo_texticon"
+		texturefile = "gfx/texticons/ashes_fuelsilo_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ashes_nuclear_texticon"
+		texturefile = "gfx/texticons/ashes_nuclear_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ashes_refinery_texticon"
+		texturefile = "gfx/texticons/ashes_refinery_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ashes_coal_texticon"
+		texturefile = "gfx/texticons/ashes_coal_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ashes_oil_texticon"
+		texturefile = "gfx/texticons/ashes_oil_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ashes_aluminium_texticon"
+		texturefile = "gfx/texticons/ashes_aluminium_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ashes_rubber_texticon"
+		texturefile = "gfx/texticons/ashes_rubber_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ashes_tungsten_texticon"
+		texturefile = "gfx/texticons/ashes_tungsten_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ashes_iron_texticon"
+		texturefile = "gfx/texticons/ashes_iron_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ashes_copper_texticon"
+		texturefile = "gfx/texticons/ashes_copper_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ashes_steel_texticon"
+		texturefile = "gfx/texticons/ashes_steel_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ashes_chromium_texticon"
+		texturefile = "gfx/texticons/ashes_chromium_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ashes_air_base_texticon"
+		texturefile = "gfx/texticons/ashes_air_base_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ashes_anti_air_texticon"
+		texturefile = "gfx/texticons/ashes_anti_air_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ashes_radar_texticon"
+		texturefile = "gfx/texticons/ashes_radar_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ashes_rocket_site_texticon"
+		texturefile = "gfx/texticons/ashes_rocket_site_texticon.dds"
+		legacy_lazy_load = no
+	}
+}
