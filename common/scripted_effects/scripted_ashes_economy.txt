@@ -671,7 +671,7 @@ administrative_level_caltulcation = {
         limit = {
             has_idea = administrative_superlow
         }
-        set_variable = { administrative_rate = 0.25 }
+        set_variable = { administrative_rate = 0.1 }
     }
     else_if = {
         limit = {
@@ -689,12 +689,6 @@ administrative_level_caltulcation = {
         limit = {
             has_idea = administrative_high
         }
-        set_variable = { administrative_rate = 1.5 }
-    }
-    else_if = {
-        limit = {
-            has_idea = administrative_superhigh
-        }
         set_variable = { administrative_rate = 2 }
     }
 }
@@ -705,7 +699,7 @@ military_level_caltulcation = {
         limit = {
             has_idea = military_superlow
         }
-        set_variable = { military_rate = 0.25 }
+        set_variable = { military_rate = 0.1 }
     }
     else_if = {
         limit = {
@@ -723,12 +717,6 @@ military_level_caltulcation = {
         limit = {
             has_idea = military_high
         }
-        set_variable = { military_rate = 1.5 }
-    }
-    else_if = {
-        limit = {
-            has_idea = military_superhigh
-        }
         set_variable = { military_rate = 2 }
     }
 }
@@ -739,7 +727,7 @@ social_level_caltulcation = {
         limit = {
             has_idea = social_superlow
         }
-        set_variable = { social_rate = 0.25 }
+        set_variable = { social_rate = 0.1 }
     }
     else_if = {
         limit = {
@@ -757,12 +745,6 @@ social_level_caltulcation = {
         limit = {
             has_idea = social_high
         }
-        set_variable = { social_rate = 1.5 }
-    }
-    else_if = {
-        limit = {
-            has_idea = social_superhigh
-        }
         set_variable = { social_rate = 2 }
     }
 }
@@ -773,7 +755,7 @@ science_level_caltulcation = {
         limit = {
             has_idea = science_superlow
         }
-        set_variable = { science_rate = 0.25 }
+        set_variable = { science_rate = 0.1 }
     }
     else_if = {
         limit = {
@@ -790,12 +772,6 @@ science_level_caltulcation = {
     else_if = {
         limit = {
             has_idea = science_high
-        }
-        set_variable = { science_rate = 1.5 }
-    }
-    else_if = {
-        limit = {
-            has_idea = science_superhigh
         }
         set_variable = { science_rate = 2 }
     }

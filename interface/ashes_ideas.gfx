@@ -1,0 +1,91 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_tax_superhigh"
+		texturefile = "gfx/interface/ideas/idea_tax_superhigh.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_tax_high"
+		texturefile = "gfx/interface/ideas/idea_tax_high.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_tax_med"
+		texturefile = "gfx/interface/ideas/idea_tax_med.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_tax_low"
+		texturefile = "gfx/interface/ideas/idea_tax_low.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_tax_superlow"
+		texturefile = "gfx/interface/ideas/idea_tax_superlow.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_administrative_superlow"
+		texturefile = "gfx/interface/ideas/idea_administrative_superlow.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_administrative_low"
+		texturefile = "gfx/interface/ideas/idea_administrative_low.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_administrative_med"
+		texturefile = "gfx/interface/ideas/idea_administrative_med.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_administrative_high"
+		texturefile = "gfx/interface/ideas/idea_administrative_high.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_military_superlow"
+		texturefile = "gfx/interface/ideas/idea_military_superlow.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_military_low"
+		texturefile = "gfx/interface/ideas/idea_military_low.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_military_med"
+		texturefile = "gfx/interface/ideas/idea_military_med.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_military_high"
+		texturefile = "gfx/interface/ideas/idea_military_high.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_social_superlow"
+		texturefile = "gfx/interface/ideas/idea_social_superlow.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_social_low"
+		texturefile = "gfx/interface/ideas/idea_social_low.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_social_med"
+		texturefile = "gfx/interface/ideas/idea_social_med.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_social_high"
+		texturefile = "gfx/interface/ideas/idea_social_high.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_science_superlow"
+		texturefile = "gfx/interface/ideas/idea_science_superlow.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_science_low"
+		texturefile = "gfx/interface/ideas/idea_science_low.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_science_med"
+		texturefile = "gfx/interface/ideas/idea_science_med.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_science_high"
+		texturefile = "gfx/interface/ideas/idea_science_high.dds"
+	}
+}
