@@ -3,8 +3,9 @@ state={
 	name="STATE_901"
 
 	history={
+		add_core_of = SAU
 		add_core_of = OMA
-		owner = OMA
+		owner = SAU
 		victory_points = {
 			13271 1 
 		}
