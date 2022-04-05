@@ -9,7 +9,7 @@ bookmarks = {
 		
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = conservatism
 			available = { NOT = { has_dlc = "La Resistance" } }
 			ideas = {
 				FRA_victors_of_wwi
@@ -24,7 +24,7 @@ bookmarks = {
 		}
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = conservatism
 			available = { has_dlc = "La Resistance" } 
 			ideas = {
 				FRA_victors_of_wwi
@@ -39,7 +39,7 @@ bookmarks = {
 		}
 		"USA"={
 			history = "USA_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = conservatism
 			ideas = {
 				home_of_the_free
 				great_depression
@@ -53,7 +53,7 @@ bookmarks = {
 		}
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = conservatism
 			available = { has_dlc = "Man the Guns" }
 			ideas = {
 				stiff_upper_lip
@@ -68,7 +68,7 @@ bookmarks = {
 		}
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = conservatism
 			available = { NOT = { has_dlc = "Man the Guns" } }
 			ideas = {
 				stiff_upper_lip
@@ -178,7 +178,7 @@ bookmarks = {
 		"CAN"={
 			minor = yes
 			history = "CAN_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = conservatism
 			ideas = {
 				CAN_great_depression_1
 				CAN_conscription_crisis
@@ -192,7 +192,7 @@ bookmarks = {
 		"AST"={
 			minor = yes
 			history = "AST_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = conservatism
 			ideas = {
 				AST_great_depression_1
 			}
@@ -205,7 +205,7 @@ bookmarks = {
 		"NZL"={
 			minor = yes
 			history = "NZL_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = conservatism
 			ideas = {
 				
 			}
@@ -218,7 +218,7 @@ bookmarks = {
 		"SAF"={
 			minor = yes
 			history = "SAF_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = conservatism
 			ideas = {
 				SAF_ossewabrandwag
 				SAF_history_of_segregation
@@ -232,7 +232,7 @@ bookmarks = {
 		"RAJ"={
 			minor = yes
 			history = "RAJ_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = monarchy
 			ideas = {
 				RAJ_agrarian_society
 				RAJ_princely_states
@@ -246,7 +246,7 @@ bookmarks = {
 		"CZE"={
 			minor = yes
 			history = "CZE_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = conservatism
 			ideas = {
 				CZE_skoda_works
 				CZE_divided_nation
@@ -261,7 +261,7 @@ bookmarks = {
 		"HUN"={
 			minor = yes
 			history = "HUN_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = monarchy
 			ideas = {
 				HUN_treaty_of_triannon
 			}
@@ -275,10 +275,10 @@ bookmarks = {
 		"ROM"={
 			minor = yes
 			history = "ROM_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = monarchy
 			ideas = {
 				ROM_king_carol_ii_hedonist
-				neutrality_idea
+				monarchy_idea
 			}
 			focuses = {
 				ROM_balkans_dominance
@@ -290,7 +290,7 @@ bookmarks = {
 		"YUG"={
 			minor = yes
 			history = "YUG_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = monarchy
 			ideas = {
 				anti_german_military
 				YUG_idea_croatian_opposition
@@ -305,7 +305,7 @@ bookmarks = {
 		"CHI"={
 			minor = yes
 			history = "CHI_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = monarchy
 			ideas = {
 				CHI_army_corruption_1
 				CHI_hyper_inflation_1
@@ -422,7 +422,7 @@ bookmarks = {
 		"MEX"={
 			minor = yes
 			history = "MEXICO_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = monarchy
 			ideas = {
 				MEX_church_power_2
 				MEX_politicised_army
@@ -438,7 +438,7 @@ bookmarks = {
 		"HOL"={
 			minor = yes
 			history = "NETHERLANDS_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = conservatism
 			ideas = {
 				HOL_wilhelmina
 				HOL_shell_shocked_spectator_5
@@ -454,7 +454,7 @@ bookmarks = {
 		"SPR"={
 			minor = yes
 			history = "SPAIN_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = conservatism
 			ideas = {
 				SPR_military_disloyalty
 				SPA_carlism_1
@@ -470,7 +470,7 @@ bookmarks = {
 		"POR"={
 			minor = yes
 			history = "PORTUGAL_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = conservatism
 			ideas = {
 				POR_unstable_republic
 				POR_unreliable_army
@@ -485,7 +485,7 @@ bookmarks = {
 		"BUL"={
 			minor = yes
 			history = "BUL_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = monarchy
 			ideas = {
 				BUL_second_national_catastrophe
 				BUL_army_restrictions
@@ -501,7 +501,7 @@ bookmarks = {
 		"GRE"={
 			minor = yes
 			history = "GRE_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = monarchy
 			ideas = {
 				GRE_debt_to_the_ifc
 				GRE_schachtplan
@@ -517,7 +517,7 @@ bookmarks = {
 		"TUR"={
 			minor = yes
 			history = "TUR_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = monarchy
 			ideas = {
 				TUR_sectarian_woes
 				TUR_disorganised_armed_forces
@@ -534,7 +534,7 @@ bookmarks = {
 		"LIT"={
 			minor = yes
 			history = "LIT_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = monarchy
 			ideas = {
 				LIT_agrarian_society
 				LIT_iron_wolf_idea_bad_1
@@ -549,10 +549,10 @@ bookmarks = {
 		"LAT"={
 			minor = yes
 			history = "LAT_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = monarchy
 			ideas = {
 				LAT_perkonkrust_idea
-				democratic_opposition
+				conservatism_opposition
 			}
 			focuses = {
 				LAT_military_dictatorship
@@ -564,10 +564,10 @@ bookmarks = {
 		"EST"={
 			minor = yes
 			history = "EST_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = monarchy
 			ideas = {
 				EST_vaps_idea_1
-				democratic_opposition
+				conservatism_opposition
 			}
 			focuses = {
 				EST_era_of_silence
@@ -578,7 +578,7 @@ bookmarks = {
 		"POL"={
 			minor = yes
 			history = "POL_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = monarchy
 			ideas = {
 				uncontrolled_exports
 				POL_april_constitution_1

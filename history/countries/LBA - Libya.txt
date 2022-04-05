@@ -74,7 +74,7 @@ create_country_leader = {
 	name = "Bashir es Sadawi"
 	desc = ""
 	picture = GFX_portrait_Bashir_es_Sadawi
-	ideology = liberalism
+	ideology = classical_liberalism
 	traits = {
 		#
 	}
@@ -84,7 +84,7 @@ create_country_leader = {
 	name = "Ettore Bastico"
 	desc = ""
 	picture = GFX_portrait_Ettore_Bastico
-	ideology = fascism_ideology
+	ideology = typical_fascism
 	traits = {
 		#
 	}

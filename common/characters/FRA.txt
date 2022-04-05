@@ -1,5 +1,5 @@
 characters={
-	FRA_pierre_laval={ #Democratic Leader
+	FRA_pierre_laval={ #conservatism Leader
 		name=FRA_pierre_laval
 		portraits={
 			civilian={
@@ -1135,11 +1135,11 @@ characters={
 				}
 			}
 			traits  = {
-				democratic_reformer 
+				conservatism_reformer 
 			}
 			do_effect  = {
 				NOT  = {
-					has_government  = democratic 
+					has_government  = conservatism 
 				}
 			}
 			ai_will_do  = {
@@ -1215,7 +1215,7 @@ characters={
 			}
 			available  = {
 				has_completed_focus  = FRA_confirm_eastern_commitments 
-				has_government  = democratic 
+				has_government  = conservatism 
 			}
 			cost  = 75.000
 			traits  = {
@@ -1244,7 +1244,7 @@ characters={
 			}
 			available  = {
 				has_completed_focus  = FRA_buy_time 
-				has_government  = democratic 
+				has_government  = conservatism 
 			}
 			cost  = 75.000
 			traits  = {
@@ -1275,7 +1275,7 @@ characters={
 				has_completed_focus  = FRA_integralism 
 				or  = {
 					has_government  = fascism 
-					has_government  = neutrality 
+					has_government  = monarchy 
 				}
 			}
 			visible  = {

@@ -4,7 +4,7 @@ ideas = {
 
 	political_advisor = {
 
-		SRL_democratic_guy = {
+		SRL_conservatism_guy = {
 			
 			picture = generic_political_advisor_asia_1
 			
@@ -12,11 +12,11 @@ ideas = {
 				original_tag = SRL
 			}
 			
-			traits = { democratic_reformer }
+			traits = { conservatism_reformer }
 
 			do_effect = {
 				NOT = {
-					has_government = democratic
+					has_government = conservatism
 				}
 			}
 			

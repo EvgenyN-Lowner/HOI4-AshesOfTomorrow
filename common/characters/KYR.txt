@@ -126,19 +126,19 @@ characters={
 			}
 		}
 	}
-	KYR_democratic_guy={
+	KYR_conservatism_guy={
 		advisor={
 			slot = political_advisor
-			idea_token = KYR_democratic_guy
+			idea_token = KYR_conservatism_guy
 			allowed  = {
 					original_tag  = KYR
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = conservatism 
 					}
 				}
 				ai_will_do  = {

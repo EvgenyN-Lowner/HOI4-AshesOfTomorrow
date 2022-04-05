@@ -234,7 +234,7 @@ recruit_character = HOL_wilhelmina
 		}
 	}
 	HOL_dirk_jan_de_geer = {
-		promote_character = { ideology = conservatism }
+		promote_character = { ideology = neoconservatism }
 	}
 }
 

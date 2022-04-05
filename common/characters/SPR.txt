@@ -1777,7 +1777,7 @@ characters={
 		}
 	}
 
-	SPR_nicolas_molero = { # Democratic
+	SPR_nicolas_molero = { # conservatism
 		instance = {
 			allowed = {
 				has_dlc = "La Resistance"
@@ -2054,7 +2054,7 @@ characters={
 		}
 	}
 
-	SPR_domenec_batet = { # Democratic
+	SPR_domenec_batet = { # conservatism
 		name=SPR_domenec_batet
 		portraits={
 			army={
@@ -2412,7 +2412,7 @@ characters={
 		}
 	}
 
-	SPR_ignacio_hidalgo_de_cisneros = { # Democratic
+	SPR_ignacio_hidalgo_de_cisneros = { # conservatism
 		instance = {
 			allowed = {
 				has_dlc = "La Resistance"
@@ -2491,7 +2491,7 @@ characters={
 		}
 	}
 
-	SPR_andres_garcia_la_calle = { # Democratic
+	SPR_andres_garcia_la_calle = { # conservatism
 		instance = {
 			allowed = {
 				has_dlc = "La Resistance"
@@ -2676,7 +2676,7 @@ characters={
 		}
 	}
 
-	SPR_luis_gonzalez_de_ubieta = { # Democratic
+	SPR_luis_gonzalez_de_ubieta = { # conservatism
 		instance = {
 			allowed = {
 				has_dlc = "La Resistance"
@@ -2859,7 +2859,7 @@ characters={
 		}
 	}
 
-	SPR_toribio_martinez_cabrera = { # Democratic
+	SPR_toribio_martinez_cabrera = { # conservatism
 		name=SPR_toribio_martinez_cabrera
 		portraits={
 			army={
@@ -2971,7 +2971,7 @@ characters={
 		}
 	}
 
-	SPR_antonio_azarola_y_gresillon = { # Democratic
+	SPR_antonio_azarola_y_gresillon = { # conservatism
 		instance = {
 			allowed = {
 				has_dlc = "La Resistance"
@@ -3158,7 +3158,7 @@ characters={
 		}
 	}
 
-	SPR_antonio_escobar_huerta = { # Democratic
+	SPR_antonio_escobar_huerta = { # conservatism
 		name=SPR_antonio_escobar_huerta
 		portraits={
 			army={

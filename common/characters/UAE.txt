@@ -144,19 +144,19 @@ characters={
 			}
 		}
 	}
-	UAE_democratic_guy={
+	UAE_conservatism_guy={
 		advisor={
 			slot = political_advisor
-			idea_token = UAE_democratic_guy
+			idea_token = UAE_conservatism_guy
 			allowed  = {
 					original_tag  = UAE
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = conservatism 
 					}
 				}
 				ai_will_do  = {

@@ -355,19 +355,19 @@ characters={
 			}
 		}
 	}
-	ERI_democratic_guy={
+	ERI_conservatism_guy={
 		advisor={
 			slot = political_advisor
-			idea_token = ERI_democratic_guy
+			idea_token = ERI_conservatism_guy
 			allowed  = {
 					original_tag  = ERI
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = conservatism 
 					}
 				}
 				ai_will_do  = {

@@ -199,7 +199,7 @@ ideas = {
 				communism_acceptance = 85
 			}
 		}
-		democratic_influence = {
+		conservatism_influence = {
 			
 			
 			allowed = {
@@ -207,25 +207,25 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 
 			removal_cost = -1
 
-			picture = generic_democratic_drift_bonus
+			picture = generic_conservatism_drift_bonus
 			
 			modifier = {
-				democratic_drift = 0.1
-				democratic_acceptance = 85
+				conservatism_drift = 0.1
+				conservatism_acceptance = 85
 			}
 		}
-		neutrality_influence = {
+		monarchy_influence = {
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = monarchy
 			}
 
 			removal_cost = -1
@@ -233,8 +233,8 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				neutrality_drift = 0.1
-				neutrality_acceptance = 85
+				monarchy_drift = 0.1
+				monarchy_acceptance = 85
 			}
 		}
 
@@ -281,36 +281,36 @@ ideas = {
 			}
 		}
 
-		democratic_influence_weak = {
-			name = democratic_influence
+		conservatism_influence_weak = {
+			name = conservatism_influence
 			
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 
 			removal_cost = -1
 
-			picture = generic_democratic_drift_bonus
+			picture = generic_conservatism_drift_bonus
 			
 			modifier = {
-				democratic_drift = 0.1
-				democratic_acceptance = 35
+				conservatism_drift = 0.1
+				conservatism_acceptance = 35
 			}
 		}
 
-		neutrality_influence_weak = {
-			name = neutrality_influence
+		monarchy_influence_weak = {
+			name = monarchy_influence
 
 			allowed = {
 				always = no
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = monarchy
 			}
 
 			removal_cost = -1
@@ -318,8 +318,8 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				neutrality_drift = 0.1
-				neutrality_acceptance = 35
+				monarchy_drift = 0.1
+				monarchy_acceptance = 35
 			}
 		}
 		
@@ -424,15 +424,15 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 
 			removal_cost = -1
 
-			picture = generic_democratic_drift_bonus
+			picture = generic_conservatism_drift_bonus
 			
 			modifier = {
-				democratic_drift = 0.1
+				conservatism_drift = 0.1
 				stability_factor = 0.1
 			}
 		}
@@ -443,7 +443,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = monarchy
 			}
 
 			removal_cost = -1
@@ -451,7 +451,7 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				neutrality_drift = 0.1
+				monarchy_drift = 0.1
 				mobilization_speed = 0.15
 			}
 		}
@@ -491,7 +491,7 @@ ideas = {
 			picture = generic_pp_unity_bonus
 
 			modifier = {
-				democratic_drift = -0.02
+				conservatism_drift = -0.02
 			}
 		}
 	
@@ -503,12 +503,12 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 			
 			removal_cost = -1
 
-			picture = generic_democratic_drift_bonus
+			picture = generic_conservatism_drift_bonus
 	
 			modifier = {
 				trade_opinion_factor = 0.2
@@ -651,7 +651,7 @@ ideas = {
 			}
 		}
 	
-		neutrality_idea = {
+		monarchy_idea = {
 			
 			
 			allowed = {
@@ -659,7 +659,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = monarchy
 			}
 
 			cancel = {

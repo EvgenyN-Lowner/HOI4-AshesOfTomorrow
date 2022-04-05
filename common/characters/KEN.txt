@@ -377,19 +377,19 @@ characters={
 			}
 		}
 	}
-	KEN_democratic_guy={
+	KEN_conservatism_guy={
 		advisor={
 			slot = political_advisor
-			idea_token = KEN_democratic_guy
+			idea_token = KEN_conservatism_guy
 			allowed  = {
 					original_tag  = KEN
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = conservatism 
 					}
 				}
 				ai_will_do  = {

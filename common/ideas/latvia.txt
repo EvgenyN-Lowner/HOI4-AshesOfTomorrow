@@ -17,7 +17,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				democratic_drift = 0.1
+				conservatism_drift = 0.1
 				stability_factor = 0.1
 				war_support_factor = 0.1
 			}
@@ -38,7 +38,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				democratic_drift = 0.2
+				conservatism_drift = 0.2
 				stability_factor = 0.1
 				war_support_factor = 0.1
 			}
@@ -59,7 +59,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				democratic_drift = 0.3
+				conservatism_drift = 0.3
 				stability_factor = 0.15
 				war_support_factor = 0.15
 			}
@@ -83,7 +83,7 @@ ideas = {
 					AND = {
 						is_subject = yes
 						OVERLORD = {
-							has_government = neutrality
+							has_government = monarchy
 						}
 					}
 				}
@@ -92,7 +92,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				neutrality_drift = 0.1
+				monarchy_drift = 0.1
 				experience_gain_army = 0.02
 				stability_factor = 0.05
 				war_support_factor = 0.05
@@ -117,7 +117,7 @@ ideas = {
 					AND = {
 						is_subject = yes
 						OVERLORD = {
-							has_government = neutrality
+							has_government = monarchy
 						}
 					}
 				}
@@ -126,9 +126,9 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				neutrality_drift = 0.1
+				monarchy_drift = 0.1
 				join_faction_tension = -0.20
-				democratic_acceptance = 85
+				conservatism_acceptance = 85
 			}
 		}
 
@@ -150,7 +150,7 @@ ideas = {
 					AND = {
 						is_subject = yes
 						OVERLORD = {
-							has_government = neutrality
+							has_government = monarchy
 						}
 					}
 				}
@@ -159,7 +159,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				neutrality_drift = 0.2
+				monarchy_drift = 0.2
 				experience_gain_army = 0.02
 				stability_factor = 0.05
 				war_support_factor = 0.05
@@ -184,7 +184,7 @@ ideas = {
 					AND = {
 						is_subject = yes
 						OVERLORD = {
-							has_government = neutrality
+							has_government = monarchy
 						}
 					}
 				}
@@ -193,7 +193,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				neutrality_drift = 0.3
+				monarchy_drift = 0.3
 				experience_gain_army = 0.05
 				stability_factor = 0.05
 				war_support_factor = 0.1
@@ -218,7 +218,7 @@ ideas = {
 					AND = {
 						is_subject = yes
 						OVERLORD = {
-							has_government = neutrality
+							has_government = monarchy
 						}
 					}
 				}
@@ -227,7 +227,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				neutrality_drift = 0.3
+				monarchy_drift = 0.3
 				experience_gain_army = 0.05
 				stability_factor = 0.1
 				war_support_factor = 0.2
@@ -253,7 +253,7 @@ ideas = {
 					AND = {
 						is_subject = yes
 						OVERLORD = {
-							has_government = neutrality
+							has_government = monarchy
 						}
 					}
 				}
@@ -341,7 +341,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = fascism
-					has_government = neutrality
+					has_government = monarchy
 				}
 			}
 
@@ -523,7 +523,7 @@ ideas = {
 
 		LAT_multicultural_latvia_idea = {
 
-			picture = neutrality_idea
+			picture = monarchy_idea
 			
 			allowed = {
 				always = no
@@ -552,7 +552,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = fascism
-					has_government = neutrality
+					has_government = monarchy
 				}
 			}
 

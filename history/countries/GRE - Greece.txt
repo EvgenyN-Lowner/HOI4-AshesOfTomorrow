@@ -186,7 +186,7 @@ set_convoys = 10
 			desc = "POLITICS_THEMISTOKLIS_SOFOULIS_DESC"
 			picture = GFX_portrait_gre_themistoklis_sofoulis
 			expire = "1965.1.1"
-			ideology = liberalism
+			ideology = classical_liberalism
 			traits = {
 				professional_crisis_solver
 			}

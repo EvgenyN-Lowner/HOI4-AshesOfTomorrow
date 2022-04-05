@@ -355,19 +355,19 @@ characters={
 			}
 		}
 	}
-	TOG_democratic_guy={
+	TOG_conservatism_guy={
 		advisor={
 			slot = political_advisor
-			idea_token = TOG_democratic_guy
+			idea_token = TOG_conservatism_guy
 			allowed  = {
 					original_tag  = TOG
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = conservatism 
 					}
 				}
 				ai_will_do  = {

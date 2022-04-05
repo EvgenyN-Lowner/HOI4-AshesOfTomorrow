@@ -85,7 +85,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Kost_Levytsky
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = neoconservatism
 	traits = {
 		
 	}
@@ -107,7 +107,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Stepan_Bandera
 	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = typical_fascism
 	traits = {
 		
 	}

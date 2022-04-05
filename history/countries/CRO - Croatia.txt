@@ -100,7 +100,7 @@ create_country_leader = {
 	desc = "ANTE_PAVELIC_DESC"
 	picture = GFX_portrait_Ante_Pavelic
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = typical_fascism
 	traits = {
 		#
 	}
@@ -132,7 +132,7 @@ add_country_leader_role = { #This replaces the commented script below - fixing a
 #	name = "Vladko Maček"
 #	picture = "portrait_CRO_vladko_macek.dds"
 #	expire = "1965.1.1"
-#	ideology = socialism
+#	ideology = social_democracy
 #	traits = {
 #		#
 #	}

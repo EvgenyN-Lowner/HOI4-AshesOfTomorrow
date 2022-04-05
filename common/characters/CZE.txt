@@ -534,7 +534,7 @@ characters={
 					limit  = {
 						has_dlc = "Death or Dishonor"
 					}
-					has_completed_focus  = CZE_democratic_bastion 
+					has_completed_focus  = CZE_conservatism_bastion 
 				}
 				if  = {
 					limit  = {
@@ -546,7 +546,7 @@ characters={
 				}
 			}
 			traits  = {
-				democratic_reformer 
+				conservatism_reformer 
 			}
 			ai_will_do  = {
 				factor  = 0.000

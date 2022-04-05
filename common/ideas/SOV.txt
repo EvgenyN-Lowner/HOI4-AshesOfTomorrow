@@ -140,7 +140,7 @@ ideas = {
 				}
 			}
 
-			picture = generic_democratic_opposition
+			picture = generic_conservatism_opposition
 			
 			modifier = {
 				political_power_factor = -0.10
@@ -775,7 +775,7 @@ ideas = {
 				original_tag = SOV #Every SOV suffers from this
 			}
 
-			picture = EST_democratic_opposition
+			picture = EST_conservatism_opposition
 
 			modifier = {
 				stability_factor = -0.15
@@ -795,7 +795,7 @@ ideas = {
 				original_tag = SOV #Every SOV suffers from this
 			}
 
-			picture = EST_democratic_opposition
+			picture = EST_conservatism_opposition
 
 			modifier = {
 				stability_factor = -0.1
@@ -896,7 +896,7 @@ ideas = {
 			}
 		}
 
-		SOV_support_in_china_democratic = {
+		SOV_support_in_china_conservatism = {
 			name = SOV_support_in_china_generic
 
 			removal_cost = -1
@@ -919,10 +919,10 @@ ideas = {
 				}
 			}
 
-			picture = generic_democratic_drift_bonus
+			picture = generic_conservatism_drift_bonus
 
 			modifier = {
-				democratic_acceptance = 15
+				conservatism_acceptance = 15
 			}
 		}
 
@@ -956,7 +956,7 @@ ideas = {
 			}
 		}
 
-		SOV_support_in_china_neutrality = {
+		SOV_support_in_china_monarchy = {
 			name = SOV_support_in_china_generic
 
 			removal_cost = -1
@@ -979,10 +979,10 @@ ideas = {
 				}
 			}
 
-			picture = generic_neutrality_drift_bonus
+			picture = generic_monarchy_drift_bonus
 
 			modifier = {
-				neutrality_acceptance = 15
+				monarchy_acceptance = 15
 			}
 		}
 
@@ -1985,9 +1985,9 @@ ideas = {
 
 			modifier = {
 				communism_acceptance = 35
-				democratic_acceptance = -50
+				conservatism_acceptance = -50
 				fascism_acceptance = -50
-				neutrality_acceptance = -50
+				monarchy_acceptance = -50
 			}
 		}
 
@@ -2181,7 +2181,7 @@ ideas = {
 
 		SOV_multi_religious_empire = {
 	
-			picture = generic_neutrality_drift_bonus #TODO jo update
+			picture = generic_monarchy_drift_bonus #TODO jo update
 	
 			removal_cost = -1
 			
@@ -2537,7 +2537,7 @@ ideas = {
 			}
 
 			modifier = {
-				neutrality_drift = 0.1
+				monarchy_drift = 0.1
 				stability_weekly = 0.001
 				war_support_weekly = 0.001
 				army_attack_factor = 0.05
@@ -3353,9 +3353,9 @@ ideas = {
 			}
 
 			modifier = {
-				democratic_acceptance = -35
+				conservatism_acceptance = -35
 				fascism_acceptance = -35
-				neutrality_acceptance = -35
+				monarchy_acceptance = -35
 			}
 		}
 
@@ -3582,7 +3582,7 @@ ideas = {
 		SOV_increased_aircraft_production_ns_bonus = { #Used as a hidden idea to prevent overcrowding in the regular Soviet Aircraft ns tt
 			removal_cost = -1
 
-			picture = generic_neutrality_drift_bonus
+			picture = generic_monarchy_drift_bonus
 			
 			allowed = {
 				always = no # Added via purges
@@ -3852,7 +3852,7 @@ ideas = {
 #
 #			allowed_civil_war = {
 #				NOT = {
-#					has_government = democratic
+#					has_government = conservatism
 #				}
 #			}
 #
@@ -3892,7 +3892,7 @@ ideas = {
 #
 #			allowed_civil_war = {
 #				NOT = {
-#					has_government = democratic
+#					has_government = conservatism
 #				}
 #			}
 #

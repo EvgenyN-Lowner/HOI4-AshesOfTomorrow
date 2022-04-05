@@ -263,19 +263,19 @@ characters={
 			}
 		}
 	}
-	TZN_democratic_guy={
+	TZN_conservatism_guy={
 		advisor={
 			slot = political_advisor
-			idea_token = TZN_democratic_guy
+			idea_token = TZN_conservatism_guy
 			allowed  = {
 					original_tag  = TZN
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = conservatism 
 					}
 				}
 				ai_will_do  = {

@@ -722,11 +722,11 @@ characters={
 				}
 			}
 			traits = {
-				democratic_reformer 
+				conservatism_reformer 
 			}
 			do_effect = {
 				NOT = {
-					has_government = democratic 
+					has_government = conservatism 
 				}
 			}
 			ai_will_do = {

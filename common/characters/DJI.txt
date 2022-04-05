@@ -318,19 +318,19 @@ characters={
 			}
 		}
 	}
-	DJI_democratic_guy={
+	DJI_conservatism_guy={
 		advisor={
 			slot = political_advisor
-			idea_token = DJI_democratic_guy
+			idea_token = DJI_conservatism_guy
 			allowed  = {
 					original_tag  = DJI
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = conservatism 
 					}
 				}
 				ai_will_do  = {

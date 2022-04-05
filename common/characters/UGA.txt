@@ -230,19 +230,19 @@ characters={
 			}
 		}
 	}
-	UGA_democratic_guy={
+	UGA_conservatism_guy={
 		advisor={
 			slot = political_advisor
-			idea_token = UGA_democratic_guy
+			idea_token = UGA_conservatism_guy
 			allowed  = {
 					original_tag  = UGA
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = conservatism 
 					}
 				}
 				ai_will_do  = {

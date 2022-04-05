@@ -114,7 +114,7 @@ characters={
 					}
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 		}
 		name=HOL_willem_schermerhorn
@@ -621,8 +621,8 @@ characters={
 				available  = {
 					has_capitulated  = yes 
 					or  = {
-						has_government  = democratic 
-						has_government  = neutrality 
+						has_government  = conservatism 
+						has_government  = monarchy 
 					}
 				}
 				traits  = {
@@ -646,8 +646,8 @@ characters={
 				}
 				available  = {
 					or  = {
-						has_government  = democratic 
-						has_government  = neutrality 
+						has_government  = conservatism 
+						has_government  = monarchy 
 					}
 				}
 				traits  = {
@@ -711,8 +711,8 @@ characters={
 				}
 				available  = {
 					or  = {
-						has_government  = democratic 
-						has_government  = neutrality 
+						has_government  = conservatism 
+						has_government  = monarchy 
 					}
 				}
 				traits  = {

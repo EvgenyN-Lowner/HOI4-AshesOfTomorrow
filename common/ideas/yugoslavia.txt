@@ -36,7 +36,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 
 			removal_cost = -1
@@ -48,7 +48,7 @@ ideas = {
 		
 		YUG_idea_princess_alexandrine_britain = {
 			
-			picture = neutrality_idea
+			picture = monarchy_idea
 
 			allowed = {
 				original_tag = YUG
@@ -66,13 +66,13 @@ ideas = {
 			
 			modifier = {
 				join_faction_tension = -0.20
-				democratic_acceptance = 85
+				conservatism_acceptance = 85
 			}
 		}
 		
 		YUG_idea_princess_alexandra_germany = {
 			
-			picture = neutrality_idea
+			picture = monarchy_idea
 
 			allowed = {
 				original_tag = YUG
@@ -90,13 +90,13 @@ ideas = {
 			
 			modifier = {
 				join_faction_tension = -0.20
-				neutrality_acceptance = 85
+				monarchy_acceptance = 85
 			}
 		}
 		
 		YUG_idea_princess_marie_italy = {
 			
-			picture = neutrality_idea
+			picture = monarchy_idea
 
 			allowed = {
 				original_tag = YUG
@@ -818,7 +818,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = monarchy
 			}
 			
 			removal_cost = -1

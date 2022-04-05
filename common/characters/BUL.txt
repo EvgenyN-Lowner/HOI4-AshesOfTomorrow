@@ -1535,18 +1535,18 @@ characters = {
 			available = {
 			}
 			traits = {
-				democratic_reformer 
+				conservatism_reformer 
 			}
 			ai_will_do = {
 				base = 1.000
 				modifier = {
 					factor = 2.000
 					OR = {
-						BUL_is_democratic_socialist_ai = yes 
-						BUL_is_democratic_liberal_ai = yes 
+						BUL_is_conservatism_socialist_ai = yes 
+						BUL_is_conservatism_liberal_ai = yes 
 					}
 					NOT = {
-						has_government = democratic 
+						has_government = conservatism 
 					}
 				}
 			}
@@ -1595,7 +1595,7 @@ characters = {
 							BUL_is_historical_ai = yes
 						}
 						NOT = { has_completed_focus = BUL_illusions_of_a_non_partisan_system }
-						democratic < 0.2
+						conservatism < 0.2
 					}
 					modifier = {
 						factor = 0.01
@@ -1604,7 +1604,7 @@ characters = {
 							BUL_is_historical_ai = yes
 						}
 						has_completed_focus = BUL_illusions_of_a_non_partisan_system
-						democratic > 0.8
+						conservatism > 0.8
 					}
 				}
 			}
@@ -1644,7 +1644,7 @@ characters = {
 					original_tag = BUL
 				}
 				available = {
-					has_completed_focus = BUL_democratic_principles 
+					has_completed_focus = BUL_conservatism_principles 
 				}
 				traits = {
 					compassionate_gentleman 
@@ -1698,7 +1698,7 @@ characters = {
 				original_tag = BUL
 			}
 			available = {
-				has_completed_focus = BUL_democratic_principles 
+				has_completed_focus = BUL_conservatism_principles 
 			}
 			traits = {
 				industry_reformer 
@@ -1744,8 +1744,8 @@ characters = {
 				modifier = {
 					factor = 2.000
 					OR = {
-						BUL_is_democratic_socialist_ai = yes 
-						BUL_is_democratic_liberal_ai = yes 
+						BUL_is_conservatism_socialist_ai = yes 
+						BUL_is_conservatism_liberal_ai = yes 
 					}
 				}
 				modifier = {
@@ -1755,7 +1755,7 @@ characters = {
 						BUL_is_historical_ai = yes
 					}
 					NOT = { has_completed_focus = BUL_illusions_of_a_non_partisan_system }
-					democratic < 0.2
+					conservatism < 0.2
 				}
 				modifier = {
 					factor = 0.000
@@ -1952,7 +1952,7 @@ characters = {
 			available = {
 				has_completed_focus = BUL_appoint_right_wing_ministers 
 				NOT = {
-					has_government = democratic 
+					has_government = conservatism 
 				}
 				NOT = {
 					has_government = communism 
@@ -2048,7 +2048,7 @@ characters = {
 			available = {
 				has_completed_focus = BUL_approach_germany 
 				NOT = {
-					has_government = democratic 
+					has_government = conservatism 
 				}
 				NOT = {
 					has_government = communism 
@@ -2088,7 +2088,7 @@ characters = {
 			available = {
 				has_completed_focus = BUL_approach_germany 
 				NOT = {
-					has_government = democratic 
+					has_government = conservatism 
 				}
 				NOT = {
 					has_government = communism 
@@ -2100,7 +2100,7 @@ characters = {
 				}
 			}
 			traits = {
-				ambitious_negotiator_neutrality 
+				ambitious_negotiator_monarchy 
 			}
 			ai_will_do = {
 				factor = 1.000

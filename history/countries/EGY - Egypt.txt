@@ -75,7 +75,7 @@ create_country_leader = {
 	name = "Muhammad Naguib"
 	desc = ""
 	picture = GFX_portrait_Muhammad_Naguib
-	ideology = liberalism
+	ideology = classical_liberalism
 	traits = {
 		#
 	}
@@ -85,7 +85,7 @@ create_country_leader = {
 	name = "Ahmed Husayn"
 	desc = ""
 	picture = GFX_portrait_Ahmed_Husayn
-	ideology = fascism_ideology
+	ideology = typical_fascism
 	traits = {
 		#
 	}

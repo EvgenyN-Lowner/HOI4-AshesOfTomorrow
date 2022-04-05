@@ -355,19 +355,19 @@ characters={
 			}
 		}
 	}
-	SEN_democratic_guy={
+	SEN_conservatism_guy={
 		advisor={
 			slot = political_advisor
-			idea_token = SEN_democratic_guy
+			idea_token = SEN_conservatism_guy
 			allowed  = {
 					original_tag  = SEN
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = conservatism 
 					}
 				}
 				ai_will_do  = {

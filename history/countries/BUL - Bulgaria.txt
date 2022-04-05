@@ -23,7 +23,7 @@ if = { #DLC
 
 	#You don't want Bulgarian party names? Just remove these lines
 	set_party_name = { # DLC
-		ideology = conservatism
+		ideology = neoconservatism
 		name = BUL_conservatism_party_bftb
 		long_name = BUL_conservatism_party_bftb_bulgarian_long
 	}	

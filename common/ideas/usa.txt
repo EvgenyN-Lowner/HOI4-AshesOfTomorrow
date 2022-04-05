@@ -72,7 +72,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 
 			removal_cost = -1
@@ -85,7 +85,7 @@ ideas = {
 				economy_cost_factor = 1
 			}
 		}
-		USA_neutrality_act = {
+		USA_monarchy_act = {
 			picture = generic_production_bonus
 			
 			allowed = {
@@ -93,7 +93,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 
 			removal_cost = -1
@@ -113,7 +113,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 
 			removal_cost = -1
@@ -127,7 +127,7 @@ ideas = {
 				economy_cost_factor = 1
 			}
 		}
-		USA_lend_lease_act_na = {# version if player went down neutrality act
+		USA_lend_lease_act_na = {# version if player went down monarchy act
 			picture = generic_production_bonus
 			name = USA_lend_lease_act
 			allowed = {
@@ -135,7 +135,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 
 			removal_cost = -1
@@ -155,7 +155,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 
 			removal_cost = -1
@@ -377,7 +377,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = communism
-					has_government = democratic
+					has_government = conservatism
 				}
 			}
 
@@ -396,7 +396,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = communism
-					has_government = democratic
+					has_government = conservatism
 				}
 			}
 
@@ -417,7 +417,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = communism
-					has_government = democratic
+					has_government = conservatism
 				}
 			}
 
@@ -588,7 +588,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 
 			removal_cost = -1
@@ -607,7 +607,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 
 			removal_cost = -1
@@ -793,7 +793,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 
 			removal_cost = -1
@@ -816,7 +816,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 
 			removal_cost = -1			
@@ -835,7 +835,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 
 			removal_cost = -1			
@@ -852,7 +852,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 			removal_cost = -1
 
@@ -868,7 +868,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 			removal_cost = -1
 
@@ -1008,38 +1008,38 @@ ideas = {
 			}
 		}
 
-		# idea for the protect Amercians focus - USA democratic
-		american_influence_defence_democratic = {
+		# idea for the protect Amercians focus - USA conservatism
+		american_influence_defence_conservatism = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 
 			removal_cost = -1
-			picture = generic_democratic_drift_bonus
+			picture = generic_conservatism_drift_bonus
 			modifier = {
 				drift_defence_factor = 0.5
 			}
 		}
-		american_influence_drift_democratic = {
+		american_influence_drift_conservatism = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 
 			removal_cost = -1
-			picture = generic_democratic_drift_bonus
+			picture = generic_conservatism_drift_bonus
 			modifier = {
-				democratic_drift = 0.05
+				conservatism_drift = 0.05
 			}
 		} 
-		american_protection_defence_democratic = {
+		american_protection_defence_conservatism = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 
 			removal_cost = -1
@@ -1048,17 +1048,17 @@ ideas = {
 				drift_defence_factor = 0.5
 			}
 		}
-		american_protection_drift_democratic = {
+		american_protection_drift_conservatism = {
 			allowed = { always = no	}
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 
 			removal_cost = -1
 			picture = generic_intel_bonus
 			modifier = {
-				democratic_drift = 0.05
+				conservatism_drift = 0.05
 			}			
 		}
 			# idea for the protect Amercians focus - USA communist

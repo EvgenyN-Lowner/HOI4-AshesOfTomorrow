@@ -59,7 +59,7 @@ country = {
 		picture = raj_risk_of_famine
 
 		modifier = {
-			democratic_drift = 0.3
+			conservatism_drift = 0.3
 			communism_drift = 0.15
 			production_speed_buildings_factor = -0.5
 			industrial_capacity_factory = -0.5
@@ -205,11 +205,11 @@ country = {
 
 		removal_cost = -1
 
-		picture = generic_democratic_drift_bonus
+		picture = generic_conservatism_drift_bonus
 
 		modifier = {
 			stability_factor = -0.05
-			neutrality_drift = 0.025
+			monarchy_drift = 0.025
 		}
 	}
 
@@ -229,12 +229,12 @@ country = {
 
 		removal_cost = -1
 
-		picture = generic_democratic_drift_bonus
+		picture = generic_conservatism_drift_bonus
 
 		modifier = {
 			stability_factor = -0.1
 			consumer_goods_factor = 0.025
-			neutrality_drift = -0.05
+			monarchy_drift = -0.05
 		}
 	}
 
@@ -254,12 +254,12 @@ country = {
 
 		removal_cost = -1
 
-		picture = generic_democratic_drift_bonus
+		picture = generic_conservatism_drift_bonus
 
 		modifier = {
 			stability_factor = -0.2
 			consumer_goods_factor = 0.05
-			neutrality_drift = -0.1
+			monarchy_drift = -0.1
 		}
 	}
 
@@ -279,12 +279,12 @@ country = {
 
 		removal_cost = -1
 
-		picture = generic_democratic_drift_bonus
+		picture = generic_conservatism_drift_bonus
 
 		modifier = {
 			stability_factor = -0.25
 			consumer_goods_factor = 0.1
-			neutrality_drift = -0.2
+			monarchy_drift = -0.2
 		}
 	}
 
@@ -308,7 +308,7 @@ country = {
 
 		modifier = {
 			war_support_factor = -0.1
-			neutrality_drift = 0.05
+			monarchy_drift = 0.05
 		}
 	}
 
@@ -333,7 +333,7 @@ country = {
 		modifier = {
 			war_support_factor = -0.1
 			conscription_factor = -0.1
-			neutrality_drift = -0.1
+			monarchy_drift = -0.1
 		}
 	}
 
@@ -358,7 +358,7 @@ country = {
 		modifier = {
 			war_support_factor = -0.2
 			conscription_factor = -0.2
-			neutrality_drift = -0.15
+			monarchy_drift = -0.15
 		}
 	}
 
@@ -383,7 +383,7 @@ country = {
 		modifier = {
 			war_support_factor = -0.25
 			conscription_factor = -0.3
-			neutrality_drift = -0.2
+			monarchy_drift = -0.2
 		}
 	}
 
@@ -395,7 +395,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = neutrality
+			has_government = monarchy
 		}
 
 		available = {
@@ -412,7 +412,7 @@ country = {
 			political_advisor_cost_factor = 0.15
 			economy_cost_factor = 0.15
 			mobilization_laws_cost_factor = 0.15
-			neutrality_drift = 0.05
+			monarchy_drift = 0.05
 		}
 	}
 
@@ -424,7 +424,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = neutrality
+			has_government = monarchy
 		}
 		
 		available = {
@@ -442,7 +442,7 @@ country = {
 			economy_cost_factor = 0.1
 			mobilization_laws_cost_factor = 0.1
 			drift_defence_factor = 0.05
-			neutrality_drift = 0.1
+			monarchy_drift = 0.1
 		}
 	}
 
@@ -454,7 +454,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = neutrality
+			has_government = monarchy
 		}
 		
 		available = {
@@ -469,7 +469,7 @@ country = {
 		modifier = {
 			political_power_factor = 0.1
 			drift_defence_factor = 0.1
-			neutrality_drift = 0.1
+			monarchy_drift = 0.1
 		}
 	}
 
@@ -481,7 +481,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = neutrality
+			has_government = monarchy
 		}
 		
 		available = {
@@ -498,7 +498,7 @@ country = {
 			economy_cost_factor = -0.1
 			political_power_factor = 0.15
 			drift_defence_factor = 0.15
-			neutrality_drift = 0.15
+			monarchy_drift = 0.15
 		}
 	}
 
@@ -510,7 +510,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = neutrality
+			has_government = monarchy
 		}
 		
 		available = {
@@ -527,7 +527,7 @@ country = {
 			economy_cost_factor = -0.2
 			political_power_factor = 0.15
 			drift_defence_factor = 0.25
-			neutrality_drift = 0.2
+			monarchy_drift = 0.2
 			stability_factor = 0.1
 		}
 	}
@@ -540,7 +540,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = neutrality
+			has_government = monarchy
 		}
 		
 		available = {
@@ -558,7 +558,7 @@ country = {
 			resistance_damage_to_garrison = -0.15
 			political_power_factor = 0.15
 			drift_defence_factor = 0.15
-			neutrality_drift = 0.15
+			monarchy_drift = 0.15
 		}
 	}
 
@@ -570,7 +570,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = democratic
+			has_government = conservatism
 		}
 
 		removal_cost = -1
@@ -582,7 +582,7 @@ country = {
 			economy_cost_factor = -0.1
 			political_power_factor = 0.15
 			drift_defence_factor = 0.15
-			democratic_drift = 0.1
+			conservatism_drift = 0.1
 		}
 	}
 
@@ -594,7 +594,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = democratic
+			has_government = conservatism
 		}
 
 		removal_cost = -1
@@ -606,7 +606,7 @@ country = {
 			economy_cost_factor = -0.2
 			political_power_factor = 0.15
 			drift_defence_factor = 0.25
-			democratic_drift = 0.2
+			conservatism_drift = 0.2
 			stability_factor = 0.1
 		}
 	}
@@ -619,7 +619,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = democratic
+			has_government = conservatism
 		}
 
 		removal_cost = -1
@@ -632,7 +632,7 @@ country = {
 			resistance_damage_to_garrison = -0.15
 			political_power_factor = 0.15
 			drift_defence_factor = 0.15
-			democratic_drift = 0.15
+			conservatism_drift = 0.15
 		}
 	}
 
@@ -718,8 +718,8 @@ country = {
 
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality
-				has_government = democratic
+				has_government = monarchy
+				has_government = conservatism
 			}
 		}
 
@@ -729,8 +729,8 @@ country = {
 
 		modifier = {
 			political_power_factor = 0.1
-			neutrality_drift = 0.1
-			democratic_drift = 0.1
+			monarchy_drift = 0.1
+			conservatism_drift = 0.1
 		}
 	}
 
@@ -741,7 +741,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = neutrality
+			has_government = monarchy
 		}
 
 		removal_cost = -1
@@ -752,7 +752,7 @@ country = {
 			experience_gain_army = 0.05
 			military_leader_cost_factor = -0.2
 			command_power_gain_mult = 0.1
-			neutrality_drift = 0.1
+			monarchy_drift = 0.1
 		}
 	}
 
@@ -784,7 +784,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = democratic
+			has_government = conservatism
 		}
 
 		removal_cost = -1
@@ -795,7 +795,7 @@ country = {
 			political_power_factor = -0.2
 			production_speed_industrial_complex_factor = 0.1
 			industrial_capacity_factory = 0.1
-			democratic_drift = 0.1
+			conservatism_drift = 0.1
 		}
 	}
 
@@ -865,7 +865,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = neutrality
+			has_government = monarchy
 		}
 
 		removal_cost = -1
@@ -887,7 +887,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = neutrality
+			has_government = monarchy
 		}
 
 		removal_cost = -1
@@ -908,7 +908,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = neutrality
+			has_government = monarchy
 		}
 
 		removal_cost = -1
@@ -928,7 +928,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = neutrality
+			has_government = monarchy
 		}
 
 		removal_cost = -1
@@ -978,7 +978,7 @@ country = {
 
 		allowed_civil_war = {
 			NOT = {
-				has_government = democratic
+				has_government = conservatism
 			}
 		}
 
@@ -987,8 +987,8 @@ country = {
 		picture = POL_ideology_drift_defence
 
 		modifier = {
-			democratic_drift = -0.1
-			democratic_acceptance = -100
+			conservatism_drift = -0.1
+			conservatism_acceptance = -100
 		}
 	}
 
@@ -1070,10 +1070,10 @@ country = {
 
 		removal_cost = -1
 
-		picture = generic_democratic_drift_bonus
+		picture = generic_conservatism_drift_bonus
 
 		modifier = {
-			neutrality_drift = -0.1
+			monarchy_drift = -0.1
 			stability_factor = 0.1
 		}
 	}
@@ -1099,7 +1099,7 @@ country = {
 		}
 	}
 
-	POL_democratic_sejm_idea = {
+	POL_conservatism_sejm_idea = {
 
 		allowed = {
 			original_tag = POL
@@ -1112,10 +1112,10 @@ country = {
 
 		removal_cost = -1
 
-		picture = generic_democratic_drift_bonus
+		picture = generic_conservatism_drift_bonus
 
 		modifier = {
-			democratic_drift = 0.1
+			conservatism_drift = 0.1
 			stability_factor = 0.1
 		}
 	}
@@ -1128,7 +1128,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = neutrality
+			has_government = monarchy
 		}
 
 		removal_cost = -1
@@ -1136,7 +1136,7 @@ country = {
 		picture = ast_abandon_the_westminster_system
 
 		modifier = {
-			neutrality_drift = 0.1
+			monarchy_drift = 0.1
 			stability_factor = 0.1
 		}
 	}
@@ -1466,8 +1466,8 @@ country = {
 
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality
-				has_government = democratic
+				has_government = monarchy
+				has_government = conservatism
 			}
 		}
 
@@ -1818,7 +1818,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = democratic
+			has_government = conservatism
 		}
 
 		picture = soviet_german_friendship
@@ -1859,7 +1859,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = democratic
+			has_government = conservatism
 		}
 
 		picture = generic_goods_red_bonus
@@ -1878,7 +1878,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = neutrality
+			has_government = monarchy
 		}
 
 		picture = generic_manpower_bonus
@@ -1898,7 +1898,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = neutrality
+			has_government = monarchy
 		}
 
 		picture = generic_infantry_bonus
@@ -1918,7 +1918,7 @@ country = {
 		}
 
 		allowed_civil_war = {
-			has_government = neutrality
+			has_government = monarchy
 		}
 
 		picture = tur_kemalist_officers

@@ -87,7 +87,7 @@ ideas = {
 			
 			modifier = {
 				research_speed_factor = 0.02
-				democratic_drift = 0.05
+				conservatism_drift = 0.05
 			}
 		}
 
@@ -664,7 +664,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				neutrality_drift = 0.05
+				monarchy_drift = 0.05
 			}
 		}
 
@@ -680,7 +680,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				neutrality_drift = 0.05
+				monarchy_drift = 0.05
 				stability_weekly = -0.005
 			}
 		}

@@ -13,7 +13,7 @@ characters={
 		}
 	}
 	
-	#Generic auto-generated country leaders for Democratic, Fascism and Non-Aligned
+	#Generic auto-generated country leaders for conservatism, Fascism and Non-Aligned
 
 	TAN_rugalinskij={
 		advisor={
@@ -290,19 +290,19 @@ characters={
 			}
 		}
 	}
-	TAN_democratic_guy={
+	TAN_conservatism_guy={
 		advisor={
 			slot = political_advisor
-			idea_token = TAN_democratic_guy
+			idea_token = TAN_conservatism_guy
 			allowed  = {
 					original_tag  = TAN
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = conservatism 
 					}
 				}
 				ai_will_do  = {

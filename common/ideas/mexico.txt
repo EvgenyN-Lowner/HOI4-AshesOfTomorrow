@@ -66,7 +66,7 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = neutrality
+					has_government = monarchy
 					has_government = fascism
 				}
 			}
@@ -434,7 +434,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = communism
-					has_government = neutrality
+					has_government = monarchy
 				}
 			}
 			
@@ -460,7 +460,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = fascism
-					has_government = neutrality
+					has_government = monarchy
 				}
 			}
 			
@@ -557,7 +557,7 @@ ideas = {
 		
 		MEX_knights_of_columbus = {
 		
-			picture = generic_democratic_drift_bonus
+			picture = generic_conservatism_drift_bonus
 		
 			allowed = {
 				always = no
@@ -566,11 +566,11 @@ ideas = {
 			removal_cost = -1
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 			
 			modifier = {
-				democratic_drift = 0.1
+				conservatism_drift = 0.1
 				production_speed_industrial_complex_factor = 0.1
 				production_speed_infrastructure_factor = 0.1
 			}
@@ -578,7 +578,7 @@ ideas = {
 		
 		MEX_social_catholicism = {
 		
-			picture = generic_democratic_drift_bonus
+			picture = generic_conservatism_drift_bonus
 		
 			allowed = {
 				always = no
@@ -587,11 +587,11 @@ ideas = {
 			removal_cost = -1
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 			
 			modifier = {
-				democratic_drift = 0.2
+				conservatism_drift = 0.2
 				production_speed_industrial_complex_factor = 0.2
 				production_speed_infrastructure_factor = 0.2
 			}
@@ -639,7 +639,7 @@ ideas = {
 		
 		MEX_womens_suffrage = {
 		
-			picture = generic_democratic_drift_bonus
+			picture = generic_conservatism_drift_bonus
 			
 			allowed = {
 				always = no
@@ -652,7 +652,7 @@ ideas = {
 			}
 			
 			modifier = {
-				democratic_drift = 0.1
+				conservatism_drift = 0.1
 				research_speed_factor = 0.05
 			}
 		}
@@ -672,7 +672,7 @@ ideas = {
 			}
 			
 			modifier = {
-				democratic_drift = 0.1
+				conservatism_drift = 0.1
 				send_volunteer_divisions_required = -1
 				enemy_justify_war_goal_time = 1.0
 			}
@@ -814,7 +814,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = communism
-					has_government = neutrality
+					has_government = monarchy
 				}
 			}
 
@@ -836,7 +836,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_government = fascism
-					has_government = neutrality
+					has_government = monarchy
 				}
 			}
 

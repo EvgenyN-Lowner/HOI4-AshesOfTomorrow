@@ -41,19 +41,19 @@ characters={
 			}
 		}
 	}
-	SCO_democratic_guy={
+	SCO_conservatism_guy={
 		advisor={
 			slot = political_advisor
-			idea_token = SCO_democratic_guy
+			idea_token = SCO_conservatism_guy
 			allowed  = {
 					original_tag  = SCO
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = conservatism 
 					}
 				}
 				ai_will_do  = {

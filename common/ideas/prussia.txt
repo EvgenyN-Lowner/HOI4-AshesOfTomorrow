@@ -2,7 +2,7 @@ ideas = {
 
 	political_advisor = {
 	
-		PRE_democratic_guy = {
+		PRE_conservatism_guy = {
 			
 			picture = generic_political_advisor_europe_1
 			
@@ -10,11 +10,11 @@ ideas = {
 				original_tag = PRE
 			}
 			
-			traits = { democratic_reformer }
+			traits = { conservatism_reformer }
 
 			do_effect = {
 				NOT = {
-					has_government = democratic
+					has_government = conservatism
 				}
 			}
 			

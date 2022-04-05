@@ -3298,7 +3298,7 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
+				has_government = monarchy 
 				has_government = fascism
 			}
 		}
@@ -3330,7 +3330,7 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
+				has_government = monarchy 
 				has_government = fascism
 			}
 		}
@@ -3361,7 +3361,7 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
+				has_government = monarchy 
 				has_government = fascism
 			}
 		}
@@ -3393,7 +3393,7 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
+				has_government = monarchy 
 				has_government = fascism
 			}
 		}
@@ -3425,7 +3425,7 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
+				has_government = monarchy 
 				has_government = fascism
 			}
 		}
@@ -3530,7 +3530,7 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
+				has_government = monarchy 
 				has_government = fascism
 			}
 		}
@@ -3559,7 +3559,7 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
+				has_government = monarchy 
 				has_government = fascism
 			}
 		}
@@ -3609,7 +3609,7 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
+				has_government = monarchy 
 				has_government = fascism
 			}
 		}
@@ -3649,7 +3649,7 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
+				has_government = monarchy 
 				has_government = fascism
 			}
 		}
@@ -3689,7 +3689,7 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
+				has_government = monarchy 
 				has_government = fascism
 			}
 		}
@@ -3729,7 +3729,7 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
+				has_government = monarchy 
 				has_government = fascism
 			}
 		}
@@ -3889,11 +3889,11 @@ characters = {
 				}
 			}
 			traits = {
-				democratic_reformer 
+				conservatism_reformer 
 			}
 			do_effect = {
 				NOT = {
-					has_government = democratic 
+					has_government = conservatism 
 				}
 			}
 			ai_will_do = {

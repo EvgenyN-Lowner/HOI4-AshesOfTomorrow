@@ -281,7 +281,7 @@ characters = {
 		}
 		country_leader = {
 			ideology=temp_classical_liberalism
-			traits = { democratic_restorationist }
+			traits = { conservatism_restorationist }
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -1186,7 +1186,7 @@ characters = {
 					}
 				}
 				traits = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 				ai_will_do = {
 					factor = 0.000
@@ -1351,7 +1351,7 @@ characters = {
 			available = {
 				has_completed_focus = POL_assemble_the_regency_council
 				OR = {
-					has_government = neutrality
+					has_government = monarchy
 					has_government = fascism
 				}
 			}
@@ -1366,7 +1366,7 @@ characters = {
 				modifier = {
 					factor = 0.000
 					NOT = {
-						has_government = neutrality 
+						has_government = monarchy 
 					}
 				}
 			}
@@ -1446,7 +1446,7 @@ characters = {
 			available = {
 				has_completed_focus = POL_assemble_the_regency_council
 				OR = {
-					has_government = neutrality
+					has_government = monarchy
 					has_government = fascism
 				}
 			}
@@ -1458,7 +1458,7 @@ characters = {
 				modifier = {
 					factor = 0.000
 					NOT = {
-						has_government = neutrality 
+						has_government = monarchy 
 					}
 				}
 			}

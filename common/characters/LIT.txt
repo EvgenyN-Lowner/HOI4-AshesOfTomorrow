@@ -236,18 +236,18 @@ characters={
 				}
 			}
 			traits = {
-				democratic_reformer
+				conservatism_reformer
 			}
 			ai_will_do = {
 				base = 0
 				modifier = {
 					add = 100
 					OR = {
-						has_government = democratic
-						has_country_flag = LIT_AI_RANDOM_DEMOCRATIC
+						has_government = conservatism
+						has_country_flag = LIT_AI_RANDOM_conservatism
 						has_game_rule = {
 							rule = LIT_ai_behavior
-							option = DEMOCRATIC
+							option = conservatism
 						}
 					}
 				}
@@ -257,7 +257,7 @@ characters={
 			ideology=social_democracy
 			expire="1965.1.1.1"
 			id=-1
-			traits = { democratic_crusader }
+			traits = { conservatism_crusader }
 		}
 	}
 

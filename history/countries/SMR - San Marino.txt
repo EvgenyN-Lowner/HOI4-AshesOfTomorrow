@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_San Marino_Giuliano_Gozi.dds"
 	expire = "1960.1.1"
-	ideology = fascism_ideology
+	ideology = typical_fascism
 	traits = {
 		
 	}
@@ -50,7 +50,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_San Marino_Grand_council.dds"
 	expire = "1960.1.1"
-	ideology = conservatism
+	ideology = neoconservatism
 	traits = {
 		
 	}

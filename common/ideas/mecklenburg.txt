@@ -2,7 +2,7 @@ ideas = {
 
 	political_advisor = {
 	
-		MEK_democratic_guy = {
+		MEK_conservatism_guy = {
 			
 			picture = generic_political_advisor_europe_1
 			
@@ -10,11 +10,11 @@ ideas = {
 				original_tag = MEK
 			}
 			
-			traits = { democratic_reformer }
+			traits = { conservatism_reformer }
 
 			do_effect = {
 				NOT = {
-					has_government = democratic
+					has_government = conservatism
 				}
 			}
 			

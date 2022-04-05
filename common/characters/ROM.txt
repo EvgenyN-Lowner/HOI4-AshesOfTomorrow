@@ -508,7 +508,7 @@ characters={
 				}
 			}
 			traits = {
-				democratic_reformer 
+				conservatism_reformer 
 			}
 		}
 	}

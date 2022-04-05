@@ -149,7 +149,7 @@ characters={
 					original_tag  = KUR
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!

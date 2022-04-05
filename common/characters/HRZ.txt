@@ -32,7 +32,7 @@ characters={
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = conservatism 
 					}
 				}
 				ai_will_do  = {
@@ -122,7 +122,7 @@ characters={
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = conservatism 
 					}
 				}
 				ai_will_do  = {
@@ -263,19 +263,19 @@ characters={
 			}
 		}
 	}
-	HRZ_democratic_guy={
+	HRZ_conservatism_guy={
 		advisor={
 			slot = political_advisor
-			idea_token = HRZ_democratic_guy
+			idea_token = HRZ_conservatism_guy
 			allowed  = {
 					original_tag  = HRZ
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = conservatism 
 					}
 				}
 				ai_will_do  = {

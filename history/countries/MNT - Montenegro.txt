@@ -82,7 +82,7 @@ create_country_leader = {
 	desc = ""
 	picture = GFX_portrait_Sekula_Drljevic
 	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = typical_fascism
 	traits = {
 		
 	}

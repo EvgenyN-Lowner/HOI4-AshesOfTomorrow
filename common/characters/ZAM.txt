@@ -191,19 +191,19 @@ characters={
 			}
 		}
 	}
-	ZAM_democratic_guy={
+	ZAM_conservatism_guy={
 		advisor={
 			slot = political_advisor
-			idea_token = ZAM_democratic_guy
+			idea_token = ZAM_conservatism_guy
 			allowed  = {
 					original_tag  = ZAM
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = conservatism 
 					}
 				}
 				ai_will_do  = {
@@ -211,7 +211,7 @@ characters={
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="ZAM_democratic_guy"
+		name="ZAM_conservatism_guy"
 		portraits={
 			army={
 				small="GFX_idea_generic_political_advisor_african_1"

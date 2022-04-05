@@ -70,11 +70,11 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = monarchy
 			}
 			
 			modifier = {
-				neutrality_drift = 0.02
+				monarchy_drift = 0.02
 			}
 		}
 
@@ -86,36 +86,36 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = monarchy
 			}
 			
 			modifier = {
-				neutrality_drift = 0.02
+				monarchy_drift = 0.02
 				stability_factor = 0.1
 			}
 		}
 
-		HUN_hungarian_monarchy_democratic = {			
+		HUN_hungarian_monarchy_conservatism = {			
 			allowed = {
 				original_tag = HUN
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 
 			available = {
 				OR = {
-					has_government = democratic
+					has_government = conservatism
 					AND = {
-						has_government = neutrality
+						has_government = monarchy
 						NOT = { has_completed_focus = HUN_responsible_government }
 					}
 				}
 			}
 			
 			modifier = {
-				democratic_drift = 0.02
+				conservatism_drift = 0.02
 				stability_factor = 0.1
 			}
 		}
@@ -133,7 +133,7 @@ ideas = {
 				OR = {
 					has_government = fascism
 					AND = {
-						has_government = neutrality
+						has_government = monarchy
 						NOT = { has_completed_focus = HUN_renounce_the_treaty_of_trianon }
 					}
 				}
@@ -150,18 +150,18 @@ ideas = {
 				original_tag = HUN
 				always = no
 			}
-			picture = HUN_hungarian_monarchy_democratic
+			picture = HUN_hungarian_monarchy_conservatism
 
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 
 			available = {
-				has_government = democratic
+				has_government = conservatism
 			}
 			
 			modifier = {
-				democratic_drift = 0.02
+				conservatism_drift = 0.02
 				fascism_drift = -0.01
 				communism_drift = -0.01
 				stability_factor = 0.1
@@ -176,15 +176,15 @@ ideas = {
 			picture = HUN_hungarian_monarchy_habsburg
 
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = monarchy
 			}
 
 			available = {
-				has_government = neutrality
+				has_government = monarchy
 			}
 			
 			modifier = {
-				neutrality_drift = 0.02
+				monarchy_drift = 0.02
 				stability_factor = 0.1
 				political_power_factor = 0.2
 				generate_wargoal_tension = -0.4
@@ -197,11 +197,11 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 			
 			modifier = {
-				democratic_drift = 0.02
+				conservatism_drift = 0.02
 			}
 		}
 
@@ -211,7 +211,7 @@ ideas = {
 				always = no
 			}
 			allowed_civil_war = {
-				has_government = democratic
+				has_government = conservatism
 			}
 			
 			modifier = {

@@ -74,7 +74,7 @@ create_country_leader = {
 	name = "David Ben-Gurion"
 	desc = ""
 	picture = GFX_portrait_David_Ben_Gurion
-	ideology = liberalism
+	ideology = classical_liberalism
 	traits = {
 		#
 	}
@@ -84,7 +84,7 @@ create_country_leader = {
 	name = "Itzhak Gaster"
 	desc = ""
 	picture = GFX_portrait_Itzhak_Gaster
-	ideology = fascism_ideology
+	ideology = typical_fascism
 	traits = {
 		#
 	}

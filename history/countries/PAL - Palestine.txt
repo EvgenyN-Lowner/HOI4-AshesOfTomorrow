@@ -73,7 +73,7 @@ create_country_leader = {
 	name = "Ahmed Hilmi Pasha"
 	desc = ""
 	picture = GFX_portrait_Ahmed_Hilmi_Pasha
-	ideology = liberalism
+	ideology = classical_liberalism
 	traits = {
 		#
 	}
@@ -83,7 +83,7 @@ create_country_leader = {
 	name = "Amin al-Husseini"
 	desc = ""
 	picture = GFX_portrait_Amin_al_Husseini
-	ideology = fascism_ideology
+	ideology = typical_fascism
 	traits = {
 		#
 	}

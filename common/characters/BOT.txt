@@ -398,19 +398,19 @@ characters={
 			}
 		}
 	}
-	BOT_democratic_guy={
+	BOT_conservatism_guy={
 		advisor={
 			slot = political_advisor
-			idea_token = BOT_democratic_guy
+			idea_token = BOT_conservatism_guy
 			allowed  = {
 					original_tag  = BOT
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = conservatism 
 					}
 				}
 				ai_will_do  = {

@@ -144,19 +144,19 @@ characters={
 			}
 		}
 	}
-	NMB_democratic_guy={
+	NMB_conservatism_guy={
 		advisor={
 			slot = political_advisor
-			idea_token = NMB_democratic_guy
+			idea_token = NMB_conservatism_guy
 			allowed  = {
 					original_tag  = NMB
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = conservatism 
 					}
 				}
 				ai_will_do  = {

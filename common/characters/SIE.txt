@@ -295,19 +295,19 @@ characters={
 			}
 		}
 	}
-	SIE_democratic_guy={
+	SIE_conservatism_guy={
 		advisor={
 			slot = political_advisor
-			idea_token = SIE_democratic_guy
+			idea_token = SIE_conservatism_guy
 			allowed  = {
 					original_tag  = SIE
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = conservatism 
 					}
 				}
 				ai_will_do  = {

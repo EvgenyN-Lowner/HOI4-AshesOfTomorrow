@@ -429,7 +429,7 @@ ideas = {
 			modifier = {
 				war_support_factor = 0.1
 				training_time_factor = -0.1
-				neutrality_drift = 0.03
+				monarchy_drift = 0.03
 				fascism_drift = 0.01
 			}
 		}
@@ -676,7 +676,7 @@ ideas = {
 				original_tag = GRE
 			}
 
-			allowed_civil_war = { has_government = neutrality }	
+			allowed_civil_war = { has_government = monarchy }	
 
 			picture = gre_george_ii
 				
@@ -684,7 +684,7 @@ ideas = {
 				
 			modifier = {
 				stability_factor = -0.05
-				neutrality_drift = 0.01	
+				monarchy_drift = 0.01	
 			}
 		}
 
@@ -694,7 +694,7 @@ ideas = {
 				original_tag = GRE
 			}
 
-			allowed_civil_war = { has_government = neutrality }	
+			allowed_civil_war = { has_government = monarchy }	
 
 			picture = gre_george_ii
 				
@@ -1233,7 +1233,7 @@ ideas = {
 					OR = { 
 						has_government = communism
 						has_government = fascism 
-						has_government = democratic 
+						has_government = conservatism 
 					}
 				}
 			}
@@ -1267,7 +1267,7 @@ ideas = {
 					OR = { 
 						has_government = communism
 						has_government = fascism 
-						has_government = democratic 
+						has_government = conservatism 
 					}
 				}
 			}
@@ -1301,7 +1301,7 @@ ideas = {
 					OR = { 
 						has_government = communism
 						has_government = fascism 
-						has_government = democratic 
+						has_government = conservatism 
 					}
 				}
 			}
@@ -1334,7 +1334,7 @@ ideas = {
 					OR = { 
 						has_government = communism
 						has_government = fascism 
-						has_government = democratic 
+						has_government = conservatism 
 					}
 				}
 			}
@@ -1368,7 +1368,7 @@ ideas = {
 					OR = { 
 						has_government = communism
 						has_government = fascism 
-						has_government = democratic 
+						has_government = conservatism 
 					}
 				}
 			}
@@ -1406,7 +1406,7 @@ ideas = {
 				NOT = {
 					OR = { 
 						has_government = communism
-						has_government = democratic 
+						has_government = conservatism 
 					}
 				}
 			}
@@ -1426,7 +1426,7 @@ ideas = {
 				army_core_defence_factor = 0.1
 				conscription_factor = 0.15	
 				drift_defence_factor = 1.00	
-				neutrality_drift = 0.05				
+				monarchy_drift = 0.05				
 			}
 		}
 
@@ -1441,7 +1441,7 @@ ideas = {
 				NOT = {
 					OR = { 
 						has_government = communism
-						has_government = democratic 
+						has_government = conservatism 
 					}
 				}
 			}

@@ -47,7 +47,7 @@ if = {
 set_convoys = 5
 
 set_popularities = {conservatism
-	democratic = 60
+	conservatism = 60
 	communism = 10
 	monarchy = 30
 }
@@ -57,7 +57,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = neoconservatism
 	traits = {
 		
 	}

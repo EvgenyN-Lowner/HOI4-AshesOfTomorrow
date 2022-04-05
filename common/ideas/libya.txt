@@ -4,7 +4,7 @@ ideas = {
 
 	political_advisor = {
 	
-		LBA_democratic_guy = {
+		LBA_conservatism_guy = {
 			
 			picture = generic_political_advisor_arab_1
 			
@@ -12,11 +12,11 @@ ideas = {
 				original_tag = LBA
 			}
 			
-			traits = { democratic_reformer }
+			traits = { conservatism_reformer }
 
 			do_effect = {
 				NOT = {
-					has_government = democratic
+					has_government = conservatism
 				}
 			}
 			

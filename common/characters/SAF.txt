@@ -464,7 +464,7 @@ characters={
 		name=SAF_sir_patrick_duncan
 		portraits={
 			army={
-				small="GFX_idea_SAF_sir_patrick_duncan" #small="GFX_idea_generic_democratic_reformer_western_european_2d"
+				small="GFX_idea_SAF_sir_patrick_duncan" #small="GFX_idea_generic_conservatism_reformer_western_european_2d"
 			}
 		}
 		advisor={
@@ -490,11 +490,11 @@ characters={
 				}
 			}
 			traits = {
-				democratic_reformer 
+				conservatism_reformer 
 			}
 			do_effect = {
 				NOT = {
-					has_government = democratic 
+					has_government = conservatism 
 				}
 			}
 			ai_will_do = {

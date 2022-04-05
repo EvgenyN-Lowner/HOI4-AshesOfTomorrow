@@ -32,7 +32,7 @@ set_politics = {
 }
 
 set_popularities = {conservatism
-	democratic = 36
+	conservatism = 36
 	communism = 24
 	monarchy = 40
 }
@@ -53,7 +53,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Portrait_Sarawak_Charlesvyner.dds"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = neoconservatism
 	traits = {
 		
 	}

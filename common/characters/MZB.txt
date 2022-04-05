@@ -338,19 +338,19 @@ characters={
 			}
 		}
 	}
-	MZB_democratic_guy={
+	MZB_conservatism_guy={
 		advisor={
 			slot = political_advisor
-			idea_token = MZB_democratic_guy
+			idea_token = MZB_conservatism_guy
 			allowed  = {
 					original_tag  = MZB
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = conservatism 
 					}
 				}
 				ai_will_do  = {

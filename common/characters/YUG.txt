@@ -491,7 +491,7 @@ characters={
 					original_tag  = YUG
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 		}
 		name=YUG_milovan_djilas

@@ -76,14 +76,14 @@ create_country_leader = {
 	name = "Alfonso Daniel Castelao"
 	picture = GFX_portrait_Alfonso_Daniel_Castelao
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = classical_liberalism
 }
 
 create_country_leader = {
 	name = "Vicente Martínez Risco"
 	picture = GFX_portrait_Vicente_Martinez_Risco
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = typical_fascism
 }
 
 create_country_leader = {

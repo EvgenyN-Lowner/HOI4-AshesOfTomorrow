@@ -102,7 +102,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = neoconservatism
 	traits = {
 		#
 	}
@@ -113,7 +113,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = typical_fascism
 	traits = {
 		#
 	}

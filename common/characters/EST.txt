@@ -111,18 +111,18 @@ characters={
 				}
 			}
 			traits = {
-				democratic_reformer 
+				conservatism_reformer 
 			}
 			ai_will_do = {
 				factor = 0
 				modifier = {
 					add = 100
 					OR = {
-						has_government = democratic
-						has_country_flag = EST_AI_RANDOM_DEMOCRATIC
+						has_government = conservatism
+						has_country_flag = EST_AI_RANDOM_conservatism
 						has_game_rule = {
 							rule = EST_ai_behavior
-							option = DEMOCRATIC
+							option = conservatism
 						}
 					}
 				}

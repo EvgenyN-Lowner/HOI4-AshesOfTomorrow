@@ -2,8 +2,8 @@
 #BUL_is_historical_ai
 #BUL_is_communist_stalinist_ai
 #BUL_is_communist_balkan_ai
-#BUL_is_democratic_socialist_ai
-#BUL_is_democratic_liberal_ai
+#BUL_is_conservatism_socialist_ai
+#BUL_is_conservatism_liberal_ai
 #BUL_is_fascist_axis_ai
 #BUL_is_monarchist_ferdinand_ai
 
@@ -135,7 +135,7 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = neutrality
+					has_government = monarchy
 					has_government = fascism
 				}
 			}
@@ -257,7 +257,7 @@ ideas = {
 					character = BUL_boris_iii
 				}
 				NOT = { has_government = communism }
-				NOT = { has_government = democratic }		
+				NOT = { has_government = conservatism }		
 			}
 			removal_cost = -1
 			
@@ -282,7 +282,7 @@ ideas = {
 					character = BUL_boris_iii
 				}
 				NOT = { has_government = communism }
-				NOT = { has_government = democratic }
+				NOT = { has_government = conservatism }
 			}
 			removal_cost = -1
 			
@@ -307,7 +307,7 @@ ideas = {
 					character = BUL_boris_iii
 				}
 				NOT = { has_government = communism }
-				NOT = { has_government = democratic }
+				NOT = { has_government = conservatism }
 			}
 			removal_cost = -1
 			
@@ -527,7 +527,7 @@ ideas = {
 			allowed_civil_war = {
 				OR = {
 					has_completed_focus = BUL_found_the_brannik
-					has_government = neutrality
+					has_government = monarchy
 				}
 			}
 			removal_cost = -1
@@ -1480,7 +1480,7 @@ ideas = {
 				tag = BUL
 				NOT = {
 					has_government = communism
-					has_government = democratic
+					has_government = conservatism
 				}
 			}
 		
@@ -1545,7 +1545,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = monarchy
 			}
 		
 			removal_cost = -1
@@ -1553,7 +1553,7 @@ ideas = {
 			modifier = {
 				war_support_weekly = 0.005
 				weekly_manpower = 500
-				neutrality_drift = 0.1
+				monarchy_drift = 0.1
 			}
 		}
 
@@ -1589,7 +1589,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				has_government = monarchy
 			}
 		
 			removal_cost = -1
@@ -1600,7 +1600,7 @@ ideas = {
 			
 			modifier = {
 				war_support_factor = 0.05
-				neutrality_drift = 0.1
+				monarchy_drift = 0.1
 			}
 		}
 
@@ -1788,7 +1788,7 @@ ideas = {
 		}
 
 		BUL_petorka = {
-			picture = generic_democratic_drift_bonus
+			picture = generic_conservatism_drift_bonus
 
 			allowed = {
 				original_tag = BUL
@@ -1802,11 +1802,11 @@ ideas = {
 			modifier = {
 				political_advisor_cost_factor = -0.30
 				political_power_factor = 0.05
-				democratic_drift = 0.05
+				conservatism_drift = 0.05
 			} 
 		}
 
-		BUL_government_reforms_democratic_01 = {
+		BUL_government_reforms_conservatism_01 = {
 			name = BUL_government_reforms_communists_01
 
 			picture = generic_political_support
@@ -1827,7 +1827,7 @@ ideas = {
 			} 
 		}
 
-		BUL_government_reforms_democratic_02 = {
+		BUL_government_reforms_conservatism_02 = {
 			name = BUL_government_reforms_communists_01
 
 			picture = generic_political_support
@@ -1931,7 +1931,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = -0.05
 				drift_defence_factor = -0.5
-				democratic_drift = 0.05
+				conservatism_drift = 0.05
 			}
 		}
 

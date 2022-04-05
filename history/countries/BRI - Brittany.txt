@@ -239,7 +239,7 @@ create_country_leader = {
 	name = "Morvan Marchal"
 	picture = GFX_portrait_Morvan_Marchal
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = social_democracy
 }
 
 create_country_leader = {

@@ -63,7 +63,7 @@ ideologies = {
 			faction_trade_opinion_factor = 0.5
 		}
 
-		ai_democratic = yes
+		ai_conservatism = yes
 	}
 
 ###LIBERALISM###
@@ -126,7 +126,7 @@ ideologies = {
 			faction_trade_opinion_factor = 0.5
 		}
 
-		ai_democratic = yes
+		ai_conservatism = yes
 	}
 
 ###SOCIALISM###
@@ -183,7 +183,7 @@ ideologies = {
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.5
 		}
-		ai_democratic = yes
+		ai_conservatism = yes
 	}
 
 ###COMMUNISM###

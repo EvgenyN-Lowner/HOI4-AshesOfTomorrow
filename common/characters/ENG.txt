@@ -13,7 +13,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_winston_churchill
 			available  = {
-				has_government  = neutrality 
+				has_government  = monarchy 
 				has_completed_focus  = ENG_the_kings_party 
 				if  = {
 					limit  = {
@@ -75,7 +75,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_oswald_mosley
 			available  = {
-				has_government  = neutrality 
+				has_government  = monarchy 
 				has_completed_focus  = ENG_the_kings_party 
 			}
 			allowed  = {
@@ -1620,11 +1620,11 @@ characters={
 				original_tag  = ENG
 			}
 			traits  = {
-				democratic_reformer 
+				conservatism_reformer 
 			}
 			do_effect  = {
 				NOT = {
-					has_government  = democratic 
+					has_government  = conservatism 
 				}
 			}
 			ai_will_do  = {
@@ -1694,7 +1694,7 @@ characters={
 					NOT = {
 						has_completed_focus  = ENG_no_further_appeasement 
 					}
-					has_government  = democratic 
+					has_government  = conservatism 
 				}
 			}
 			allowed  = {
@@ -1896,7 +1896,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_david_lloyd_george
 			available  = {
-				has_government  = neutrality 
+				has_government  = monarchy 
 				has_completed_focus  = ENG_the_kings_party 
 			}
 			allowed  = {
@@ -2191,7 +2191,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_corgis_1
 			available  = {
-				has_government  = neutrality 
+				has_government  = monarchy 
 				has_completed_focus  = ENG_the_kings_party 
 				has_country_leader  = {
 					name = "Elizabeth II"
@@ -2228,7 +2228,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_corgis_2
 			available  = {
-				has_government  = neutrality 
+				has_government  = monarchy 
 				has_completed_focus  = ENG_the_kings_party 
 				has_country_leader  = {
 					name = "Elizabeth II"
@@ -2265,7 +2265,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_corgis_3
 			available  = {
-				has_government  = neutrality 
+				has_government  = monarchy 
 				has_completed_focus  = ENG_the_kings_party 
 				has_country_leader  = {
 					name = "Elizabeth II"

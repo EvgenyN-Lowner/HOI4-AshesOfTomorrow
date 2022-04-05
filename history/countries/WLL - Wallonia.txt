@@ -35,7 +35,7 @@ create_country_leader = {
 	desc = "POLITICS_HUBERT_PIERLOT_DESC"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Hubert_Pierlot.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = neoconservatism
 	traits = {
 		#
 	}
@@ -46,7 +46,7 @@ create_country_leader = {
 	desc = "POLITICS_JULIEN_LAHAUT_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = anarchist_communism
+	ideology = anarcho_communism
 	traits = {
 		#
 	}
@@ -57,7 +57,7 @@ create_country_leader = {
 	desc = "POLITICS_LEON_DEGRELLE_DESC"
 	picture = "gfx/leaders/BEL/Portrait_Belgium_Leon_Degrelle.dds"
 	expire = "1965.1.1"
-	ideology = rexism
+	ideology = radical_conservatives
 	traits = {
 		#
 	}

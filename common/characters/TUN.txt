@@ -80,19 +80,19 @@ characters={
 			}
 		}
 	}
-	TUN_democratic_guy={
+	TUN_conservatism_guy={
 		advisor={
 			slot = political_advisor
-			idea_token = TUN_democratic_guy
+			idea_token = TUN_conservatism_guy
 			allowed  = {
 					original_tag  = TUN
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = conservatism 
 					}
 				}
 				ai_will_do  = {

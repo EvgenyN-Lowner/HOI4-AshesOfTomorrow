@@ -21,7 +21,7 @@ characters={
 				large="GFX_Portrait_MEX_Adolfo_de_la_Huerta" #Can become a unit leader later
 			}
 			civilian={
-				large="GFX_Portrait_MEX_Adolfo_de_la_Huerta" #Can become country leader later (Democratic -> liberal_conservatism)
+				large="GFX_Portrait_MEX_Adolfo_de_la_Huerta" #Can become country leader later (conservatism -> liberal_conservatism)
 			}
 		}
 	}
@@ -76,7 +76,7 @@ characters={
 		name=MEX_francisco_mugica
 		portraits={
 			civilian={
-				large="GFX_portrait_MEX_francisco_mugica" #Can become country leader (Non-aligned -> Moderatism) (Democratic -> social_democracy) (Communism -> marxism)
+				large="GFX_portrait_MEX_francisco_mugica" #Can become country leader (Non-aligned -> Moderatism) (conservatism -> social_democracy) (Communism -> marxism)
 			}
 		}
 	}
@@ -85,7 +85,7 @@ characters={
 		name=MEX_luis_maria_martinez
 		portraits={
 			civilian={
-				large="GFX_portrait_MEX_Luis_Maria_Martinez" #Can become country leader (Democratic -> social_democracy)
+				large="GFX_portrait_MEX_Luis_Maria_Martinez" #Can become country leader (conservatism -> social_democracy)
 			}
 		}
 	}
@@ -259,7 +259,7 @@ characters={
 		name=MEX_manuel_avila_camacho
 		portraits={
 			civilian={
-				large="GFX_portrait_MEX_avila_civil" #Can become country leader (Non-Aligned -> Oligarchism) (Democratic -> liberal_conservatism)
+				large="GFX_portrait_MEX_avila_civil" #Can become country leader (Non-Aligned -> Oligarchism) (conservatism -> liberal_conservatism)
 				small=GFX_portrait_MEX_manuel_avila_camacho_small # TODO_Manu: THIS IS A CIVILIAN PORTRAIT FOR HIS POLITICAL ADVISOR ROLE -> Need code support for civilian-small
 			}
 			army={
@@ -557,7 +557,7 @@ characters={
 			available = {
 				OR = {
 					has_government = communism
-					has_government = neutrality
+					has_government = monarchy
 				}
 				has_global_flag = flag_mexico_invited_trotsky_to_government
 				NOT = {

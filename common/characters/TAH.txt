@@ -318,19 +318,19 @@ characters={
 			}
 		}
 	}
-	TAH_democratic_guy={
+	TAH_conservatism_guy={
 		advisor={
 			slot = political_advisor
-			idea_token = TAH_democratic_guy
+			idea_token = TAH_conservatism_guy
 			allowed  = {
 					original_tag  = TAH
 				}
 				traits  = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = conservatism 
 					}
 				}
 				ai_will_do  = {

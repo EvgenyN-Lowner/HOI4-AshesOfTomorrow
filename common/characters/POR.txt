@@ -466,7 +466,7 @@ characters = {
 			}
 			country_leader = {
 				ideology=temp_classical_liberalism
-				traits = { democratic_reformer }
+				traits = { conservatism_reformer }
 				expire = "1965.1.1.1"
 				id = -1
 			}
@@ -1100,11 +1100,11 @@ characters = {
 					has_dlc = "La Resistance"
 				}
 				traits = {
-					democratic_reformer 
+					conservatism_reformer 
 				}
 				do_effect = {
 					NOT = {
-						has_government = democratic 
+						has_government = conservatism 
 					}
 				}
 				name = POR_augusto_de_vasconcelos 

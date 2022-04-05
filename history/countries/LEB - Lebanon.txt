@@ -74,7 +74,7 @@ create_country_leader = {
 	name = "Hashim al-Atassi"
 	desc = ""
 	picture = GFX_portrait_Hashim_al_Atassi
-	ideology = liberalism
+	ideology = classical_liberalism
 	traits = {
 		#
 	}
@@ -84,7 +84,7 @@ create_country_leader = {
 	name = "Pierre Gemayel"
 	desc = ""
 	picture = GFX_portrait_Pierre_Gemayel
-	ideology = fascism_ideology
+	ideology = typical_fascism
 	traits = {
 		#
 	}

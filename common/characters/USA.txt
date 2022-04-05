@@ -67,7 +67,7 @@ characters={
 					has_completed_focus  = USA_suspend_the_presecution 
 					NOT  = {
 						focus_progress  = {
-							focus  = USA_neutrality_act 
+							focus  = USA_monarchy_act 
 							progress > 0.000
 						}
 					}
@@ -1577,11 +1577,11 @@ characters={
 				}
 			}
 			traits  = {
-				democratic_reformer 
+				conservatism_reformer 
 			}
 			do_effect  = {
 				NOT  = {
-					has_government  = democratic 
+					has_government  = conservatism 
 				}
 			}
 			ai_will_do  = {
@@ -1611,7 +1611,7 @@ characters={
 					has_completed_focus  = USA_america_first 
 					NOT  = {
 						focus_progress  = {
-							focus  = USA_neutrality_act 
+							focus  = USA_monarchy_act 
 							progress > 0.000
 						}
 					}

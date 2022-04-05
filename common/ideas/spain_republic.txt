@@ -1529,7 +1529,7 @@ ideas = {
 
 		SPR_oppose_the_communists = {
 
-			picture = generic_democratic_drift_bonus
+			picture = generic_conservatism_drift_bonus
 
 			allowed = {
 				original_tag = SPR
@@ -1562,7 +1562,7 @@ ideas = {
 			}
 
 			modifier = {
-				democratic_drift = 0.1
+				conservatism_drift = 0.1
 				autonomy_gain = 3
 			}
 		}

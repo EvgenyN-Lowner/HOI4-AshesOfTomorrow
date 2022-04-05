@@ -1041,7 +1041,7 @@ ideas = {
 			modifier = {
 				stability_factor = 0.15
 				political_power_gain = 0.1
-				democratic_drift = 0.02
+				conservatism_drift = 0.02
 			}
 		}
 
@@ -1323,7 +1323,7 @@ ideas = {
 			}
 		}
 
-		kemalist_neutrality_idea = {
+		kemalist_monarchy_idea = {
 			
 			allowed = {
 				always = no
@@ -1333,7 +1333,7 @@ ideas = {
 				has_war = yes
 			}
 
-			picture = tur_kemalist_neutrality
+			picture = tur_kemalist_monarchy
 			
 			removal_cost = -1
 	
@@ -1358,7 +1358,7 @@ ideas = {
 				always = no
 			}
 
-			picture = generic_neutrality_drift_bonus
+			picture = generic_monarchy_drift_bonus
 			
 			removal_cost = -1
 	
@@ -2099,7 +2099,7 @@ ideas = {
 				
 			modifier = {
 				stability_weekly = -0.02
-				democratic_drift = 0.03
+				conservatism_drift = 0.03
 			}
 		}
 
@@ -2137,7 +2137,7 @@ ideas = {
 			removal_cost = -1
 				
 			modifier = {
-				neutrality_drift = 0.03
+				monarchy_drift = 0.03
 				stability_weekly = 0.025
 			}
 		}
@@ -2197,7 +2197,7 @@ ideas = {
 			removal_cost = -1
 				
 			modifier = {
-				democratic_drift = 0.04
+				conservatism_drift = 0.04
 				political_power_factor = 0.15
 			}
 		}
@@ -2441,7 +2441,7 @@ ideas = {
 			removal_cost = -1
 				
 			modifier = {
-				neutrality_drift = 0.03
+				monarchy_drift = 0.03
 			}
 		}
 

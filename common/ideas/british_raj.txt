@@ -335,8 +335,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				democratic_drift = -0.02
-				neutrality_drift = -0.02
+				conservatism_drift = -0.02
+				monarchy_drift = -0.02
 			}
 		}
 
@@ -355,8 +355,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				democratic_drift = -0.02
-				neutrality_drift = -0.02
+				conservatism_drift = -0.02
+				monarchy_drift = -0.02
 				fascism_drift = 0.03
 				autonomy_gain = 0.5
 			}
@@ -377,8 +377,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				democratic_drift = -0.02
-				neutrality_drift = -0.02
+				conservatism_drift = -0.02
+				monarchy_drift = -0.02
 				communism_drift = 0.03
 				autonomy_gain = 0.5
 			}
