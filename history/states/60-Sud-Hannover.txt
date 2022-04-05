@@ -3,11 +3,9 @@ state={
 	id=60
 	name="STATE_60"
 	resources={
-		steel=13.000
+		iron=13.000
 		chromium=3.000
 		tungsten=3.000
-		coal=20
-		iron=40
 		copper=60
 	}
 

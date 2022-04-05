@@ -32,7 +32,20 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_ashes_divider"
-		texturefile = "gfx/interface/ashes_general/ashes_divider.dds"
+		name = "GFX_ashes_constructions_bg1"
+		texturefile = "gfx/interface/construction/ashes_constructions_bg1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ashes_constructions_bg2"
+		texturefile = "gfx/interface/construction/ashes_constructions_bg2.dds"
+	}
+	spriteType = {
+		name = "GFX_ashes_constructions_bg4"
+		texturefile = "gfx/interface/construction/ashes_constructions_bg4.dds"
+	}
+	spriteType = {
+		name = "GFX_ashes_header_bg_construction"
+		texturefile = "gfx/interface/construction/ashes_header_bg_construction.dds"
 	}
 }
